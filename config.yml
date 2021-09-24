@@ -19,16 +19,16 @@ menu:
   main:
     - name: Archive
       url: archives
-      weight: 5
-    - name: Search
-      url: search/
-      weight: 10
-    - name: Tags
-      url: tags/
-      weight: 10
+      weight: 1
     - name: Categories
       url: categories/
-      weight: 10
+      weight: 2
+    - name: Tags
+      url: tags/
+      weight: 3
+    - name: Search
+      url: search/
+      weight: 4
 
 params:
   description: "Conor's Blog"
@@ -63,13 +63,13 @@ params:
   showShareButtons: true
   showReadingTime: true
   showToc: true
-  showBreadCrumbs: true
+  showBreadCrumbs: false
   showPostNavLinks: true
   # comments: false
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
+    URL: "https://github.com/ConorCorp/ConorCorp.github.io/blob/main/content"
+    Text: "Suggest Edits" # edit text
     appendFilePath: true # to append file path to Edit link
 
   showPostNavLinks: true
@@ -79,13 +79,13 @@ params:
     disableHLJS: true
 
 taxonomies:
-    category: categories
-    tag: tags
-    series: series
+  category: categories
+  tag: tags
+  series: series
 
 markup:
-    highlight:
-        codeFences: true
-        guessSyntax: true
-        lineNos: false
-        style: monokai
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    lineNos: false
+    style: monokai
