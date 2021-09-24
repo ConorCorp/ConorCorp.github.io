@@ -5,7 +5,11 @@ theme: "PaperMod"
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
 enableEmoji: true
+# googleAnalytics: UA-123-45
 publishdir: docs # for github pages
 
 minify:
@@ -34,7 +38,7 @@ params:
   homeInfoParams:
     Title: Hi there 👋
     Content: >
-        I keep my public writings here. You'll find things about:
+        I keep my public writings here. You'll find all sorts of things about:
 
         - **Programming, founding, music, and general thoughts & philosophy**
 
