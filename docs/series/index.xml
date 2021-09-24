@@ -4,6 +4,10 @@
     <title>Series on Conor Lamb</title>
     <link>https://conorcorp.github.io/series/</link>
     <description>Recent content in Series on Conor Lamb</description>
+    <image>
+      <url>https://conorcorp.github.io/post-cover.png</url>
+      <link>https://conorcorp.github.io/post-cover.png</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://conorcorp.github.io/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
