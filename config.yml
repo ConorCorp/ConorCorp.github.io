@@ -31,22 +31,36 @@ menu:
       weight: 4
 
 params:
-  description: "Conor's Blog"
+  description: "Load interesting crap from Conor's noggin."
   author: Conor Lamb
   keywords: [Blog, Conor, Conor Lamb, Programming, Founding, Entrepreneurship, Music, Lifestyle, Hugo]
   env: production
 
   defaultTheme: light
+  images:
+    - post-cover.png
   homeInfoParams:
-    Title: Hi there 👋
+    Title: Hi there, I'm Conor. 👋
     Content: >
-        I keep my public writings here. You'll find all sorts of things about:
+        - CoFounder @ [SkinTheory](https://skintheory.app) 🔬 **|** ~~Qualtrics~~ Software Engineer 🛠
+        
+        - 🇺🇸🇮🇪 **|** Berlin Based 🇩🇪
 
-        - **Programming, founding, music, and general thoughts & philosophy**
+        - <br>
+        
+        - I keep my public writings here, you'll find all sorts of things!
+        
+        - _P.S Feel free to enjoy some of my [**indie post-punk tunes**](https://linktr.ee/conorcorp) while you read._
 
   socialIcons:
     - name: instagram
       url: https://instagram.com/conorcorp
+    - name: linkedin
+      url: https://www.linkedin.com/in/conorobrienlamb/
+    - name: lastfm
+      url: https://www.last.fm/user/jealousgelatin
+    - name: github
+      url: https://github.com/ConorCorp
 
   outputs:
     home:
