@@ -33,8 +33,9 @@ menu:
 params:
   description: "Conor's Blog"
   author: Conor Lamb
+  keywords: [Blog, Conor, Conor Lamb, Programming, Founding, Entrepreneurship, Music, Lifestyle, Hugo]
   env: production
-  
+
   defaultTheme: light
   homeInfoParams:
     Title: Hi there 👋
