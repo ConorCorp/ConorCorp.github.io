@@ -75,7 +75,17 @@ params:
   showPostNavLinks: true
   showCodeCopyButtons: true
 
+  assets:
+    disableHLJS: true
+
 taxonomies:
     category: categories
     tag: tags
     series: series
+
+markup:
+    highlight:
+        codeFences: true
+        guessSyntax: true
+        lineNos: false
+        style: monokai
