@@ -11,8 +11,6 @@ buildExpired: false
 enableEmoji: true
 googleAnalytics: G-TSK8KHMB5F
 publishdir: docs # for github pages
-staticDir:
-  - static
 
 minify:
   disableXML: true
