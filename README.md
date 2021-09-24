@@ -6,7 +6,11 @@ Conor Lamb's Personal Site
 
 ```bash
 hugo server -D  # Local development with drafts
+
+# Update w/e you need
+
 # make sure "env: production" in config.yml
 hugo # Builds in /docs directory
+
 # push to git for auto build within 1 min
 ```

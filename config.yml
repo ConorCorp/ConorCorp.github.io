@@ -9,7 +9,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 enableEmoji: true
-googleAnalytics: G-TSK8KHMB5F
+googleAnalytics: UA-100679815-4
 publishdir: docs # for github pages
 
 minify:
