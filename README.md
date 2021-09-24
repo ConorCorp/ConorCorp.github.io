@@ -7,5 +7,5 @@ Conor Lamb's Personal Site
 ```bash
 hugo server -D  # Local development
 hugo -D # Builds in /docs directory
-# push to git for auto build
+# push to git for auto build within 1 min
 ```
