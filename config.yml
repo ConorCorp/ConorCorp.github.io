@@ -6,6 +6,7 @@ theme: "PaperMod"
 enableInlineShortcodes: true
 enableRobotsTXT: true
 enableEmoji: true
+publishdir: docs # for github pages
 
 minify:
   disableXML: true
