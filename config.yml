@@ -10,7 +10,7 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 googleAnalytics: G-TSK8KHMB5F
-publishdir: docs # for github pages
+# publishdir: docs # for github pages
 
 minify:
   disableXML: true
