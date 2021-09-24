@@ -33,7 +33,8 @@ menu:
 params:
   description: "Conor's Blog"
   author: Conor Lamb
-
+  env: production
+  
   defaultTheme: light
   homeInfoParams:
     Title: Hi there 👋
