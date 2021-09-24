@@ -1,0 +1,76 @@
+baseURL: http://conor.org/
+languageCode: en-us
+title: Conor Lamb
+theme: "PaperMod"
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+enableEmoji: true
+
+minify:
+  disableXML: true
+
+menu:
+  main:
+    - name: Archive
+      url: archives
+      weight: 5
+    - name: Search
+      url: search/
+      weight: 10
+    - name: Tags
+      url: tags/
+      weight: 10
+    - name: Categories
+      url: categories/
+      weight: 10
+
+params:
+  description: "Conor's Blog"
+  author: Conor Lamb
+
+  defaultTheme: light
+  homeInfoParams:
+    Title: Hi there 👋
+    Content: >
+        I keep my public writings here. You'll find things about:
+
+        - **Programming, founding, music, and general thoughts & philosophy**
+
+  socialIcons:
+    - name: instagram
+      url: https://instagram.com/conorcorp
+
+  outputs:
+    home:
+      - HTML
+      - RSS
+      - JSON
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+  showShareButtons: true
+  showReadingTime: true
+  showToc: true
+  showBreadCrumbs: true
+  showPostNavLinks: true
+  # comments: false
+
+  editPost:
+    URL: "https://github.com/<path_to_repo>/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  showPostNavLinks: true
+  showCodeCopyButtons: true
+
+taxonomies:
+    category: categories
+    tag: tags
+    series: series
