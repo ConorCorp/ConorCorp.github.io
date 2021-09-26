@@ -7,6 +7,8 @@ Conor Lamb's Personal Site
 ```bash
 hugo server -D  # Local development with drafts
 
+hugo new posts/name-of-post.md
+
 # Update w/e you need
 
 # make sure "env: production" in config.yml
