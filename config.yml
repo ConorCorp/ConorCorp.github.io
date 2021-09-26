@@ -54,7 +54,9 @@ params:
         
         - I keep my public writings here, you'll find all sorts of things!
         
-        - _P.S Feel free to enjoy some of my [**indie post-punk tunes**](https://linktr.ee/conorcorp) while you read._
+        - _P.S - While you read, feel free to enjoy some of my_
+        
+        - _[indie post-punk tuneage 🎸](https://linktr.ee/conorcorp)_
 
   socialIcons:
     - name: instagram
@@ -84,7 +86,7 @@ params:
 
   showShareButtons: true
   showReadingTime: true
-  showToc: true
+  showToc: false
   showBreadCrumbs: false
   showPostNavLinks: true
   comments: false
