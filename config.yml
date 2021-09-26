@@ -57,6 +57,8 @@ params:
       url: https://instagram.com/conorcorp
     - name: linkedin
       url: https://www.linkedin.com/in/conorobrienlamb/
+    - name: twitter
+      url: https://twitter.com/dogeeseseegucci
     - name: lastfm
       url: https://www.last.fm/user/jealousgelatin
     - name: github
@@ -85,7 +87,7 @@ params:
 
   editPost:
     URL: "https://github.com/ConorCorp/ConorCorp.github.io/blob/main/content"
-    Text: "Suggest Edits" # edit text
+    Text: "Suggest Edits"
     appendFilePath: true # to append file path to Edit link
 
   showPostNavLinks: true
