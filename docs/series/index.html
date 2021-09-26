@@ -10,7 +10,7 @@
 <meta name="description" content="Load interesting crap from Conor&#39;s noggin.">
 <meta name="author" content="Conor Lamb">
 <link rel="canonical" href="https://conorcorp.github.io/series/" />
-<link crossorigin="anonymous" href="/assets/css/stylesheet.min.7b318ec53f6f4f06597cdbb8507ea5cdb7d57f61acd24302a434e7e0495a128b.css" integrity="sha256-ezGOxT9vTwZZfNu4UH6lzbfVf2Gs0kMCpDTn4ElaEos=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.ad12f0861b1410045fa6097b9988c52d6c006cefc0d3ca829f2a23d84c26cbe4.css" integrity="sha256-rRLwhhsUEARfpgl7mYjFLWwAbO/A08qCnyoj2Ewmy&#43;Q=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://conorcorp.github.io/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://conorcorp.github.io/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://conorcorp.github.io/favicon-32x32.png">
@@ -29,7 +29,6 @@
 
     </style>
 </noscript>
-<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/be2b39c77e47598d278e74e4d/af681b176e8f33d00205cca5f.js");</script>
 <script type="application/javascript">
 var doNotTrack = false;
 if (!doNotTrack) {
@@ -111,6 +110,11 @@ if (!doNotTrack) {
                     <span>Search</span>
                 </a>
             </li>
+            <li>
+                <a href="https://conorcorp.github.io/doesnt-exist-so-its-never-active" title="Subscribe">
+                    <span>Subscribe</span>
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
@@ -136,6 +140,19 @@ if (!doNotTrack) {
         <path d="M12 6H0l6-6z" />
     </svg>
 </a>
+<script id="mcjs">
+    function makeMailchimpSubscribe() {
+        document.getElementById("menu").lastElementChild.childNodes[1].id = "show-popup"
+        function showPopup() {    
+            !function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/be2b39c77e47598d278e74e4d/af681b176e8f33d00205cca5f.js");
+            
+            document.cookie = "MCPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";                  
+            document.cookie = "MCPopupSubscribed=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+        }
+        document.getElementById("show-popup").onclick = function() { showPopup(); return false;}
+    }
+    window.onload = makeMailchimpSubscribe()
+</script>
 
 <script>
     let menu = document.getElementById('menu')

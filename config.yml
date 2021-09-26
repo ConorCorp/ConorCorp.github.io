@@ -29,6 +29,9 @@ menu:
     - name: Search
       url: search/
       weight: 4
+    - name: Subscribe
+      url: "/doesnt-exist-so-its-never-active"
+      weight: 5
 
 params:
   description: "Load interesting crap from Conor's noggin."
