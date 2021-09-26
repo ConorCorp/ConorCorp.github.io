@@ -11,7 +11,7 @@ buildExpired: false
 enableEmoji: true
 googleAnalytics: UA-100679815-4
 publishdir: docs # for github pages
-disqusShortname: conorlamb
+# disqusShortname: conorlamb
 
 minify:
   disableXML: true
@@ -87,7 +87,7 @@ params:
   showToc: true
   showBreadCrumbs: false
   showPostNavLinks: true
-  comments: true
+  comments: false
 
   editPost:
     URL: "https://github.com/ConorCorp/ConorCorp.github.io/blob/main/content"
