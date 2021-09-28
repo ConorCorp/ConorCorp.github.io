@@ -9,6 +9,88 @@
       <link>https://conorcorp.github.io/post-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://conorcorp.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Sep 2021 16:27:16 +0200</lastBuildDate><atom:link href="https://conorcorp.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>bash</title>
+      <link>https://conorcorp.github.io/tags/bash/</link>
+      <pubDate>Tue, 28 Sep 2021 16:27:16 +0200</pubDate>
+      
+      <guid>https://conorcorp.github.io/tags/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>command line</title>
+      <link>https://conorcorp.github.io/tags/command-line/</link>
+      <pubDate>Tue, 28 Sep 2021 16:27:16 +0200</pubDate>
+      
+      <guid>https://conorcorp.github.io/tags/command-line/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>framework</title>
+      <link>https://conorcorp.github.io/tags/framework/</link>
+      <pubDate>Tue, 28 Sep 2021 16:27:16 +0200</pubDate>
+      
+      <guid>https://conorcorp.github.io/tags/framework/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://conorcorp.github.io/tags/hugo/</link>
+      <pubDate>Tue, 28 Sep 2021 16:27:16 +0200</pubDate>
+      
+      <guid>https://conorcorp.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>javascript</title>
+      <link>https://conorcorp.github.io/tags/javascript/</link>
+      <pubDate>Tue, 28 Sep 2021 16:27:16 +0200</pubDate>
+      
+      <guid>https://conorcorp.github.io/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>static</title>
+      <link>https://conorcorp.github.io/tags/static/</link>
+      <pubDate>Tue, 28 Sep 2021 16:27:16 +0200</pubDate>
+      
+      <guid>https://conorcorp.github.io/tags/static/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>website</title>
+      <link>https://conorcorp.github.io/tags/website/</link>
+      <pubDate>Tue, 28 Sep 2021 16:27:16 +0200</pubDate>
+      
+      <guid>https://conorcorp.github.io/tags/website/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>website generator</title>
+      <link>https://conorcorp.github.io/tags/website-generator/</link>
+      <pubDate>Tue, 28 Sep 2021 16:27:16 +0200</pubDate>
+      
+      <guid>https://conorcorp.github.io/tags/website-generator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>writing</title>
+      <link>https://conorcorp.github.io/tags/writing/</link>
+      <pubDate>Tue, 28 Sep 2021 16:27:16 +0200</pubDate>
+      
+      <guid>https://conorcorp.github.io/tags/writing/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

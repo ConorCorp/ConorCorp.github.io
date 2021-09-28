@@ -9,6 +9,16 @@
       <link>https://conorcorp.github.io/post-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://conorcorp.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Sep 2021 16:27:16 +0200</lastBuildDate><atom:link href="https://conorcorp.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>coding</title>
+      <link>https://conorcorp.github.io/categories/coding/</link>
+      <pubDate>Tue, 28 Sep 2021 16:27:16 +0200</pubDate>
+      
+      <guid>https://conorcorp.github.io/categories/coding/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

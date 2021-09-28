@@ -10,7 +10,17 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Sep 2021 16:27:16 +0200</lastBuildDate><atom:link href="https://conorcorp.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Sep 2021 16:27:16 +0200</lastBuildDate><atom:link href="https://conorcorp.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to make a free resume website and blog in 10 min for programmers (or people unafraid of the command line)</title>
+      <link>https://conorcorp.github.io/posts/website-in-10-minutes-for-programmers/</link>
+      <pubDate>Tue, 28 Sep 2021 16:27:16 +0200</pubDate>
+      
+      <guid>https://conorcorp.github.io/posts/website-in-10-minutes-for-programmers/</guid>
+      <description>See the website you’re reading this on? I didn’t make this in 10 minutes…. But I sure could have if I had this tutorial. So here’s how you can make your own customizable resume website or blog for free in 2021 using the Hugo framework, a few commands in the terminal, Github Pages to host it.
+Skip to Part 1: Let’s make a website if you wanna skip my banter 😔</description>
+    </item>
+    
     <item>
       <title>Hello World</title>
       <link>https://conorcorp.github.io/posts/hello-world/</link>
