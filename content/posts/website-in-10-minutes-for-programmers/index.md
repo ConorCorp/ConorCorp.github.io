@@ -150,12 +150,11 @@ The `config.yml` in the root dir is your life blood.
 
 It’s how you customize your website. While the Hugo server is running, any change you make to the `config.yaml` or in a post your are writing will update on save in your browser. Sweet 🍭
 
-### Take a look at these sources below on how to augment your theme:**
+### Take a look at these sources below on how to augment your theme:
 - [PaperMod Docs](https://github.com/adityatelange/hugo-PaperMod) (Contains demo of site, demo config.yml, and a list of the features)
 - [My config.yml (for this website)](https://github.com/ConorCorp/ConorCorp.github.io/blob/main/config.yml)
 - [Theme Docs | Hugo](https://gohugo.io/hugo-modules/theme-components/)
 - The GitHub for whichever theme you chose.
-
 
 &nbsp;  
 ## 8. Build the website for production
