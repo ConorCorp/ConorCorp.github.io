@@ -194,7 +194,7 @@ Pull the repo down locally with SSH or HTTPS.
 git clone git@github.com:<username>.github.io.git
 ```
 
-### 3. Copy your Hugo site contents to this repo.
+### 3. Copy your Hugo site contents to this repo. -> why can't you just make the current dir a git repo?
 ```bash
 cp -r quickstart/* <path-to-cloned-repo>
 ```
