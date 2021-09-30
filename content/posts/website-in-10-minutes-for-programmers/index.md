@@ -3,7 +3,7 @@ title: "How to make a free resume website and blog in 10 min for programmers (or
 date: 2021-09-28T16:27:16+02:00
 draft: false
 categories: [coding]
-tags: [hugo, javascript, bash, command line, website, static, website generator, framework, writing]
+tags: [hugo framework, javascript, bash, command line, website, static, static site generator, framework, writing]
 cover:
     image: "images/website.png"
     alt: "Website.png"
@@ -191,9 +191,10 @@ We’re going to do a normal user page like the one your currently on.
 
 Go to your [GitHub](https://github.com/) account in the browser. Create a new repository for your website with the name `<username>.github.io`. `username` is your Github username. You can add a `README.md` to the repo on creation.  If you need help: [Github Pages Docs](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site).
 
+*Note: You can skip steps 2 and 3 if you'd prefer to `git init` your current Hugo site repo and point it to your `<username>.github.io` remote.*
 
 &nbsp;  
-## 2. Clone that repo locally
+## 2. Clone the `<username>.github.io` repo locally
 {{< figure src="images/clone-github.png" width="600px" caption="Example of the created GitHub repo and url to clone it." >}}
 
 Pull the repo down locally with SSH or HTTPS.
@@ -254,7 +255,8 @@ git push origin main
 1. From GitHub in your browser, go to the `<username>.github.io` repo.
 2. Go to `settings -> pages`.
 3. Update `Source` to point to `/docs` dir on the `main` branch.
-4. Publish your site and go to `<username>.github.io` in the browser.
+4. Your site should be published, now go to `<username>.github.io` in the browser.
+    * [Note](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site): If your site has not published automatically, make sure someone with admin permissions and a verified email address has pushed to the publishing source. 
 
 &nbsp;  
 # Done! 🎊
