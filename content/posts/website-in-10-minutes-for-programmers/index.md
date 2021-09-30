@@ -15,6 +15,7 @@ See the website you’re reading this on? I didn’t make this in 10 minutes….
 
 Skip to [Part 1: Let’s make a website](#part-1-lets-make-your-website) if you wanna skip my banter 😔
 
+
 ## First off, Why [Hugo](https://gohugo.io/)?
 
 **I think it’s nifty as hell.**  
@@ -52,7 +53,8 @@ Tl;Dr: Try some writing! 😎
 
 [^2]: Like me!
 
-# Part 1: Let’s make your website.
+---
+# Part 1: Let’s make your website
 
 This is basically my curated summary on the [Hugo Quick Start](https://gohugo.io/getting-started/quick-start/) paired with the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme.
 
@@ -60,8 +62,8 @@ This is basically my curated summary on the [Hugo Quick Start](https://gohugo.io
 * [Git](https://git-scm.com/)
 * [Homebrew](https://brew.sh/) or  [Chocolatey](https://chocolatey.org/)
 
-
-### 1. Pop open the terminal and install Hugo.
+&nbsp;  
+## 1. Pop open the terminal and install Hugo
 
 I use a Mac with [Homebrew](https://brew.sh/). Here’s Hugo’s [install docs](https://gohugo.io/getting-started/installing) for more options.
 
@@ -76,14 +78,16 @@ choco install hugo -confirm  # Normal, no SCSS
 hugo version
 ```
 
-## 2. Choose a theme.
+&nbsp;  
+## 2. Choose a theme
 
 This a really exciting piece of Hugo. The themes here are beautiful, minimal, and beautifully minimal. You just pick one and can configure a few params and have a working website. You can customize it more later too!
 
 Find a theme here: [themes.gohugo.io](https://themes.gohugo.io/) . I chose the beautifully minimal [PaperMod](https://github.com/adityatelange/hugo-PaperMod) by [Aditya Telange](adityatelange.in) and will be using that for this tutorial.
 
-## 3. Generate your website.
-
+&nbsp;  
+## 3. Generate your website
+Generate your generic Hugo website named `quickstart` or any name you choose.
 ```bash
 # if you want to use the PaperMod theme I'm using,
 # we generate the Hugo template with a yaml config
@@ -92,21 +96,20 @@ hugo new site quickstart -f yml
 # or for a normal site with a toml config
 hugo new site quickstart
 ```
+_Note: If you didn’t choose PaperMod as your theme, you may need to run a different command. Check out their documentation, it will likely be one of the 2 commands above._
 
-This will generate your generic Hugo website named `quickstart`. Call it what you like.
-
-_Note: If you didn’t choose PaperMod as your theme, you may need to run a different command. Check out their documentation, tt will likely be one of the 2 commands above._
-
-## 4. Add your chosen website theme.
+&nbsp;  
+## 4. Add chosen theme to your your website
+Clone the chosen theme into your project and add it in the `config.yml`.
+For the `PaperMod` theme:
 ```bash
-# For the PaperMod theme
 cd quickstart
 git clone https://github.com/adityatelange/hugo-PaperMod themes/PaperMod --depth=1
 echo theme: \"PaperMod\" >> config.yml
 ```
-Clone the chosen theme into your project and add it in the `config.yml`. Again, check the docs of your theme on how to install it if not using PaperMod.
 
-## 5. Add your first content!
+&nbsp;  
+## 5. Add your first content
 
 *Quoted from [Hugo Quick Start](https://gohugo.io/getting-started/quick-start/)*
 
@@ -115,63 +118,66 @@ Clone the chosen theme into your project and add it in the `config.yml`. Again, 
 ```bash
 hugo new posts/hello-word.md
 ```
-
-Edit the newly created content file at `content/posts/hello-word.md` if you want, it will start with something like this:
-
+&nbsp;  
+Edit the newly created content file at `content/posts/hello-word.md` in a text editor like [VSCode](https://code.visualstudio.com/). The `hello-word.md` will look something like this, add in some content!
 ```markdown
 ---
 <!-- Front loaded content Hugo uses to define post -->
 title: "My First Post"
 date: 2019-03-26T08:47:11+01:00
-draft: true <!-- flip  to `false` when ready to publish -->
+draft: true
 ---
 
 <!-- Write your markdown here -->
 
 # Hello, World!
 ```
-
 > Drafts do not get deployed; once you finish a post, update the header of the post to say `draft: false`.
 
-## 6. Start the Hugo Server
-```bash
-# Runs a local server and the `-D` arg builds drafts
-# Note: drafts aren't built in production by default, only in development
-hugo server -D
-
-# Open http://localhost:1313/ and see your beautiful creation 🎉
-```
+&nbsp;  
+## 6. Start the Hugo server
 Run your local Hugo server for development and writing articles. You're website should be alive. 🧛‍♂️
+```bash
+# Runs a local server and the `-D` arg which builds drafts
+hugo server -D
+```
+Open [http://localhost:1313/](http://localhost:1313/) and see your beautiful creation 🎉
 
+&nbsp;  
 ## 7. Customize Your Theme
 
 The `config.yml` in the root dir is your life blood.
 
-It’s how you augment your site to look how you want it to look. Any change you make to the `config.yaml` or in a post will automatically update in your browser while the local Hugo server is running. Sweet 🍭
+It’s how you customize your website. While the Hugo server is running, any change you make to the `config.yaml` or in a post your are writing will update on save in your browser. Sweet 🍭
 
-**Take a look at these sources below on how to augment your theme:**
+### Take a look at these sources below on how to augment your theme:**
 - [PaperMod Docs](https://github.com/adityatelange/hugo-PaperMod) (Contains demo of site, demo config.yml, and a list of the features)
 - [My config.yml (for this website)](https://github.com/ConorCorp/ConorCorp.github.io/blob/main/config.yml)
 - [Theme Docs | Hugo](https://gohugo.io/hugo-modules/theme-components/)
 - The GitHub for whichever theme you chose.
 
-## 8. Build production website
+
+&nbsp;  
+## 8. Build the website for production
+Simply builds and minifies the production website into the `public/` directory. Also moves all your static `assets/` (extra css, js, and images) into `public/`.
 ```bash
-hugo # Builds and minifies content into public/ dir
+hugo
 ```
-Simply builds the static pages and assets that will be your production website. Also moves all your static `assets/` like css, js, and images into the `public/` folder.
 
-## Simple, ehh?!
+&nbsp;  
+## Easy as 🥧
 
-You have an optimized static website! You could just stick contents of the `public` folder up on a web server right now and be done with it. That’s cool and all but it doesn’t meet the bar I set for (requirement 3)[#hugo-basically-smashed-my-3-requirements]: “Be easy to update with new content”.
+You have an optimized, static website! You could just stick contents of the `public` folder up on a web server right now and be done with it. That’s cool and all but it doesn’t meet the bar I set for [requirement 3](#hugo-basically-smashed-my-3-requirements): *“Be easy to update with new content”*.
 
-Imagine if we could just write our new post, build the new site with the `hugo` command, and then publish the website live by pushing that update to GitHub? It’s actually not too hard and its free! You also get SSL thrown in there too!
+Imagine if we could just write our new post, build the new site with the `hugo` command, and then publish the website live with one push to Github? It’s actually not too hard and its free! You also get SSL thrown in there too!
 
-# Part 2: Hosting Your Static Site On GitHub Pages.
+---
+# Part 2: Hosting Your Hugo Site On GitHub Pages
 
 Now I'll be summarizing the [Hugo Github Pages Docs](https://gohugo.io/hosting-and-deployment/hosting-on-github/) and [Github Pages Docs](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#user--organization-pages).
 
-### GitHub Pages
+
+## GitHub Pages
 
 Github allows you to make 2 kinds of Github Pages projects.
 
@@ -180,47 +186,77 @@ Github allows you to make 2 kinds of Github Pages projects.
 
 We’re going to do a normal user page like the one your currently on.
 
-### 1. Create your Website repo on GitHub.
+&nbsp;  
+## 1. Create your Website repo on GitHub
 
-On [GitHub](https://github.com/) in the browser, create a new repository for your website with the name `<username>.github.io`. You can add a `README.md` if you like.  
+Go to your [GitHub](https://github.com/) account in the browser. Create a new repository for your website with the name `<username>.github.io`. `username` is your Github username. You can add a `README.md` to the repo on creation.  If you need help: [Github Pages Docs](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site).
 
-[Github Pages Docs](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
 
-### 2. Clone that repo locally.
+&nbsp;  
+## 2. Clone that repo locally
 {{< figure src="images/clone-github.png" width="600px" caption="Example of the created GitHub repo and url to clone it." >}}
 
 Pull the repo down locally with SSH or HTTPS.
 ```base
-git clone git@github.com:<username>.github.io.git
+git clone git@github.com:<username>/<username>.github.io.git
 ```
 
-### 3. Copy your Hugo site contents to this repo.
+&nbsp;  
+## 3. Copy your whole Hugo website into this repo
+Copy the contents of your `quickstart` (or custom website name) folder into your newly cloned repo.
 ```bash
 cp -r quickstart/* <path-to-cloned-repo>
+# cp -r quickstart/* ConorCorp.github.io
 ```
-Copy the contents of your `quickstart` (or whatever name you chose for your website) folder into your newly cloned repo.
 
-### 4. Change the `config.yml` in your new repo to create new builds in `docs/`
+&nbsp;  
+## 4. Change the `config.yml` to make new builds in `docs/`
+Github Pages only allows you to host your website from 1 of 2 directories in your repo. As of this writing they are: `/` (root) or `/docs`.
+
+
+We want to make sure that our visitors are only served the (optimized) production website code. Although, it'd be much cleaner if we saved both our development code and production website code in the same source-controlled repo.
+
+So, we will now update the Hugo config to build all of our production code only in the `/docs` folder and tell Github only to host that folder. First, let's clean up.
 ```bash
 cd <path-to-cloned-repo>
+# Remove default publishdir folder, we're using `docs/` now.
+rm -r public
+```
+&nbsp;  
+In the `config.yaml`, update:
+* `baseURL` to `http://<username>.github.io/`
+* `publishdir` to `docs`
 
-# Add `publishdir: docs` to your `config.yml`
-rm -r public # Remove unnecessary old build folder
-hugo # Build in `docs`
+A basic `config.yml` may now look like:
+```markdown
+baseURL: http://conorcorp.github.io/
+languageCode: en-us
+title: Conor Lamb
+theme: "PaperMod"
+publishdir: docs
+```
+
+&nbsp;  
+## 5. Build your website for production.
+
+Build your production website and push our code to our online repo.
+```bash
+hugo
 
 git add .
 git commit -m "update: publish dir"
 git push origin main
 ```
-Github pages only allows you to host your website from 1 of 2 directories in your repo. As of this writing they are: `/` (root) or `/docs` . Ideally, we’d like to keep our code and build in the same source-controlled repository but we don’t want our users to be served our source code. They should only get the generated production code from the `hugo` command. So we have to make it so production builds are created in `docs/` and GitHub pages only serves `docs/`. Then we push our code to our online repo.
 
-### 5. Update GitHub Pages to only host the `docs/` dir.
+&nbsp;  
+## 6. Update GitHub Pages to host the `docs/` dir.
 {{< figure src="images/publish-github-pages.png" width="400px" caption="Example of published Github Pages and docs config." >}}
 1. From GitHub in your browser, go to the `<username>.github.io` repo.
 2. Go to `settings -> pages`.
 3. Update `Source` to point to `/docs` dir on the `main` branch.
 4. Publish your site and go to `<username>.github.io` in the browser.
 
+&nbsp;  
 # Done! 🎊
 
 You now have a public, static[^3] website, built on Hugo and hosted for free with Github Pages! Its super easy to update too! Its ~5 commands including the `git` stuff. Feel free to add the code below to you’re `README.md` for your future updates.
@@ -242,7 +278,7 @@ hugo # Builds in /docs directory
 
 ---
 
-**Let me know if you found this post cool or helpful with a share, follow, or sub!** You can reach out to me on my socials or subscribe to my blog for more of this jazz 🎷
+**Let me know if you found this post cool or helpful with a share, follow, or sub!** You can reach out to me on my socials or subscribe to my blog for more of this jazz 🎷 If you have any suggestions, hit the `Suggest Edits` button up top!
 
 I’ve also done a few other sneaky things with my template that I’m happy to chat about. Check out dat sweet JS on my “Subscribe” button ;)
 
