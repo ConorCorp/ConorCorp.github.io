@@ -83,7 +83,7 @@ hugo version
 
 This a really exciting piece of Hugo. The themes here are beautiful, minimal, and beautifully minimal. You just pick one and can configure a few params and have a working website. You can customize it more later too!
 
-Find a theme here: [themes.gohugo.io](https://themes.gohugo.io/) . I chose the beautifully minimal [PaperMod](https://github.com/adityatelange/hugo-PaperMod) by [Aditya Telange](adityatelange.in) and will be using that for this tutorial.
+Find a theme here: [themes.gohugo.io](https://themes.gohugo.io/) . I chose the beautifully minimal [PaperMod](https://github.com/adityatelange/hugo-PaperMod) by [Aditya Telange](https://twitter.com/adityatelange) and will be using that for this tutorial.
 
 &nbsp;  
 ## 3. Generate your website
@@ -284,4 +284,4 @@ hugo # Builds in /docs directory
 I’ve also done a few other sneaky things with my template that I’m happy to chat about. Check out dat sweet JS on my “Subscribe” button ;)
 
 Thanks lads.
-Huge that’s to [Aditya Telange](adityatelange.in) for [PaperMod](https://github.com/adityatelange/hugo-PaperMod) and the [Hugo Team](https://twitter.com/intent/follow?screen_name=GoHugoIO)
+Huge that’s to [Aditya Telange](https://twitter.com/adityatelange) for [PaperMod](https://github.com/adityatelange/hugo-PaperMod) and the [Hugo Team](https://twitter.com/intent/follow?screen_name=GoHugoIO)
