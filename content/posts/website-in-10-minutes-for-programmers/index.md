@@ -32,7 +32,7 @@ I’ve made uncountably infinite[^1] websites in my time and it’s always been 
 
 To expand on 3, I do love me a bit of coding. I do it all the time. But this website is for writing and expressing my thoughts. Not coding. I have enough of that at my day job. So any extra code I need to write or dumb sFTP process I have to do to put out new content is bad.
 
-Also, writing in markdown with [Bear Notes](www.bear.app) and doing 3 commands to publish is incredibly liberating when compared to something like Wordpress. It also has some really cool out of the box features like [comments](https://gohugo.io/content-management/comments/), [search](https://gohugo.io/tools/search/), [code syntax hightlighting](https://gohugo.io/content-management/syntax-highlighting/), [translations](https://gohugo.io/content-management/multilingual/), and [google analytics support](https://gohugo.io/templates/internal/).
+Also, writing in markdown with [Bear Notes](https://www.bear.app) and doing 3 commands to publish is incredibly liberating when compared to something like Wordpress. It also has some really cool out of the box features like [comments](https://gohugo.io/content-management/comments/), [search](https://gohugo.io/tools/search/), [code syntax hightlighting](https://gohugo.io/content-management/syntax-highlighting/), [translations](https://gohugo.io/content-management/multilingual/), and [google analytics support](https://gohugo.io/templates/internal/).
 
 ## Why should you make a blog (or resume website)?
 The reason for a resume website is self-explanatory:  
