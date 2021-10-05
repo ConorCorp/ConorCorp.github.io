@@ -196,7 +196,7 @@ Go to your [GitHub](https://github.com/) account in the browser. Create a new re
 ## 2. Clone the `<username>.github.io` repo locally
 {{< figure src="images/clone-github.png" width="600px" caption="Example of the created GitHub repo and url to clone it." >}}
 
-Pull the repo down locally with SSH or HTTPS.
+Pull the repo down locally with SSH or HTTPS link. Use HTTPS if you haven't set up SSH.
 ```base
 git clone git@github.com:<username>/<username>.github.io.git
 ```
