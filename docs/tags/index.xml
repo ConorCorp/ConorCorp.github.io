@@ -10,7 +10,34 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Sep 2021 16:27:16 +0200</lastBuildDate><atom:link href="https://conorcorp.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Oct 2021 19:52:31 +0200</lastBuildDate><atom:link href="https://conorcorp.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>curated list</title>
+      <link>https://conorcorp.github.io/tags/curated-list/</link>
+      <pubDate>Fri, 22 Oct 2021 19:52:31 +0200</pubDate>
+      
+      <guid>https://conorcorp.github.io/tags/curated-list/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>music</title>
+      <link>https://conorcorp.github.io/tags/music/</link>
+      <pubDate>Fri, 22 Oct 2021 19:52:31 +0200</pubDate>
+      
+      <guid>https://conorcorp.github.io/tags/music/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>programming</title>
+      <link>https://conorcorp.github.io/tags/programming/</link>
+      <pubDate>Fri, 22 Oct 2021 19:52:31 +0200</pubDate>
+      
+      <guid>https://conorcorp.github.io/tags/programming/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>bash</title>
       <link>https://conorcorp.github.io/tags/bash/</link>

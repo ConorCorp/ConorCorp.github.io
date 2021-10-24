@@ -5,7 +5,7 @@ Conor Lamb's Personal Site
 ### Development
 
 ```bash
-hugo server -D  # Local development with drafts
+hugo server -D  # Local development with drafts on http://localhost:1313/
 
 hugo new posts/name-of-post.md # New Posts
 

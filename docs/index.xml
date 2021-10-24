@@ -10,7 +10,17 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Sep 2021 16:27:16 +0200</lastBuildDate><atom:link href="https://conorcorp.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Oct 2021 19:52:31 +0200</lastBuildDate><atom:link href="https://conorcorp.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cool Junk That Conor Finds on the Internet</title>
+      <link>https://conorcorp.github.io/posts/conors-cool-junk-he-found-on-the-internet/</link>
+      <pubDate>Fri, 22 Oct 2021 19:52:31 +0200</pubDate>
+      
+      <guid>https://conorcorp.github.io/posts/conors-cool-junk-he-found-on-the-internet/</guid>
+      <description>My collection of things I find on my journeys through the internet. Check in periodically for updates or click Subscribe above.
+Programming  🎥 Light Years Ahead | The 1969 Apollo Guidance Computer  Interesting talk about how the Apollo 11 computer worked. You would think this would be a very dry talk, but he does a great job of keeping it interesting if your into software engineering. Makes me feel like a brainlet though.</description>
+    </item>
+    
     <item>
       <title>How to make a free resume website and blog in 10 min for programmers (or people unafraid of the command line)</title>
       <link>https://conorcorp.github.io/posts/website-in-10-minutes-for-programmers/</link>

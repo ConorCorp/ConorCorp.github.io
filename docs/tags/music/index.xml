@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>music on Conor Lamb</title>
+    <link>https://conorcorp.github.io/tags/music/</link>
+    <description>Recent content in music on Conor Lamb</description>
+    <image>
+      <url>https://conorcorp.github.io/post-cover.png</url>
+      <link>https://conorcorp.github.io/post-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 22 Oct 2021 19:52:31 +0200</lastBuildDate><atom:link href="https://conorcorp.github.io/tags/music/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cool Junk That Conor Finds on the Internet</title>
+      <link>https://conorcorp.github.io/posts/conors-cool-junk-he-found-on-the-internet/</link>
+      <pubDate>Fri, 22 Oct 2021 19:52:31 +0200</pubDate>
+      
+      <guid>https://conorcorp.github.io/posts/conors-cool-junk-he-found-on-the-internet/</guid>
+      <description>My collection of things I find on my journeys through the internet. Check in periodically for updates or click Subscribe above.
+Programming  🎥 Light Years Ahead | The 1969 Apollo Guidance Computer  Interesting talk about how the Apollo 11 computer worked. You would think this would be a very dry talk, but he does a great job of keeping it interesting if your into software engineering. Makes me feel like a brainlet though.</description>
+    </item>
+    
+  </channel>
+</rss>
