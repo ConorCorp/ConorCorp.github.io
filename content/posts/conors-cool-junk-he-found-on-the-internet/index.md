@@ -5,7 +5,7 @@ lastmod: 2021-12-03T15:03:31+02:00
 draft: false
 summary: My collection of things I find on my journeys through the internet.
 categories: [curated lists]
-tags: [programming, curated list, music, wikipedia, interesting]
+tags: [coding, curated list, music, wikipedia, interesting]
 ShowToc: true
 cover:
     image: "images/burns-mystery-box.jpg"

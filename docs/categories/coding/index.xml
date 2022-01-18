@@ -10,7 +10,18 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Sep 2021 16:27:16 +0200</lastBuildDate><atom:link href="https://conorcorp.github.io/categories/coding/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 Jan 2022 09:16:09 +0100</lastBuildDate><atom:link href="https://conorcorp.github.io/categories/coding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Make debugging suck less. Keep a logbook. 📓</title>
+      <link>https://conorcorp.github.io/posts/make-debuggin-suck-less/</link>
+      <pubDate>Tue, 18 Jan 2022 09:16:09 +0100</pubDate>
+      
+      <guid>https://conorcorp.github.io/posts/make-debuggin-suck-less/</guid>
+      <description>Scientists keep logbooks for their findings. Why don&amp;rsquo;t computer scientists? A great place to start doing this is for debugging. Debugging sucks enough as is, make it easier on yourself. A logbook will&amp;hellip;
+🗺 Enumerate where you are in the bug fix journey. You&amp;rsquo;ll forget this journey when you pick it up tomorrow, write it down.
+🌳 Keep you rooted to the ground. (Creating an &amp;ldquo;issue stack&amp;rdquo;.) Related to above, it often feels like you&amp;rsquo;re completely lost in the aether when you&amp;rsquo;re 50 opened browser tabs deep into an issue that&amp;rsquo;s not even the same issue anymore, its a sub issue of a sub issue.</description>
+    </item>
+    
     <item>
       <title>How to make a free resume website and blog in 10 min for programmers (or people unafraid of the command line)</title>
       <link>https://conorcorp.github.io/posts/website-in-10-minutes-for-programmers/</link>

@@ -5,3 +5,7 @@
 img {
     border: 1px solid black;
 }
+
+.post-content dl, .post-content ol, .post-content p, .post-content figure, .post-content ul {
+  margin-bottom: 0;
+}
