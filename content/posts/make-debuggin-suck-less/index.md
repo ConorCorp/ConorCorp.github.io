@@ -24,4 +24,4 @@ A great place to start doing this is for debugging. Debugging sucks enough as is
 ### 🍻 Document your eventual success and how it happened.
   Highly underrated 🥂
 ## Also, your writing career?
-[Cliff Stoll](https://www.kleinbottle.com/) kept one which enabled which enabled him to find his hacker and retell the journey in his infamous: [*The Cuckoo's Egg*](https://en.wikipedia.org/wiki/The_Cuckoo%27s_Egg_(book)). So, keep a logbook for your future Pulitzer.
+[Cliff Stoll](https://www.kleinbottle.com/) kept one which enabled him to find his hacker and retell the journey in his infamous: [*The Cuckoo's Egg*](https://en.wikipedia.org/wiki/The_Cuckoo%27s_Egg_(book)). So, keep a logbook for your future Pulitzer.
