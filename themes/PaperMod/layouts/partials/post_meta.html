@@ -1,20 +1,7 @@
 {{- $scratch := newScratch }}
 
 {{- if not .Date.IsZero -}}
-{{- if not .Lastmod.IsZero -}}
-{{- if not (eq .Lastmod .Date) }}
-{{- $s := slice "Last Updated" }}
-{{- $s = $s | append (slice (.Lastmod.Format (default "January 2, 2006" .Site.Params.DateFormat))) }}
-{{- $scratch.Add "meta" $s }}
-{{- end }}
-{{- end }}
-{{- end }}
-
-
-{{- if not .Date.IsZero -}}
-{{- $s := slice "Created" }}
-{{- $s = $s | append (slice (.Date.Format (default "January 2, 2006" .Site.Params.DateFormat))) }}
-{{- $scratch.Add "meta" $s }}
+{{- $scratch.Add "meta" (slice (.Date.Format (default "January 2, 2006" .Site.Params.DateFormat))) }}
 {{- end }}
 
 {{- if (.Param "ShowReadingTime") -}}

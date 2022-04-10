@@ -1,6 +1,7 @@
 ---
 title: "Cool Junk That Conor Finds on the Internet"
 date: 2021-10-22T19:52:31+02:00
+lastmod: 2022-04-10T15:03:31+02:00
 draft: false
 summary: My collection of things I find on my journeys through the internet.
 categories: [curated lists]
@@ -12,6 +13,8 @@ cover:
   caption: "Now, you can either have the washer and dryer where the lovely Smithers is standing, or you can trade it all in for what's in this box."
   relative: true
 ---
+**Last updated:** {{< param lastmod >}}
+
 
 My collection of things I find on my journeys through the internet. Check in periodically for updates or click _Subscribe_ above.
 
