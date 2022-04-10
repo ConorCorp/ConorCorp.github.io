@@ -9,6 +9,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 enableEmoji: true
+enableGitInfo: true
 googleAnalytics: UA-100679815-4
 publishdir: docs # for github pages
 # disqusShortname: conorlamb
@@ -21,18 +22,21 @@ menu:
     - name: Archive
       url: archives
       weight: 1
-    - name: Categories
-      url: categories/
-      weight: 2
+    # - name: Categories
+    #   url: categories/
+    #   weight: 2
     - name: Tags
       url: tags/
       weight: 3
     - name: Search
       url: search/
       weight: 4
-    - name: Subscribe
-      url: "/doesnt-exist-so-its-never-active"
+    - name: 🐦 Twitter
+      url: https://twitter.com/dogeeseseegucci
       weight: 5
+    - name: 💌 Subscribe
+      url: "/doesnt-exist-so-its-never-active"
+      weight: 6
 
 params:
   description: "Load interesting crap from Conor's noggin."
@@ -113,3 +117,19 @@ markup:
     guessSyntax: true
     lineNos: false
     style: monokai
+
+frontmatter:
+  date:
+  - date
+  - publishDate
+  - lastmod
+  expiryDate:
+  - expiryDate
+  lastmod:
+  - :git
+  - lastmod
+  - date
+  - publishDate
+  publishDate:
+  - publishDate
+  - date

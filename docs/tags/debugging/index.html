@@ -10,7 +10,7 @@
 <meta name="description" content="Load interesting crap from Conor&#39;s noggin.">
 <meta name="author" content="Conor Lamb">
 <link rel="canonical" href="https://conorcorp.github.io/tags/debugging/" />
-<link crossorigin="anonymous" href="/assets/css/stylesheet.min.32303ae6e2379c98b9a41d67d1430dcf5d36993b4ad2af1639f128bcaaa2a828.css" integrity="sha256-MjA65uI3nJi5pB1n0UMNz102mTtK0q8WOfEovKqiqCg=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.d3fa3bdd9c8422d0514b347df3016fe56f39fa30db7c3eabd863bfb476fccc2a.css" integrity="sha256-0/o73ZyEItBRSzR98wFv5W85&#43;jDbfD6r2GO/tHb8zCo=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://conorcorp.github.io/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://conorcorp.github.io/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://conorcorp.github.io/favicon-32x32.png">
@@ -18,7 +18,7 @@
 <link rel="mask-icon" href="https://conorcorp.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.92.0" />
+<meta name="generator" content="Hugo 0.96.0" />
 <link rel="alternate" type="application/rss+xml" href="https://conorcorp.github.io/tags/debugging/index.xml">
 <noscript>
     <style>
@@ -95,11 +95,6 @@ if (!doNotTrack) {
                 </a>
             </li>
             <li>
-                <a href="https://conorcorp.github.io/categories/" title="Categories">
-                    <span>Categories</span>
-                </a>
-            </li>
-            <li>
                 <a href="https://conorcorp.github.io/tags/" title="Tags">
                     <span>Tags</span>
                 </a>
@@ -110,8 +105,13 @@ if (!doNotTrack) {
                 </a>
             </li>
             <li>
-                <a href="https://conorcorp.github.io/doesnt-exist-so-its-never-active" title="Subscribe">
-                    <span>Subscribe</span>
+                <a href="https://twitter.com/dogeeseseegucci" title="🐦 Twitter">
+                    <span>🐦 Twitter</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://conorcorp.github.io/doesnt-exist-so-its-never-active" title="💌 Subscribe">
+                    <span>💌 Subscribe</span>
                 </a>
             </li>
         </ul>
@@ -137,7 +137,7 @@ if (!doNotTrack) {
 🗺 Enumerate where you are in the bug fix journey. You’ll forget this journey when you pick it up tomorrow, write it down.
 🌳 Keep you rooted to the ground. (Creating an “issue stack”.) Related to above, it often feels like you’re completely lost in the aether when you’re 50 opened browser tabs deep into an issue that’s not even the same issue anymore, its a sub issue of a sub issue....</p>
   </section>
-  <footer class="entry-footer">January 18, 2022&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Conor Lamb</footer>
+  <footer class="entry-footer">Last Updated&nbsp;·&nbsp;January 18, 2022&nbsp;·&nbsp;Created&nbsp;·&nbsp;January 18, 2022&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Conor Lamb</footer>
   <a class="entry-link" aria-label="post link to Make debugging suck less. Keep a logbook. 📓" href="https://conorcorp.github.io/posts/make-debuggin-suck-less/"></a>
 </article>
     </main>
@@ -156,18 +156,44 @@ if (!doNotTrack) {
     </svg>
 </a>
 <script id="mcjs">
-    function makeMailchimpSubscribe() {
-        document.getElementById("menu").lastElementChild.childNodes[1].id = "show-popup"
-        function showPopup() {    
-            !function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/be2b39c77e47598d278e74e4d/af681b176e8f33d00205cca5f.js");
-            
-            document.cookie = "MCPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";                  
-            document.cookie = "MCPopupSubscribed=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-        }
-        document.getElementById("show-popup").onclick = function() { showPopup(); return false;}
+  function makeMailchimpSubscribe() {
+    document.getElementById("menu").lastElementChild.childNodes[1].id =
+      "show-popup";
+    function showPopup() {
+      !(function (c, h, i, m, p) {
+        (m = c.createElement(h)),
+          (p = c.getElementsByTagName(h)[0]),
+          (m.async = 1),
+          (m.src = i),
+          p.parentNode.insertBefore(m, p);
+      })(
+        document,
+        "script",
+        "https://chimpstatic.com/mcjs-connected/js/users/be2b39c77e47598d278e74e4d/af681b176e8f33d00205cca5f.js"
+      );
+      
+      document.cookie =
+        "MCPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+      document.cookie =
+        "MCPopupSubscribed=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
     }
-    window.onload = makeMailchimpSubscribe()
+    document.getElementById("show-popup").onclick = function () {
+      showPopup();
+      return false;
+    };
+  }
+  function makeTwitterBlue() {
+    console.log(document.getElementById("menu"));
+    document.querySelector("#menu > li:nth-child(4)").childNodes[1].id =
+      "twitter-blue";
+  }
+  function start() {
+    makeMailchimpSubscribe();
+    makeTwitterBlue();
+  }
+  window.onload = start();
 </script>
+
 
 <script>
     let menu = document.getElementById('menu')
