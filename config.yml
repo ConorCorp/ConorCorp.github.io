@@ -28,8 +28,8 @@ menu:
     - name: Tags
       url: tags/
       weight: 3
-    - name: Search
-      url: search/
+    - name: Retrospectives
+      url: https://tar-army-161.notion.site/Monthly-Retrospectives-c6ee4697f03946b2abed993073ec03be
       weight: 4
     - name: 🐦 Twitter
       url: https://twitter.com/dogeeseseegucci
