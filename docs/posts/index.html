@@ -125,7 +125,7 @@ if (!doNotTrack) {
                 </a>
             </li>
             <li>
-                <a href="https://conorcorp.github.io/doesnt-exist-so-its-never-active" title="💌 Subscribe">
+                <a href="https://github.us5.list-manage.com/subscribe?u=be2b39c77e47598d278e74e4d&amp;id=af0c4dfa0c" title="💌 Subscribe">
                     <span>💌 Subscribe</span>
                 </a>
             </li>
@@ -219,29 +219,32 @@ Conor</p>
     </svg>
 </a>
 <script id="mcjs">
+  function showPopup() {
+    !(function (c, h, i, m, p) {
+      (m = c.createElement(h)),
+        (p = c.getElementsByTagName(h)[0]),
+        (m.async = 1),
+        (m.src = i),
+        p.parentNode.insertBefore(m, p);
+    })(
+      document,
+      "script",
+      "https://chimpstatic.com/mcjs-connected/js/users/be2b39c77e47598d278e74e4d/af681b176e8f33d00205cca5f.js"
+    );
+  }
   function makeMailchimpSubscribe() {
     document.getElementById("menu").lastElementChild.childNodes[1].id =
       "show-popup";
-    function showPopup() {
-      !(function (c, h, i, m, p) {
-        (m = c.createElement(h)),
-          (p = c.getElementsByTagName(h)[0]),
-          (m.async = 1),
-          (m.src = i),
-          p.parentNode.insertBefore(m, p);
-      })(
-        document,
-        "script",
-        "https://chimpstatic.com/mcjs-connected/js/users/be2b39c77e47598d278e74e4d/af681b176e8f33d00205cca5f.js"
-      );
-      
-      document.cookie =
-        "MCPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-      document.cookie =
-        "MCPopupSubscribed=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-    }
+
+    
+    document.cookie =
+      "MCPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+    document.cookie =
+      "MCPopupSubscribed=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+
     document.getElementById("show-popup").onclick = function () {
       showPopup();
+      console.log("here");
       return false;
     };
   }
@@ -251,7 +254,9 @@ Conor</p>
       "twitter-blue";
   }
   function start() {
-    makeMailchimpSubscribe();
+    document.getElementById("menu").lastElementChild.childNodes[1].id =
+      "show-popup";
+    
     makeTwitterBlue();
   }
   window.onload = start();
