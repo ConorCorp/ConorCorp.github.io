@@ -10,7 +10,43 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Jan 2022 09:16:09 +0100</lastBuildDate><atom:link href="https://conorcorp.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Nov 2022 14:49:52 +0100</lastBuildDate><atom:link href="https://conorcorp.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>berlin</title>
+      <link>https://conorcorp.github.io/tags/berlin/</link>
+      <pubDate>Tue, 08 Nov 2022 14:49:52 +0100</pubDate>
+      
+      <guid>https://conorcorp.github.io/tags/berlin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>curated list</title>
+      <link>https://conorcorp.github.io/tags/curated-list/</link>
+      <pubDate>Tue, 08 Nov 2022 14:49:52 +0100</pubDate>
+      
+      <guid>https://conorcorp.github.io/tags/curated-list/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>interesting</title>
+      <link>https://conorcorp.github.io/tags/interesting/</link>
+      <pubDate>Tue, 08 Nov 2022 14:49:52 +0100</pubDate>
+      
+      <guid>https://conorcorp.github.io/tags/interesting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>travel</title>
+      <link>https://conorcorp.github.io/tags/travel/</link>
+      <pubDate>Tue, 08 Nov 2022 14:49:52 +0100</pubDate>
+      
+      <guid>https://conorcorp.github.io/tags/travel/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>coding</title>
       <link>https://conorcorp.github.io/tags/coding/</link>
@@ -35,24 +71,6 @@
       <pubDate>Tue, 18 Jan 2022 09:16:09 +0100</pubDate>
       
       <guid>https://conorcorp.github.io/tags/tips/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>curated list</title>
-      <link>https://conorcorp.github.io/tags/curated-list/</link>
-      <pubDate>Fri, 22 Oct 2021 19:52:31 +0200</pubDate>
-      
-      <guid>https://conorcorp.github.io/tags/curated-list/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>interesting</title>
-      <link>https://conorcorp.github.io/tags/interesting/</link>
-      <pubDate>Fri, 22 Oct 2021 19:52:31 +0200</pubDate>
-      
-      <guid>https://conorcorp.github.io/tags/interesting/</guid>
       <description></description>
     </item>
     
