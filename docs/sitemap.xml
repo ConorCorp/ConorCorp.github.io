@@ -2,16 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://conorcorp.github.io/tags/ai/</loc>
+    <lastmod>2023-01-29T16:24:55+01:00</lastmod>
+  </url><url>
+    <loc>https://conorcorp.github.io/categories/</loc>
+    <lastmod>2023-01-29T16:24:55+01:00</lastmod>
+  </url><url>
+    <loc>https://conorcorp.github.io/tags/chatgpt/</loc>
+    <lastmod>2023-01-29T16:24:55+01:00</lastmod>
+  </url><url>
+    <loc>https://conorcorp.github.io/categories/coding/</loc>
+    <lastmod>2023-01-29T16:24:55+01:00</lastmod>
+  </url><url>
+    <loc>https://conorcorp.github.io/</loc>
+    <lastmod>2023-01-29T16:24:55+01:00</lastmod>
+  </url><url>
+    <loc>https://conorcorp.github.io/tags/language-learning/</loc>
+    <lastmod>2023-01-29T16:24:55+01:00</lastmod>
+  </url><url>
+    <loc>https://conorcorp.github.io/posts/chat-gpt-buddy/</loc>
+    <lastmod>2023-01-29T16:24:55+01:00</lastmod>
+  </url><url>
+    <loc>https://conorcorp.github.io/posts/</loc>
+    <lastmod>2023-01-29T16:24:55+01:00</lastmod>
+  </url><url>
+    <loc>https://conorcorp.github.io/tags/</loc>
+    <lastmod>2023-01-29T16:24:55+01:00</lastmod>
+  </url><url>
     <loc>https://conorcorp.github.io/posts/conors-berlin-guide/</loc>
     <lastmod>2022-11-09T16:07:20+01:00</lastmod>
   </url><url>
     <loc>https://conorcorp.github.io/tags/berlin/</loc>
-    <lastmod>2022-11-09T16:07:20+01:00</lastmod>
-  </url><url>
-    <loc>https://conorcorp.github.io/categories/</loc>
-    <lastmod>2022-11-09T16:07:20+01:00</lastmod>
-  </url><url>
-    <loc>https://conorcorp.github.io/</loc>
     <lastmod>2022-11-09T16:07:20+01:00</lastmod>
   </url><url>
     <loc>https://conorcorp.github.io/tags/curated-list/</loc>
@@ -23,20 +44,11 @@
     <loc>https://conorcorp.github.io/tags/interesting/</loc>
     <lastmod>2022-11-09T16:07:20+01:00</lastmod>
   </url><url>
-    <loc>https://conorcorp.github.io/posts/</loc>
-    <lastmod>2022-11-09T16:07:20+01:00</lastmod>
-  </url><url>
-    <loc>https://conorcorp.github.io/tags/</loc>
-    <lastmod>2022-11-09T16:07:20+01:00</lastmod>
-  </url><url>
     <loc>https://conorcorp.github.io/tags/travel/</loc>
     <lastmod>2022-11-09T16:07:20+01:00</lastmod>
   </url><url>
     <loc>https://conorcorp.github.io/tags/coding/</loc>
     <lastmod>2022-07-15T12:19:38+02:00</lastmod>
-  </url><url>
-    <loc>https://conorcorp.github.io/categories/coding/</loc>
-    <lastmod>2022-01-18T12:47:18-08:00</lastmod>
   </url><url>
     <loc>https://conorcorp.github.io/tags/debugging/</loc>
     <lastmod>2022-01-18T12:47:18-08:00</lastmod>
