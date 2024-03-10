@@ -1,6 +1,6 @@
 baseURL: https://conorcorp.netlify.app/
 languageCode: en-us
-title: Conor Lamb
+title: c0n0
 theme: "PaperMod"
 
 enableInlineShortcodes: true
@@ -47,24 +47,19 @@ params:
   homeInfoParams:
     Title: Hi there, I'm Conor. 👋
     Content: >
-        - Freelance Full Stack Software Engineer 👾 **|** Founded [skintheory](https://skintheory.app) & [expatpho.net](https://expatpho.net)
+        - 👾 &nbsp; Freelance Full Stack Software Engineer
         
-        - 🇺🇸🇮🇪 **|** Berlin Based 🇩🇪
-
-        - <br>
+        - ⚡️ &nbsp; Founded [skintheory](https://skintheory.app) & [expatpho.net](https://expatpho.net)
         
-        - Care for some of my **[indie pop tunes](https://open.spotify.com/artist/4w77ipMn1jGx4ppm7HNYZK?si=Zrx3sH1oTJCEN1I6qi2qRg)** while you read?
+        - 🇩🇪 &nbsp; Berlin Based
+        
   cover:
     relative: true
   socialIcons:
-    - name: instagram
-      url: https://instagram.com/conorcorp
-    - name: linkedin
-      url: https://www.linkedin.com/in/conorobrienlamb/
+    - name: spotify
+      url: https://open.spotify.com/artist/4w77ipMn1jGx4ppm7HNYZK?si=Zrx3sH1oTJCEN1I6qi2qRg
     - name: twitter
       url: https://twitter.com/dogeeseseegucci
-    - name: lastfm
-      url: https://www.last.fm/user/jealousgelatin
     - name: github
       url: https://github.com/ConorCorp
 
