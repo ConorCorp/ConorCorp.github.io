@@ -2,162 +2,162 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Conor Lamb</title>
-    <link>https://conorcorp.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Conor Lamb</description>
     <image>
       <title>Conor Lamb</title>
-      <url>https://conorcorp.github.io/post-cover.png</url>
-      <link>https://conorcorp.github.io/post-cover.png</link>
+      <url>http://localhost:1313/post-cover.png</url>
+      <link>http://localhost:1313/post-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 29 Jan 2023 16:24:55 +0100</lastBuildDate>
-    <atom:link href="https://conorcorp.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ai</title>
-      <link>https://conorcorp.github.io/tags/ai/</link>
+      <link>http://localhost:1313/tags/ai/</link>
       <pubDate>Sun, 29 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://conorcorp.github.io/tags/ai/</guid>
+      <guid>http://localhost:1313/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Chatgpt</title>
-      <link>https://conorcorp.github.io/tags/chatgpt/</link>
+      <link>http://localhost:1313/tags/chatgpt/</link>
       <pubDate>Sun, 29 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://conorcorp.github.io/tags/chatgpt/</guid>
+      <guid>http://localhost:1313/tags/chatgpt/</guid>
       <description></description>
     </item>
     <item>
       <title>Language Learning</title>
-      <link>https://conorcorp.github.io/tags/language-learning/</link>
+      <link>http://localhost:1313/tags/language-learning/</link>
       <pubDate>Sun, 29 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://conorcorp.github.io/tags/language-learning/</guid>
+      <guid>http://localhost:1313/tags/language-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Berlin</title>
-      <link>https://conorcorp.github.io/tags/berlin/</link>
+      <link>http://localhost:1313/tags/berlin/</link>
       <pubDate>Tue, 08 Nov 2022 14:49:52 +0100</pubDate>
-      <guid>https://conorcorp.github.io/tags/berlin/</guid>
+      <guid>http://localhost:1313/tags/berlin/</guid>
       <description></description>
     </item>
     <item>
       <title>Curated List</title>
-      <link>https://conorcorp.github.io/tags/curated-list/</link>
+      <link>http://localhost:1313/tags/curated-list/</link>
       <pubDate>Tue, 08 Nov 2022 14:49:52 +0100</pubDate>
-      <guid>https://conorcorp.github.io/tags/curated-list/</guid>
+      <guid>http://localhost:1313/tags/curated-list/</guid>
       <description></description>
     </item>
     <item>
       <title>Interesting</title>
-      <link>https://conorcorp.github.io/tags/interesting/</link>
+      <link>http://localhost:1313/tags/interesting/</link>
       <pubDate>Tue, 08 Nov 2022 14:49:52 +0100</pubDate>
-      <guid>https://conorcorp.github.io/tags/interesting/</guid>
+      <guid>http://localhost:1313/tags/interesting/</guid>
       <description></description>
     </item>
     <item>
       <title>Travel</title>
-      <link>https://conorcorp.github.io/tags/travel/</link>
+      <link>http://localhost:1313/tags/travel/</link>
       <pubDate>Tue, 08 Nov 2022 14:49:52 +0100</pubDate>
-      <guid>https://conorcorp.github.io/tags/travel/</guid>
+      <guid>http://localhost:1313/tags/travel/</guid>
       <description></description>
     </item>
     <item>
       <title>Coding</title>
-      <link>https://conorcorp.github.io/tags/coding/</link>
+      <link>http://localhost:1313/tags/coding/</link>
       <pubDate>Tue, 18 Jan 2022 09:16:09 +0100</pubDate>
-      <guid>https://conorcorp.github.io/tags/coding/</guid>
+      <guid>http://localhost:1313/tags/coding/</guid>
       <description></description>
     </item>
     <item>
       <title>Debugging</title>
-      <link>https://conorcorp.github.io/tags/debugging/</link>
+      <link>http://localhost:1313/tags/debugging/</link>
       <pubDate>Tue, 18 Jan 2022 09:16:09 +0100</pubDate>
-      <guid>https://conorcorp.github.io/tags/debugging/</guid>
+      <guid>http://localhost:1313/tags/debugging/</guid>
       <description></description>
     </item>
     <item>
       <title>Tips</title>
-      <link>https://conorcorp.github.io/tags/tips/</link>
+      <link>http://localhost:1313/tags/tips/</link>
       <pubDate>Tue, 18 Jan 2022 09:16:09 +0100</pubDate>
-      <guid>https://conorcorp.github.io/tags/tips/</guid>
+      <guid>http://localhost:1313/tags/tips/</guid>
       <description></description>
     </item>
     <item>
       <title>Music</title>
-      <link>https://conorcorp.github.io/tags/music/</link>
+      <link>http://localhost:1313/tags/music/</link>
       <pubDate>Fri, 22 Oct 2021 19:52:31 +0200</pubDate>
-      <guid>https://conorcorp.github.io/tags/music/</guid>
+      <guid>http://localhost:1313/tags/music/</guid>
       <description></description>
     </item>
     <item>
       <title>Wikipedia</title>
-      <link>https://conorcorp.github.io/tags/wikipedia/</link>
+      <link>http://localhost:1313/tags/wikipedia/</link>
       <pubDate>Fri, 22 Oct 2021 19:52:31 +0200</pubDate>
-      <guid>https://conorcorp.github.io/tags/wikipedia/</guid>
+      <guid>http://localhost:1313/tags/wikipedia/</guid>
       <description></description>
     </item>
     <item>
       <title>Bash</title>
-      <link>https://conorcorp.github.io/tags/bash/</link>
+      <link>http://localhost:1313/tags/bash/</link>
       <pubDate>Tue, 28 Sep 2021 16:27:16 +0200</pubDate>
-      <guid>https://conorcorp.github.io/tags/bash/</guid>
+      <guid>http://localhost:1313/tags/bash/</guid>
       <description></description>
     </item>
     <item>
       <title>Command Line</title>
-      <link>https://conorcorp.github.io/tags/command-line/</link>
+      <link>http://localhost:1313/tags/command-line/</link>
       <pubDate>Tue, 28 Sep 2021 16:27:16 +0200</pubDate>
-      <guid>https://conorcorp.github.io/tags/command-line/</guid>
+      <guid>http://localhost:1313/tags/command-line/</guid>
       <description></description>
     </item>
     <item>
       <title>Framework</title>
-      <link>https://conorcorp.github.io/tags/framework/</link>
+      <link>http://localhost:1313/tags/framework/</link>
       <pubDate>Tue, 28 Sep 2021 16:27:16 +0200</pubDate>
-      <guid>https://conorcorp.github.io/tags/framework/</guid>
+      <guid>http://localhost:1313/tags/framework/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo Framework</title>
-      <link>https://conorcorp.github.io/tags/hugo-framework/</link>
+      <link>http://localhost:1313/tags/hugo-framework/</link>
       <pubDate>Tue, 28 Sep 2021 16:27:16 +0200</pubDate>
-      <guid>https://conorcorp.github.io/tags/hugo-framework/</guid>
+      <guid>http://localhost:1313/tags/hugo-framework/</guid>
       <description></description>
     </item>
     <item>
       <title>Javascript</title>
-      <link>https://conorcorp.github.io/tags/javascript/</link>
+      <link>http://localhost:1313/tags/javascript/</link>
       <pubDate>Tue, 28 Sep 2021 16:27:16 +0200</pubDate>
-      <guid>https://conorcorp.github.io/tags/javascript/</guid>
+      <guid>http://localhost:1313/tags/javascript/</guid>
       <description></description>
     </item>
     <item>
       <title>Static</title>
-      <link>https://conorcorp.github.io/tags/static/</link>
+      <link>http://localhost:1313/tags/static/</link>
       <pubDate>Tue, 28 Sep 2021 16:27:16 +0200</pubDate>
-      <guid>https://conorcorp.github.io/tags/static/</guid>
+      <guid>http://localhost:1313/tags/static/</guid>
       <description></description>
     </item>
     <item>
       <title>Static Site Generator</title>
-      <link>https://conorcorp.github.io/tags/static-site-generator/</link>
+      <link>http://localhost:1313/tags/static-site-generator/</link>
       <pubDate>Tue, 28 Sep 2021 16:27:16 +0200</pubDate>
-      <guid>https://conorcorp.github.io/tags/static-site-generator/</guid>
+      <guid>http://localhost:1313/tags/static-site-generator/</guid>
       <description></description>
     </item>
     <item>
       <title>Website</title>
-      <link>https://conorcorp.github.io/tags/website/</link>
+      <link>http://localhost:1313/tags/website/</link>
       <pubDate>Tue, 28 Sep 2021 16:27:16 +0200</pubDate>
-      <guid>https://conorcorp.github.io/tags/website/</guid>
+      <guid>http://localhost:1313/tags/website/</guid>
       <description></description>
     </item>
     <item>
       <title>Writing</title>
-      <link>https://conorcorp.github.io/tags/writing/</link>
+      <link>http://localhost:1313/tags/writing/</link>
       <pubDate>Tue, 28 Sep 2021 16:27:16 +0200</pubDate>
-      <guid>https://conorcorp.github.io/tags/writing/</guid>
+      <guid>http://localhost:1313/tags/writing/</guid>
       <description></description>
     </item>
   </channel>
