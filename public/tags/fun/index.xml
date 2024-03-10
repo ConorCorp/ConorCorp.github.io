@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Fun on c0n0</title>
+    <link>http://localhost:1313/tags/fun/</link>
+    <description>Recent content in Fun on c0n0</description>
+    <image>
+      <title>c0n0</title>
+      <url>http://localhost:1313/post-cover.png</url>
+      <link>http://localhost:1313/post-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Jul 2022 12:19:38 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/fun/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cool Junk That Conor Finds on the Internet</title>
+      <link>http://localhost:1313/posts/conors-cool-junk-he-found-on-the-internet/</link>
+      <pubDate>Fri, 22 Oct 2021 19:52:31 +0200</pubDate>
+      <guid>http://localhost:1313/posts/conors-cool-junk-he-found-on-the-internet/</guid>
+      <description>My collection of things I find on my journeys through the internet.</description>
+    </item>
+  </channel>
+</rss>

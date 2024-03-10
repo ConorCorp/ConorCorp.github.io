@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>How to make a free resume website and blog in 10 min for programmers (or people unafraid of the command line) | c0n0</title>
-<meta name="keywords" content="coding, hugo framework, javascript, bash, command line, website, static, static site generator, framework, writing">
+<meta name="keywords" content="coding, hugo framework, javascript, static site generator, web apps">
 <meta name="description" content="See the website you’re reading this on? I didn’t make this in 10 minutes…. But I sure could have if I had this tutorial. So here’s how you can make your own customizable resume website or blog for free in 2021 using the Hugo framework, a few commands in the terminal, Github Pages to host it.
 Skip to Part 1: Let’s make a website if you wanna skip my banter 😔">
 <meta name="author" content="Conor Lamb">
@@ -25,6 +25,34 @@ Skip to Part 1: Let’s make a website if you wanna skip my banter 😔">
         #theme-toggle,
         .top-link {
             display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
         }
 
     </style>
@@ -85,7 +113,7 @@ Skip to Part 1: Let’s make a website if you wanna skip my banter 😔"/>
   "name": "How to make a free resume website and blog in 10 min for programmers (or people unafraid of the command line)",
   "description": "See the website you’re reading this on? I didn’t make this in 10 minutes…. But I sure could have if I had this tutorial. So here’s how you can make your own customizable resume website or blog for free in 2021 using the Hugo framework, a few commands in the terminal, Github Pages to host it.\nSkip to Part 1: Let’s make a website if you wanna skip my banter 😔",
   "keywords": [
-    "coding", "hugo framework", "javascript", "bash", "command line", "website", "static", "static site generator", "framework", "writing"
+    "coding", "hugo framework", "javascript", "static site generator", "web apps"
   ],
   "articleBody": "See the website you’re reading this on? I didn’t make this in 10 minutes…. But I sure could have if I had this tutorial. So here’s how you can make your own customizable resume website or blog for free in 2021 using the Hugo framework, a few commands in the terminal, Github Pages to host it.\nSkip to Part 1: Let’s make a website if you wanna skip my banter 😔\nFirst off, Why Hugo? I think it’s nifty as hell.\nYou basically only need to write markdown once its set up.\nI’ve made uncountably infinite1 websites in my time and it’s always been a pain to update them, especially if you don’t always want to code, deal with CSS each time, or some crappy WYSIWYG editor.\nHugo basically smashed my 3 requirements: Be easy to set up - it’s literally like \u003c5 lines on the command line. 😌 Look sexy, work optimally. - Has great themes and generates static pages. 🤩 Most importantly: Be easy to update with new content. - Bye bye Wordpress! 💀 To expand on 3, I do love me a bit of coding. I do it all the time. But this website is for writing and expressing my thoughts. Not coding. I have enough of that at my day job. So any extra code I need to write or dumb sFTP process I have to do to put out new content is bad.\nAlso, writing in markdown with Bear Notes and doing 3 commands to publish is incredibly liberating when compared to something like Wordpress. It also has some really cool out of the box features like comments, search, code syntax hightlighting, translations, and google analytics support.\nWhy should you make a blog (or resume website)? The reason for a resume website is self-explanatory:\nIt gives you clout.\nBut so does writing! And its also fun! Even if you don’t enjoy writing, it’s an incredible skill for immortalizing yourself in history. Or minus the hyperbole, for crafting convincing emails to your very human stakeholders. They can usually be swayed by a little loquacious liturgy of poignant prose.\nBack on the clout thing; have you ever seen a TED or DEFCON talk? We often look at these people like, “I’ll never be smart enough to give a talk like this.”, or “I’m not an industry expert, I don’t even know how I would start doing something like that.”\nThe thing is, they are just normal people like you and I with some better publicity.\nStarting a blog on what you already know is a solid way to begin developing your public persona, but even if that’s not your cup of tea, let’s say you’re up for an interview at a FAANG company: It will make you look really REALLY good.\nReaders will tend to give you the benefit of the doubt and assume your knowledge on a subject goes very deep. You’re something of an SME as the cool kids might say. You may not be2, but it’s just a serendipitous thing about publishing content. Although, it may become a self-fulfilling prophecy as you learn everything possible to spite your commenters who are flaming the living crap out of you. 🔥\nTl;Dr: Try some writing! 😎\nPart 1: Let’s make your website This is basically my curated summary on the Hugo Quick Start paired with the PaperMod theme.\nRequirements Git Homebrew or Chocolatey 1. Pop open the terminal and install Hugo I use a Mac with Homebrew. Here’s Hugo’s install docs for more options.\n# Mac \u0026 Linux brew install hugo # Windows choco install hugo -confirm # Normal, no SCSS # Verify it says something like \"Hugo Static Site Generator v0.80.0/...\" hugo version 2. Choose a theme This a really exciting piece of Hugo. The themes here are beautiful, minimal, and beautifully minimal. You just pick one and can configure a few params and have a working website. You can customize it more later too!\nFind a theme here: themes.gohugo.io . I chose the beautifully minimal PaperMod by Aditya Telange and will be using that for this tutorial.\n3. Generate your website Generate your generic Hugo website named quickstart or any name you choose.\n# if you want to use the PaperMod theme I'm using, # we generate the Hugo template with a yaml config hugo new site quickstart -f yml # or for a normal site with a toml config hugo new site quickstart Note: If you didn’t choose PaperMod as your theme, you may need to run a different command. Check out their documentation, it will likely be one of the 2 commands above.\n4. Add chosen theme to your your website Clone the chosen theme into your project and add it in the config.yml. For the PaperMod theme:\ncd quickstart git clone https://github.com/adityatelange/hugo-PaperMod themes/PaperMod --depth=1 echo theme: \\\"PaperMod\\\" \u003e\u003e config.yml 5. Add your first content Quoted from Hugo Quick Start\nYou can manually create content files (for example as content//.) and provide metadata in them, however you can use the new command to do a few things for you (like add title and date):\nhugo new posts/hello-word.md Edit the newly created content file at content/posts/hello-word.md in a text editor like VSCode. The hello-word.md will look something like this, add in some content!\n--- title: \"My First Post\" date: 2019-03-26T08:47:11+01:00 draft: true --- # Hello, World! Drafts do not get deployed; once you finish a post, update the header of the post to say draft: false.\n6. Start the Hugo server Run your local Hugo server for development and writing articles. You’re website should be alive. 🧛‍♂️\n# Runs a local server and the `-D` arg which builds drafts hugo server -D Open http://localhost:1313/ and see your beautiful creation 🎉\n7. Customize Your Theme The config.yml in the root dir is your life blood.\nIt’s how you customize your website. While the Hugo server is running, any change you make to the config.yaml or in a post your are writing will update on save in your browser. Sweet 🍭\nTake a look at these sources below on how to augment your theme: PaperMod Docs (Contains demo of site, demo config.yml, and a list of the features) My config.yml (for this website) Theme Docs | Hugo The GitHub for whichever theme you chose. 8. Build the website for production Simply builds and minifies the production website into the public/ directory. Also moves all your static assets/ (extra css, js, and images) into public/.\nhugo Easy as 🥧 You have an optimized, static website! You could just stick contents of the public folder up on a web server right now and be done with it. That’s cool and all but it doesn’t meet the bar I set for requirement 3: “Be easy to update with new content”.\nImagine if we could just write our new post, build the new site with the hugo command, and then publish the website live with one push to Github? It’s actually not too hard and its free! You also get SSL thrown in there too!\nPart 2: Hosting Your Hugo Site On GitHub Pages Now I’ll be summarizing the Hugo Github Pages Docs and Github Pages Docs.\nGitHub Pages Github allows you to make 2 kinds of Github Pages projects.\nUser/Organization Pages (https://.github.io/) Project Pages (https://.github.io//) We’re going to do a normal user page like the one your currently on.\n1. Create your Website repo on GitHub Go to your GitHub account in the browser. Create a new repository for your website with the name .github.io. username is your Github username. You can add a README.md to the repo on creation. If you need help: Github Pages Docs.\nNote: You can skip steps 2 and 3 if you’d prefer to git init your current Hugo site repo and point it to your .github.io remote.\n2. Clone the .github.io repo locally Example of the created GitHub repo and url to clone it.\nPull the repo down locally with SSH or HTTPS link. Use HTTPS if you haven’t set up SSH.\ngit clone git@github.com:/.github.io.git 3. Copy your whole Hugo website into this repo Copy the contents of your quickstart (or custom website name) folder into your newly cloned repo.\ncp -r quickstart/* # cp -r quickstart/* ConorCorp.github.io 4. Change the config.yml to make new builds in docs/ Github Pages only allows you to host your website from 1 of 2 directories in your repo. As of this writing they are: / (root) or /docs.\nWe want to make sure that our visitors are only served the (optimized) production website code. Although, it’d be much cleaner if we saved both our development code and production website code in the same source-controlled repo.\nSo, we will now update the Hugo config to build all of our production code only in the /docs folder and tell Github only to host that folder. First, let’s clean up.\ncd # Remove default publishdir folder, we're using `docs/` now. rm -r public In the config.yaml, update:\nbaseURL to http://.github.io/ publishdir to docs A basic config.yml may now look like:\nbaseURL: http://conorcorp.github.io/ languageCode: en-us title: Conor Lamb theme: \"PaperMod\" publishdir: docs 5. Build your website for production. Build your production website and push our code to our online repo.\nhugo git add . git commit -m \"update: publish dir\" git push origin main 6. Update GitHub Pages to host the docs/ dir. Example of published Github Pages and docs config.\nFrom GitHub in your browser, go to the .github.io repo. Go to settings -\u003e pages. Update Source to point to /docs dir on the main branch. Your site should be published, now go to .github.io in the browser. Note: If your site has not published automatically, make sure someone with admin permissions and a verified email address has pushed to the publishing source. Done! 🎊 You now have a public, static3 website, built on Hugo and hosted for free with Github Pages! Its super easy to update too! Its ~5 commands including the git stuff. Feel free to add the code below to you’re README.md for your future updates.\nhugo server -D # Local development with drafts hugo new posts/name-of-post.md # Add new post # make sure \"env: production\" in config.yml for PaperMod hugo # Builds in /docs directory # add and push to git for auto build within 1 min give or take P.S If you’d like cut out 1 step in this process, you can add a Github Action to auto build and deploy production on commits. Imagine all the time you’ll save by not typing in hugo to build production as well???!!! Let me know if you found this post cool or helpful with a share, follow, or sub! You can reach out to me on my socials or subscribe to my blog for more of this jazz 🎷 If you have any suggestions, hit the Suggest Edits button up top!\nI’ve also done a few other sneaky things with my template that I’m happy to chat about. Check out dat sweet JS on my “Subscribe” button ;)\nThanks lads. Huge that’s to Aditya Telange for PaperMod and the Hugo Team\nVery much countably finite but a shitload of websites nonetheless. ↩︎\nLike me! ↩︎\nvoid main(String[] args). First thing I memorized coding. It’s a reflex at this point when public static show up together. ↩︎\n",
   "wordCount" : "1906",
@@ -115,6 +143,10 @@ Skip to Part 1: Let’s make a website if you wanna skip my banter 😔"/>
 <body class="" id="top">
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
         document.body.classList.add('dark');
     }
 
@@ -198,7 +230,7 @@ Skip to Part 1: Let’s make a website if you wanna skip my banter 😔"/>
 
 <article class="post-single">
   <header class="post-header">
-    
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
     <h1 class="post-title entry-hint-parent">
       How to make a free resume website and blog in 10 min for programmers (or people unafraid of the command line)
     </h1>
@@ -440,13 +472,8 @@ Huge that’s to <a href="https://twitter.com/adityatelange">Aditya Telange</a> 
       <li><a href="http://localhost:1313/tags/coding/">Coding</a></li>
       <li><a href="http://localhost:1313/tags/hugo-framework/">Hugo Framework</a></li>
       <li><a href="http://localhost:1313/tags/javascript/">Javascript</a></li>
-      <li><a href="http://localhost:1313/tags/bash/">Bash</a></li>
-      <li><a href="http://localhost:1313/tags/command-line/">Command Line</a></li>
-      <li><a href="http://localhost:1313/tags/website/">Website</a></li>
-      <li><a href="http://localhost:1313/tags/static/">Static</a></li>
       <li><a href="http://localhost:1313/tags/static-site-generator/">Static Site Generator</a></li>
-      <li><a href="http://localhost:1313/tags/framework/">Framework</a></li>
-      <li><a href="http://localhost:1313/tags/writing/">Writing</a></li>
+      <li><a href="http://localhost:1313/tags/web-apps/">Web Apps</a></li>
     </ul>
 <nav class="paginav">
   <a class="prev" href="http://localhost:1313/posts/conors-cool-junk-he-found-on-the-internet/">
@@ -465,7 +492,7 @@ Huge that’s to <a href="https://twitter.com/adityatelange">Aditya Telange</a> 
 <ul class="share-buttons">
     <li>
         <a target="_blank" rel="noopener noreferrer" aria-label="share How to make a free resume website and blog in 10 min for programmers (or people unafraid of the command line) on x"
-            href="https://x.com/intent/tweet/?text=How%20to%20make%20a%20free%20resume%20website%20and%20blog%20in%2010%20min%20for%20programmers%20%28or%20people%20unafraid%20of%20the%20command%20line%29&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2fwebsite-in-10-minutes-for-programmers%2f&amp;hashtags=coding%2chugoframework%2cjavascript%2cbash%2ccommandline%2cwebsite%2cstatic%2cstaticsitegenerator%2cframework%2cwriting">
+            href="https://x.com/intent/tweet/?text=How%20to%20make%20a%20free%20resume%20website%20and%20blog%20in%2010%20min%20for%20programmers%20%28or%20people%20unafraid%20of%20the%20command%20line%29&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2fwebsite-in-10-minutes-for-programmers%2f&amp;hashtags=coding%2chugoframework%2cjavascript%2cstaticsitegenerator%2cwebapps">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />

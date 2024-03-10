@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>Making A Language Learning Buddy w/ ChatGPT | c0n0</title>
-<meta name="keywords" content="chatgpt, ai, language learning">
+<meta name="keywords" content="chatgpt, ai">
 <meta name="description" content="I&rsquo;m at a quietly frustrating point with my German language learning. It&rsquo;s an uncomfortable expanse within A1-A2 levels where I pick up a myriad of words in a conversation, but I&rsquo;m still not confident enough to say much. The usual solution here is one of brute force. Go make a fool of yourself, often and brazenly, in the wild. Talk to people around you, have awkward-as-hell conversations. But, how can I cash in on the ChatGPT hype that way?">
 <meta name="author" content="Conor Lamb">
 <link rel="canonical" href="http://localhost:1313/posts/chat-gpt-buddy/">
@@ -24,6 +24,34 @@
         #theme-toggle,
         .top-link {
             display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
         }
 
     </style>
@@ -82,7 +110,7 @@ if (!doNotTrack) {
   "name": "Making A Language Learning Buddy w\/ ChatGPT",
   "description": "I\u0026rsquo;m at a quietly frustrating point with my German language learning. It\u0026rsquo;s an uncomfortable expanse within A1-A2 levels where I pick up a myriad of words in a conversation, but I\u0026rsquo;m still not confident enough to say much. The usual solution here is one of brute force. Go make a fool of yourself, often and brazenly, in the wild. Talk to people around you, have awkward-as-hell conversations. But, how can I cash in on the ChatGPT hype that way?",
   "keywords": [
-    "chatgpt", "ai", "language learning"
+    "chatgpt", "ai"
   ],
   "articleBody": "I’m at a quietly frustrating point with my German language learning. It’s an uncomfortable expanse within A1-A2 levels where I pick up a myriad of words in a conversation, but I’m still not confident enough to say much. The usual solution here is one of brute force. Go make a fool of yourself, often and brazenly, in the wild. Talk to people around you, have awkward-as-hell conversations. But, how can I cash in on the ChatGPT hype that way? I’m cautiously optimistic for ChatGPT. It really is amazing, the text responses it can generate are sometimes extremely nuanced and correct. But it’s also is not a silver bullet. Those touting it as the solution for everything may well end up relying on fancy Markov Chains and cause unimaginable damage. But for a semi-trivial thing like a basic language learning buddy, ChatGPT seems like an amazing solution! So here’s the results of my experiment.\nChat 1 Prompt Act like my friend. Only speak in German. Let's have a conversation. Chat Pretty good, eh?\nThis goes super well. We have a conversation about spaghetti. It is very “lifelike” and it feels like good practice. The issue that happens in real life is easy to resolve here. When it says a few words that would have been showstoppers for me in a real conversation (“großartig”, “bevorzugst”, etc.), I could just head over to Google Translate to look them up. But wait, can it also……\nChat 2 Prompt Act like my friend, and let's have a conversation. Reply to me in German, but always follow your reply, with the English translation of the previous message. Chat Even better.\nSo now we don’t have to translate! I tested some other things here to:\nI misspelled “Mir geht’s gut” as “Mir get’s gut” and it still understood me. But it didn’t correct me 😕 I said “I’d like to talk about food” in English and it still replied in German. Good. But can we make it fix my mistakes?\nChat 3 Prompt Act like my friend, and let's have a conversation. Reply to me in German, but always follow your reply, with the English translation of the previous message. Please respond to each sentence that I write, and tell me if my grammar and vocabulary are correct, and there are no spelling mistakes. Chat Nice…..wait?\nAt first, I’m blown away. It’s doing 3 things.\nReplying coherently to me. Translating it’s reply. Rating my reply. But on 3 is where the sneaky danger of ChatGpt pops up. The first answer/reply make sense, putting me at ease. But lurking in the silent shadows of my second response, “Méine lieblingsessen sind Spaghetti”, I make a typo and put an accented é on ‘Meine’. Although ChatGPT understands, it says my grammar and vocab were correct. It is just regurgitating what it thought I wanted to see, without actually correcting anything. This 100% shook my confidence in having it correct my responses. Tl;Dr: I don’t trust ChatGpt to correct me (with this prompt), but its fine to understand me and have some banter.\nIn Short Try ChatGPT as a language buddy! It’s free for now and will likely be coherent in having basic conversations (which is exactly what I need it for). If it’s a bit wrong, no biggie, I mainly need the confidence to start speaking and can fix small errors in real life later. Note: ChatGPT has a slightly older German model from October 2021, so I can’t wait to see how it improves. I’m going to keep trying to make my ChatGPT language buddy better, if that interests you, you can keep updated by email or twitter.\n",
   "wordCount" : "609",
@@ -112,6 +140,10 @@ if (!doNotTrack) {
 <body class="" id="top">
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
         document.body.classList.add('dark');
     }
 
@@ -195,7 +227,7 @@ if (!doNotTrack) {
 
 <article class="post-single">
   <header class="post-header">
-    
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
     <h1 class="post-title entry-hint-parent">
       Making A Language Learning Buddy w/ ChatGPT
     </h1>
@@ -297,7 +329,6 @@ I&rsquo;m going to keep trying to make my ChatGPT language buddy better, if that
     <ul class="post-tags">
       <li><a href="http://localhost:1313/tags/chatgpt/">Chatgpt</a></li>
       <li><a href="http://localhost:1313/tags/ai/">Ai</a></li>
-      <li><a href="http://localhost:1313/tags/language-learning/">Language Learning</a></li>
     </ul>
 <nav class="paginav">
   <a class="prev" href="http://localhost:1313/posts/hello-netlify-world/">
@@ -316,7 +347,7 @@ I&rsquo;m going to keep trying to make my ChatGPT language buddy better, if that
 <ul class="share-buttons">
     <li>
         <a target="_blank" rel="noopener noreferrer" aria-label="share Making A Language Learning Buddy w/ ChatGPT on x"
-            href="https://x.com/intent/tweet/?text=Making%20A%20Language%20Learning%20Buddy%20w%2f%20ChatGPT&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2fchat-gpt-buddy%2f&amp;hashtags=chatgpt%2cai%2clanguagelearning">
+            href="https://x.com/intent/tweet/?text=Making%20A%20Language%20Learning%20Buddy%20w%2f%20ChatGPT&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2fchat-gpt-buddy%2f&amp;hashtags=chatgpt%2cai">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />

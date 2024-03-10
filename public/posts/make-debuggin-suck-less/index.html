@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>Make debugging suck less. Keep a logbook. 📓 | c0n0</title>
-<meta name="keywords" content="coding, tips, debugging">
+<meta name="keywords" content="coding, debugging, thoughts">
 <meta name="description" content="Scientists keep logbooks for their findings. Why don&rsquo;t computer scientists? A great place to start doing this is for debugging. Debugging sucks enough as is, make it easier on yourself. A logbook will&hellip;
 🗺 Enumerate where you are in the bug fix journey. You&rsquo;ll forget this journey when you pick it up tomorrow, write it down.
 🌳 Keep you rooted to the ground. (Creating an &ldquo;issue stack&rdquo;.) Related to above, it often feels like you&rsquo;re completely lost in the aether when you&rsquo;re 50 opened browser tabs deep into an issue that&rsquo;s not even the same issue anymore, its a sub issue of a sub issue.">
@@ -26,6 +26,34 @@
         #theme-toggle,
         .top-link {
             display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
         }
 
     </style>
@@ -88,7 +116,7 @@ if (!doNotTrack) {
   "name": "Make debugging suck less. Keep a logbook. 📓",
   "description": "Scientists keep logbooks for their findings. Why don\u0026rsquo;t computer scientists? A great place to start doing this is for debugging. Debugging sucks enough as is, make it easier on yourself. A logbook will\u0026hellip;\n🗺 Enumerate where you are in the bug fix journey. You\u0026rsquo;ll forget this journey when you pick it up tomorrow, write it down.\n🌳 Keep you rooted to the ground. (Creating an \u0026ldquo;issue stack\u0026rdquo;.) Related to above, it often feels like you\u0026rsquo;re completely lost in the aether when you\u0026rsquo;re 50 opened browser tabs deep into an issue that\u0026rsquo;s not even the same issue anymore, its a sub issue of a sub issue.",
   "keywords": [
-    "coding", "tips", "debugging"
+    "coding", "debugging", "thoughts"
   ],
   "articleBody": "Scientists keep logbooks for their findings. Why don’t computer scientists? A great place to start doing this is for debugging. Debugging sucks enough as is, make it easier on yourself. A logbook will…\n🗺 Enumerate where you are in the bug fix journey. You’ll forget this journey when you pick it up tomorrow, write it down.\n🌳 Keep you rooted to the ground. (Creating an “issue stack”.) Related to above, it often feels like you’re completely lost in the aether when you’re 50 opened browser tabs deep into an issue that’s not even the same issue anymore, its a sub issue of a sub issue. You’re in a stack of issues. But, if you have each issue written down, as you solve one, you can pop it off the stack and solve the next issue one at a time. Keeping this stack in your head sucks, and its easy to conflate understandings from this current problem with the previous problem.\n🔍 Make your future steps clearer. With all your past attempts laid out in front of you, you will achieve Zen 🧘‍♂️ With Zen, you can either find inner peace to decide you needn’t solve the bug, or you’ll know what to do next.\n😓 Document the time and effort spent. This is incredibly useful when showing your team what you’ve done (especially as bug fixing can feel very unproductive). This can also be the content of the issue you create on github.\n🍻 Document your eventual success and how it happened. Highly underrated 🥂\nAlso, your writing career? Cliff Stoll kept one which enabled him to find his hacker and retell the journey in his infamous: The Cuckoo’s Egg. So, keep a logbook for your future Pulitzer.\n",
   "wordCount" : "288",
@@ -118,6 +146,10 @@ if (!doNotTrack) {
 <body class="" id="top">
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
         document.body.classList.add('dark');
     }
 
@@ -201,7 +233,7 @@ if (!doNotTrack) {
 
 <article class="post-single">
   <header class="post-header">
-    
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
     <h1 class="post-title entry-hint-parent">
       Make debugging suck less. Keep a logbook. 📓
     </h1>
@@ -236,8 +268,8 @@ if (!doNotTrack) {
   <footer class="post-footer">
     <ul class="post-tags">
       <li><a href="http://localhost:1313/tags/coding/">Coding</a></li>
-      <li><a href="http://localhost:1313/tags/tips/">Tips</a></li>
       <li><a href="http://localhost:1313/tags/debugging/">Debugging</a></li>
+      <li><a href="http://localhost:1313/tags/thoughts/">Thoughts</a></li>
     </ul>
 <nav class="paginav">
   <a class="prev" href="http://localhost:1313/posts/conors-berlin-guide/">
@@ -256,7 +288,7 @@ if (!doNotTrack) {
 <ul class="share-buttons">
     <li>
         <a target="_blank" rel="noopener noreferrer" aria-label="share Make debugging suck less. Keep a logbook. 📓 on x"
-            href="https://x.com/intent/tweet/?text=Make%20debugging%20suck%20less.%20Keep%20a%20logbook.%20%f0%9f%93%93&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2fmake-debuggin-suck-less%2f&amp;hashtags=coding%2ctips%2cdebugging">
+            href="https://x.com/intent/tweet/?text=Make%20debugging%20suck%20less.%20Keep%20a%20logbook.%20%f0%9f%93%93&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2fmake-debuggin-suck-less%2f&amp;hashtags=coding%2cdebugging%2cthoughts">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />

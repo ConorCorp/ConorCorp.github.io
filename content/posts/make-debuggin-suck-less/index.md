@@ -3,7 +3,7 @@ title: "Make debugging suck less. Keep a logbook. 📓"
 date: 2022-01-18T09:16:09+01:00
 draft: false
 categories: [coding]
-tags: [coding, tips, debugging]
+tags: [coding, debugging, thoughts]
 cover:
     image: "images/screenshot.png"
     alt: "Logbook Example"

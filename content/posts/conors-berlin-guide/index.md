@@ -5,7 +5,7 @@ draft: false
 lastmod: 2022-11-09T14:49:52+01:00
 summary: My personal Berlin tourism list.
 categories: [curated lists]
-tags: [curated list, berlin, travel, interesting]
+tags: [berlin, travel, fun]
 ShowToc: false
 cover:
   image: "images/bread.jpeg"
