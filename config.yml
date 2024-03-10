@@ -1,4 +1,4 @@
-baseURL: https://conorcorp.github.io/
+baseURL: https://conorcorp.netlify.app/
 languageCode: en-us
 title: Conor Lamb
 theme: "PaperMod"
