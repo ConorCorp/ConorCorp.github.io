@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>berlin on Conor Lamb</title>
-    <link>https://conorcorp.github.io/tags/berlin/</link>
-    <description>Recent content in berlin on Conor Lamb</description>
+    <title>Berlin on Conor Lamb</title>
+    <link>http://localhost:1313/tags/berlin/</link>
+    <description>Recent content in Berlin on Conor Lamb</description>
     <image>
-      <url>https://conorcorp.github.io/post-cover.png</url>
-      <link>https://conorcorp.github.io/post-cover.png</link>
+      <title>Conor Lamb</title>
+      <url>http://localhost:1313/post-cover.png</url>
+      <link>http://localhost:1313/post-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Nov 2022 14:49:52 +0100</lastBuildDate><atom:link href="https://conorcorp.github.io/tags/berlin/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Nov 2022 16:07:20 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/berlin/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Small, Opinionated List of Nice Spots in Berlin</title>
-      <link>https://conorcorp.github.io/posts/conors-berlin-guide/</link>
+      <link>http://localhost:1313/posts/conors-berlin-guide/</link>
       <pubDate>Tue, 08 Nov 2022 14:49:52 +0100</pubDate>
-      
-      <guid>https://conorcorp.github.io/posts/conors-berlin-guide/</guid>
+      <guid>http://localhost:1313/posts/conors-berlin-guide/</guid>
       <description>My personal Berlin tourism list.</description>
     </item>
-    
   </channel>
 </rss>

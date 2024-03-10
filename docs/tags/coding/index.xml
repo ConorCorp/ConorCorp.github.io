@@ -1,45 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>coding on Conor Lamb</title>
-    <link>https://conorcorp.github.io/tags/coding/</link>
-    <description>Recent content in coding on Conor Lamb</description>
+    <title>Coding on Conor Lamb</title>
+    <link>http://localhost:1313/tags/coding/</link>
+    <description>Recent content in Coding on Conor Lamb</description>
     <image>
-      <url>https://conorcorp.github.io/post-cover.png</url>
-      <link>https://conorcorp.github.io/post-cover.png</link>
+      <title>Conor Lamb</title>
+      <url>http://localhost:1313/post-cover.png</url>
+      <link>http://localhost:1313/post-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Jan 2022 09:16:09 +0100</lastBuildDate><atom:link href="https://conorcorp.github.io/tags/coding/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Jul 2022 12:19:38 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/coding/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Make debugging suck less. Keep a logbook. 📓</title>
-      <link>https://conorcorp.github.io/posts/make-debuggin-suck-less/</link>
+      <link>http://localhost:1313/posts/make-debuggin-suck-less/</link>
       <pubDate>Tue, 18 Jan 2022 09:16:09 +0100</pubDate>
-      
-      <guid>https://conorcorp.github.io/posts/make-debuggin-suck-less/</guid>
+      <guid>http://localhost:1313/posts/make-debuggin-suck-less/</guid>
       <description>Scientists keep logbooks for their findings. Why don&amp;rsquo;t computer scientists? A great place to start doing this is for debugging. Debugging sucks enough as is, make it easier on yourself. A logbook will&amp;hellip;
 🗺 Enumerate where you are in the bug fix journey. You&amp;rsquo;ll forget this journey when you pick it up tomorrow, write it down.
 🌳 Keep you rooted to the ground. (Creating an &amp;ldquo;issue stack&amp;rdquo;.) Related to above, it often feels like you&amp;rsquo;re completely lost in the aether when you&amp;rsquo;re 50 opened browser tabs deep into an issue that&amp;rsquo;s not even the same issue anymore, its a sub issue of a sub issue.</description>
     </item>
-    
     <item>
       <title>Cool Junk That Conor Finds on the Internet</title>
-      <link>https://conorcorp.github.io/posts/conors-cool-junk-he-found-on-the-internet/</link>
+      <link>http://localhost:1313/posts/conors-cool-junk-he-found-on-the-internet/</link>
       <pubDate>Fri, 22 Oct 2021 19:52:31 +0200</pubDate>
-      
-      <guid>https://conorcorp.github.io/posts/conors-cool-junk-he-found-on-the-internet/</guid>
+      <guid>http://localhost:1313/posts/conors-cool-junk-he-found-on-the-internet/</guid>
       <description>My collection of things I find on my journeys through the internet.</description>
     </item>
-    
     <item>
       <title>How to make a free resume website and blog in 10 min for programmers (or people unafraid of the command line)</title>
-      <link>https://conorcorp.github.io/posts/website-in-10-minutes-for-programmers/</link>
+      <link>http://localhost:1313/posts/website-in-10-minutes-for-programmers/</link>
       <pubDate>Tue, 28 Sep 2021 16:27:16 +0200</pubDate>
-      
-      <guid>https://conorcorp.github.io/posts/website-in-10-minutes-for-programmers/</guid>
+      <guid>http://localhost:1313/posts/website-in-10-minutes-for-programmers/</guid>
       <description>See the website you’re reading this on? I didn’t make this in 10 minutes…. But I sure could have if I had this tutorial. So here’s how you can make your own customizable resume website or blog for free in 2021 using the Hugo framework, a few commands in the terminal, Github Pages to host it.
 Skip to Part 1: Let’s make a website if you wanna skip my banter 😔</description>
     </item>
-    
   </channel>
 </rss>

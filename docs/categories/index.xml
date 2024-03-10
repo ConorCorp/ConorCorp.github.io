@@ -2,32 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Conor Lamb</title>
-    <link>https://conorcorp.github.io/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Conor Lamb</description>
     <image>
-      <url>https://conorcorp.github.io/post-cover.png</url>
-      <link>https://conorcorp.github.io/post-cover.png</link>
+      <title>Conor Lamb</title>
+      <url>http://localhost:1313/post-cover.png</url>
+      <link>http://localhost:1313/post-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://conorcorp.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Jan 2023 16:24:55 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>coding</title>
-      <link>https://conorcorp.github.io/categories/coding/</link>
+      <title>Coding</title>
+      <link>http://localhost:1313/categories/coding/</link>
       <pubDate>Sun, 29 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://conorcorp.github.io/categories/coding/</guid>
+      <guid>http://localhost:1313/categories/coding/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>curated lists</title>
-      <link>https://conorcorp.github.io/categories/curated-lists/</link>
+      <title>Curated Lists</title>
+      <link>http://localhost:1313/categories/curated-lists/</link>
       <pubDate>Tue, 08 Nov 2022 14:49:52 +0100</pubDate>
-      
-      <guid>https://conorcorp.github.io/categories/curated-lists/</guid>
+      <guid>http://localhost:1313/categories/curated-lists/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>
