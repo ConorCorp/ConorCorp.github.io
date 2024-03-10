@@ -1,14 +1,20 @@
 ---
-title: "Make debugging suck less. Keep a logbook. 📓"
+title: Make debugging suck less. Keep a logbook. 📓
 date: 2022-01-18T09:16:09+01:00
 draft: false
-categories: [coding]
-tags: [coding, debugging, thoughts]
+categories:
+  - coding
+tags:
+  - coding
+  - debugging
+  - thoughts
+  - favorite post
 cover:
-    image: "images/screenshot.png"
-    alt: "Logbook Example"
-    caption: "A real and personally harrowing example of my logbook. I recently tried to update React Native so it works with my M1 mac 🤮 ~*shudders*~"
-    relative: true
+  image: images/screenshot.png
+  alt: Logbook Example
+  caption: A real and personally harrowing example of my logbook. I recently tried
+    to update React Native so it works with my M1 mac 🤮 ~*shudders*~
+  relative: true
 ---
 ## Scientists keep logbooks for their findings. Why don't computer scientists?
 A great place to start doing this is for debugging. Debugging sucks enough as is, make it easier on yourself. A logbook will...
