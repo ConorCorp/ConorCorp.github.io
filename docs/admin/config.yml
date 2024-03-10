@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: conorcorp/conorcorp.github.io
 media_folder: "static/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/uploads" # The src attribute for uploaded media will begin with /images/uploads
 collections:
@@ -7,13 +8,12 @@ collections:
     label: "Posts" # Used in the UI
     folder: "content/posts" # The path to the folder where the documents are stored
     path: "{{slug}}/index"
-    media_folder: "" # Save images in the post's own folder instead of the static folder
+    media_folder: "images" # Save images in the post's own folder instead of the static folder
     public_folder: ""
     create: true # Allow users to create new documents in this collection
     fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Featured Image", name: "image", widget: "image" }
       - {
           label: "Tags",
           name: "tags",
@@ -22,8 +22,14 @@ collections:
           field: { label: "Tag", name: "tag", widget: "string" },
         } # https://github.com/decaporg/decap-cms/issues/4646
       - {
-          label: "Body",
-          name: "body",
-          widget: "markdown",
-          hint: "Make sure to name added image as thumbnail",
+          label: "Cover Image",
+          name: "cover",
+          widget: "object",
+          fields:
+            [
+              { label: "Image", name: "image", widget: "image" },
+              { label: "Alt text", name: "alt", widget: "string" },
+              { label: "Caption", name: "caption", widget: "text" },
+            ],
         }
+      - { label: "Body", name: "body", widget: "markdown" }

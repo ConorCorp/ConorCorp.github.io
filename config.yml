@@ -22,21 +22,18 @@ menu:
     - name: Archive
       url: archives
       weight: 1
-    # - name: Categories
-    #   url: categories/
-    #   weight: 2
     - name: Tags
       url: tags/
-      weight: 3
+      weight: 2
     - name: Retrospectives
       url: https://conorlamb.notion.site/Conor-s-Monthly-Retrospectives-c6ee4697f03946b2abed993073ec03be
-      weight: 4
+      weight: 3
     - name: 🐦 Twitter
       url: https://twitter.com/dogeeseseegucci
-      weight: 5
+      weight: 4
     - name: 💌 Subscribe
       url: https://github.us5.list-manage.com/subscribe?u=be2b39c77e47598d278e74e4d&id=af0c4dfa0c
-      weight: 6
+      weight: 5
 
 params:
   description: "Conor's fancy website"
@@ -57,7 +54,8 @@ params:
         - <br>
         
         - Care for some of my **[indie pop tunes](https://open.spotify.com/artist/4w77ipMn1jGx4ppm7HNYZK?si=Zrx3sH1oTJCEN1I6qi2qRg)** while you read?
-        
+  cover:
+    relative: true
   socialIcons:
     - name: instagram
       url: https://instagram.com/conorcorp
