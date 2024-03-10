@@ -1,6 +1,6 @@
 baseURL: https://conorcorp.netlify.app/
 languageCode: en-us
-title: 👾 Conor Lamb
+title: Conor Lamb
 theme: "PaperMod"
 
 enableInlineShortcodes: true
