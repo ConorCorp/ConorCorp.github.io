@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Interesting on Conor Lamb</title>
-    <link>http://localhost:1313/tags/interesting/</link>
+    <link>https://conorcorp.github.io/tags/interesting/</link>
     <description>Recent content in Interesting on Conor Lamb</description>
     <image>
       <title>Conor Lamb</title>
-      <url>http://localhost:1313/post-cover.png</url>
-      <link>http://localhost:1313/post-cover.png</link>
+      <url>https://conorcorp.github.io/post-cover.png</url>
+      <link>https://conorcorp.github.io/post-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 09 Nov 2022 16:07:20 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/interesting/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://conorcorp.github.io/tags/interesting/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Small, Opinionated List of Nice Spots in Berlin</title>
-      <link>http://localhost:1313/posts/conors-berlin-guide/</link>
+      <link>https://conorcorp.github.io/posts/conors-berlin-guide/</link>
       <pubDate>Tue, 08 Nov 2022 14:49:52 +0100</pubDate>
-      <guid>http://localhost:1313/posts/conors-berlin-guide/</guid>
+      <guid>https://conorcorp.github.io/posts/conors-berlin-guide/</guid>
       <description>My personal Berlin tourism list.</description>
     </item>
     <item>
       <title>Cool Junk That Conor Finds on the Internet</title>
-      <link>http://localhost:1313/posts/conors-cool-junk-he-found-on-the-internet/</link>
+      <link>https://conorcorp.github.io/posts/conors-cool-junk-he-found-on-the-internet/</link>
       <pubDate>Fri, 22 Oct 2021 19:52:31 +0200</pubDate>
-      <guid>http://localhost:1313/posts/conors-cool-junk-he-found-on-the-internet/</guid>
+      <guid>https://conorcorp.github.io/posts/conors-cool-junk-he-found-on-the-internet/</guid>
       <description>My collection of things I find on my journeys through the internet.</description>
     </item>
   </channel>

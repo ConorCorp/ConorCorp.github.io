@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Coding on Conor Lamb</title>
-    <link>http://localhost:1313/categories/coding/</link>
+    <link>https://conorcorp.github.io/categories/coding/</link>
     <description>Recent content in Coding on Conor Lamb</description>
     <image>
       <title>Conor Lamb</title>
-      <url>http://localhost:1313/post-cover.png</url>
-      <link>http://localhost:1313/post-cover.png</link>
+      <url>https://conorcorp.github.io/post-cover.png</url>
+      <link>https://conorcorp.github.io/post-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 29 Jan 2023 16:24:55 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/coding/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://conorcorp.github.io/categories/coding/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Making A Language Learning Buddy w/ ChatGPT</title>
-      <link>http://localhost:1313/posts/chat-gpt-buddy/</link>
+      <link>https://conorcorp.github.io/posts/chat-gpt-buddy/</link>
       <pubDate>Sun, 29 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/chat-gpt-buddy/</guid>
+      <guid>https://conorcorp.github.io/posts/chat-gpt-buddy/</guid>
       <description>I&amp;rsquo;m at a quietly frustrating point with my German language learning. It&amp;rsquo;s an uncomfortable expanse within A1-A2 levels where I pick up a myriad of words in a conversation, but I&amp;rsquo;m still not confident enough to say much. The usual solution here is one of brute force. Go make a fool of yourself, often and brazenly, in the wild. Talk to people around you, have awkward-as-hell conversations. But, how can I cash in on the ChatGPT hype that way?</description>
     </item>
     <item>
       <title>Make debugging suck less. Keep a logbook. 📓</title>
-      <link>http://localhost:1313/posts/make-debuggin-suck-less/</link>
+      <link>https://conorcorp.github.io/posts/make-debuggin-suck-less/</link>
       <pubDate>Tue, 18 Jan 2022 09:16:09 +0100</pubDate>
-      <guid>http://localhost:1313/posts/make-debuggin-suck-less/</guid>
+      <guid>https://conorcorp.github.io/posts/make-debuggin-suck-less/</guid>
       <description>Scientists keep logbooks for their findings. Why don&amp;rsquo;t computer scientists? A great place to start doing this is for debugging. Debugging sucks enough as is, make it easier on yourself. A logbook will&amp;hellip;
 🗺 Enumerate where you are in the bug fix journey. You&amp;rsquo;ll forget this journey when you pick it up tomorrow, write it down.
 🌳 Keep you rooted to the ground. (Creating an &amp;ldquo;issue stack&amp;rdquo;.) Related to above, it often feels like you&amp;rsquo;re completely lost in the aether when you&amp;rsquo;re 50 opened browser tabs deep into an issue that&amp;rsquo;s not even the same issue anymore, its a sub issue of a sub issue.</description>
     </item>
     <item>
       <title>How to make a free resume website and blog in 10 min for programmers (or people unafraid of the command line)</title>
-      <link>http://localhost:1313/posts/website-in-10-minutes-for-programmers/</link>
+      <link>https://conorcorp.github.io/posts/website-in-10-minutes-for-programmers/</link>
       <pubDate>Tue, 28 Sep 2021 16:27:16 +0200</pubDate>
-      <guid>http://localhost:1313/posts/website-in-10-minutes-for-programmers/</guid>
+      <guid>https://conorcorp.github.io/posts/website-in-10-minutes-for-programmers/</guid>
       <description>See the website you’re reading this on? I didn’t make this in 10 minutes…. But I sure could have if I had this tutorial. So here’s how you can make your own customizable resume website or blog for free in 2021 using the Hugo framework, a few commands in the terminal, Github Pages to host it.
 Skip to Part 1: Let’s make a website if you wanna skip my banter 😔</description>
     </item>
