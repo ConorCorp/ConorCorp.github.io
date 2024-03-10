@@ -1,6 +1,6 @@
 baseURL: https://conorcorp.netlify.app/
 languageCode: en-us
-title: Conor Lamb
+title: 👾 Conor Lamb
 theme: "PaperMod"
 
 enableInlineShortcodes: true
@@ -47,7 +47,7 @@ params:
   homeInfoParams:
     Title: Hi there, I'm Conor. 👋
     Content: >
-        - Full Stack Software Engineer [Freelance] 👾 **|** Founded [skintheory](https://skintheory.app) & [expatpho.net](https://expatpho.net)
+        - Freelance Full Stack Software Engineer 👾 **|** Founded [skintheory](https://skintheory.app) & [expatpho.net](https://expatpho.net)
         
         - 🇺🇸🇮🇪 **|** Berlin Based 🇩🇪
 
