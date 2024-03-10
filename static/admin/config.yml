@@ -1,13 +1,16 @@
 backend:
   name: git-gateway
   branch: main
+  # squash_merges: true # https://decapcms.org/docs/editorial-workflows/
 media_folder: "static/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/uploads" # The src attribute for uploaded media will begin with /images/uploads
+# publish_mode: editorial_workflow # https://decapcms.org/docs/editorial-workflows/
 collections:
   - name: "posts" # Used in routes, e.g., /admin/collections/post
     label: "Posts" # Used in the UI
     folder: "content/posts" # The path to the folder where the documents are stored
     path: "{{slug}}/index"
+    # preview_path: content/{{slug}}
     media_folder: "images" # Save images in the post's own folder instead of the static folder
     public_folder: ""
     create: true # Allow users to create new documents in this collection
@@ -19,7 +22,9 @@ collections:
           name: "tags",
           widget: "list",
           summary: "{{fields.tag}}",
-          field: { label: "Tag", name: "tag", widget: "string" },
+          field:
+            { label: "Tag", name: "tag", widget: "string", required: false },
+          required: false,
         } # https://github.com/decaporg/decap-cms/issues/4646
       - {
           label: "Cover Image",
@@ -27,9 +32,25 @@ collections:
           widget: "object",
           fields:
             [
-              { label: "Image", name: "image", widget: "image" },
-              { label: "Alt text", name: "alt", widget: "string" },
-              { label: "Caption", name: "caption", widget: "text" },
+              {
+                label: "Image",
+                name: "image",
+                widget: "image",
+                required: false,
+              },
+              {
+                label: "Alt text",
+                name: "alt",
+                widget: "string",
+                required: false,
+              },
+              {
+                label: "Caption",
+                name: "caption",
+                widget: "text",
+                required: false,
+              },
             ],
+          required: false,
         }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
