@@ -38,18 +38,18 @@
 
     document.getElementById("show-popup").onclick = function () {
       showPopup();
-      console.log("here");
       return false;
     };
   }
   function makeTwitterBlue() {
-    console.log(document.getElementById("menu"));
-    document.querySelector("#menu > li:nth-child(4)").childNodes[1].id =
+    // console.log(document.getElementById("menu"));
+    document.querySelector("#menu > li:nth-child(2)").childNodes[1].id =
       "twitter-blue";
   }
   function start() {
-    document.getElementById("menu").lastElementChild.childNodes[1].id =
+    document.getElementById("menu").firstElementChild.childNodes[1].id =
       "show-popup";
+    // Broken on mobile
     // makeMailchimpSubscribe();
     makeTwitterBlue();
   }

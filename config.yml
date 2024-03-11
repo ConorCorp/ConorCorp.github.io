@@ -21,19 +21,19 @@ menu:
   main:
     - name: Archive
       url: archives
-      weight: 1
-    - name: Tags
-      url: tags/
-      weight: 2
-    - name: Retrospectives
+      weight: 4
+    # - name: Tags
+    #   url: tags/
+    #   weight: 2
+    - name: Retros
       url: https://conorlamb.notion.site/Conor-s-Monthly-Retrospectives-c6ee4697f03946b2abed993073ec03be
       weight: 3
     - name: 🐦 Twitter
       url: https://twitter.com/dogeeseseegucci
-      weight: 4
+      weight: 2
     - name: 💌 Subscribe
       url: https://github.us5.list-manage.com/subscribe?u=be2b39c77e47598d278e74e4d&id=af0c4dfa0c
-      weight: 5
+      weight: 1
 
 params:
   description: "Conor's fancy website"
@@ -45,23 +45,26 @@ params:
   images:
     - post-cover.png
   homeInfoParams:
-    Title: Hi there, I'm Conor. 👋
+    Title: Heya, I'm Conor 👋
     Content: >
         - 👾 &nbsp; Freelance Full Stack Software Engineer
         
-        - ⚡️ &nbsp; Founded [skintheory](https://skintheory.app) & [expatpho.net](https://expatpho.net)
+        - 🤓 &nbsp; Founded [skintheory](https://skintheory.app) & [expatpho.net](https://expatpho.net)
         
+        - 🎸 &nbsp; Indie Musician ([spotify](https://open.spotify.com/artist/4w77ipMn1jGx4ppm7HNYZK?si=Zrx3sH1oTJCEN1I6qi2qRg), [bandcamp](https://conorcorporation.bandcamp.com/))
+
         - 🇩🇪 &nbsp; Berlin Based
-        
   cover:
     relative: true
   socialIcons:
-    - name: spotify
-      url: https://open.spotify.com/artist/4w77ipMn1jGx4ppm7HNYZK?si=Zrx3sH1oTJCEN1I6qi2qRg
     - name: twitter
       url: https://twitter.com/dogeeseseegucci
     - name: github
       url: https://github.com/ConorCorp
+    - name: linkedin
+      url: https://www.linkedin.com/in/conorobrienlamb/
+    - name: email
+      url: mailto:conor.lamb.maker+c0n0@gmail.com
 
   outputs:
     home:

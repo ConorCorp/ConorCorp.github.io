@@ -123,18 +123,8 @@ if (!doNotTrack) {
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/archives" title="Archive">
-                    <span>Archive</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/tags/" title="Tags">
-                    <span>Tags</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://conorlamb.notion.site/Conor-s-Monthly-Retrospectives-c6ee4697f03946b2abed993073ec03be" title="Retrospectives">
-                    <span>Retrospectives</span>&nbsp;
+                <a href="https://github.us5.list-manage.com/subscribe?u=be2b39c77e47598d278e74e4d&amp;id=af0c4dfa0c" title="💌 Subscribe">
+                    <span>💌 Subscribe</span>&nbsp;
                     <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
                         stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
                         <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
@@ -155,14 +145,19 @@ if (!doNotTrack) {
                 </a>
             </li>
             <li>
-                <a href="https://github.us5.list-manage.com/subscribe?u=be2b39c77e47598d278e74e4d&amp;id=af0c4dfa0c" title="💌 Subscribe">
-                    <span>💌 Subscribe</span>&nbsp;
+                <a href="https://conorlamb.notion.site/Conor-s-Monthly-Retrospectives-c6ee4697f03946b2abed993073ec03be" title="Retros">
+                    <span>Retros</span>&nbsp;
                     <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
                         stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
                         <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
                         <path d="M15 3h6v6"></path>
                         <path d="M10 14L21 3"></path>
                     </svg>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives" title="Archive">
+                    <span>Archive</span>
                 </a>
             </li>
         </ul>
@@ -282,18 +277,18 @@ Skip to Part 1: Let’s make a website if you wanna skip my banter 😔...</p>
 
     document.getElementById("show-popup").onclick = function () {
       showPopup();
-      console.log("here");
       return false;
     };
   }
   function makeTwitterBlue() {
-    console.log(document.getElementById("menu"));
-    document.querySelector("#menu > li:nth-child(4)").childNodes[1].id =
+    
+    document.querySelector("#menu > li:nth-child(3)").childNodes[1].id =
       "twitter-blue";
   }
   function start() {
     document.getElementById("menu").lastElementChild.childNodes[1].id =
       "show-popup";
+    
     
     makeTwitterBlue();
   }
