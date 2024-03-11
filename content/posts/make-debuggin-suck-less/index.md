@@ -9,6 +9,7 @@ tags:
   - debugging
   - thoughts
   - favorite post
+weight: 1
 cover:
   image: images/screenshot.png
   alt: Logbook Example
