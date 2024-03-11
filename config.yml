@@ -43,7 +43,7 @@ params:
 
   defaultTheme: auto
   images:
-    - post-cover.png
+    - circuit_board.jpg
   homeInfoParams:
     Title: Heya, I'm Conor 👋
     Content: >
