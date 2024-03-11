@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Jan 2023 16:24:55 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 11 Mar 2024 00:45:24 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ai</title>
@@ -28,13 +28,6 @@
       <description></description>
     </item>
     <item>
-      <title>Language Learning</title>
-      <link>http://localhost:1313/tags/language-learning/</link>
-      <pubDate>Sun, 29 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/language-learning/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Berlin</title>
       <link>http://localhost:1313/tags/berlin/</link>
       <pubDate>Tue, 08 Nov 2022 14:49:52 +0100</pubDate>
@@ -42,17 +35,10 @@
       <description></description>
     </item>
     <item>
-      <title>Curated List</title>
-      <link>http://localhost:1313/tags/curated-list/</link>
+      <title>Fun</title>
+      <link>http://localhost:1313/tags/fun/</link>
       <pubDate>Tue, 08 Nov 2022 14:49:52 +0100</pubDate>
-      <guid>http://localhost:1313/tags/curated-list/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Interesting</title>
-      <link>http://localhost:1313/tags/interesting/</link>
-      <pubDate>Tue, 08 Nov 2022 14:49:52 +0100</pubDate>
-      <guid>http://localhost:1313/tags/interesting/</guid>
+      <guid>http://localhost:1313/tags/fun/</guid>
       <description></description>
     </item>
     <item>
@@ -77,45 +63,10 @@
       <description></description>
     </item>
     <item>
-      <title>Tips</title>
-      <link>http://localhost:1313/tags/tips/</link>
+      <title>Thoughts</title>
+      <link>http://localhost:1313/tags/thoughts/</link>
       <pubDate>Tue, 18 Jan 2022 09:16:09 +0100</pubDate>
-      <guid>http://localhost:1313/tags/tips/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Music</title>
-      <link>http://localhost:1313/tags/music/</link>
-      <pubDate>Fri, 22 Oct 2021 19:52:31 +0200</pubDate>
-      <guid>http://localhost:1313/tags/music/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Wikipedia</title>
-      <link>http://localhost:1313/tags/wikipedia/</link>
-      <pubDate>Fri, 22 Oct 2021 19:52:31 +0200</pubDate>
-      <guid>http://localhost:1313/tags/wikipedia/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Bash</title>
-      <link>http://localhost:1313/tags/bash/</link>
-      <pubDate>Tue, 28 Sep 2021 16:27:16 +0200</pubDate>
-      <guid>http://localhost:1313/tags/bash/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Command Line</title>
-      <link>http://localhost:1313/tags/command-line/</link>
-      <pubDate>Tue, 28 Sep 2021 16:27:16 +0200</pubDate>
-      <guid>http://localhost:1313/tags/command-line/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Framework</title>
-      <link>http://localhost:1313/tags/framework/</link>
-      <pubDate>Tue, 28 Sep 2021 16:27:16 +0200</pubDate>
-      <guid>http://localhost:1313/tags/framework/</guid>
+      <guid>http://localhost:1313/tags/thoughts/</guid>
       <description></description>
     </item>
     <item>
@@ -133,13 +84,6 @@
       <description></description>
     </item>
     <item>
-      <title>Static</title>
-      <link>http://localhost:1313/tags/static/</link>
-      <pubDate>Tue, 28 Sep 2021 16:27:16 +0200</pubDate>
-      <guid>http://localhost:1313/tags/static/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Static Site Generator</title>
       <link>http://localhost:1313/tags/static-site-generator/</link>
       <pubDate>Tue, 28 Sep 2021 16:27:16 +0200</pubDate>
@@ -147,17 +91,10 @@
       <description></description>
     </item>
     <item>
-      <title>Website</title>
-      <link>http://localhost:1313/tags/website/</link>
+      <title>Web Apps</title>
+      <link>http://localhost:1313/tags/web-apps/</link>
       <pubDate>Tue, 28 Sep 2021 16:27:16 +0200</pubDate>
-      <guid>http://localhost:1313/tags/website/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Writing</title>
-      <link>http://localhost:1313/tags/writing/</link>
-      <pubDate>Tue, 28 Sep 2021 16:27:16 +0200</pubDate>
-      <guid>http://localhost:1313/tags/writing/</guid>
+      <guid>http://localhost:1313/tags/web-apps/</guid>
       <description></description>
     </item>
   </channel>
