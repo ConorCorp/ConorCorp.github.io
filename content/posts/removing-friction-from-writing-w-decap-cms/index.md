@@ -12,7 +12,7 @@ I could foresee 0 issues, as I frolicked into the [v1 build](https://c0n0.com/po
 
 I laid my eyes upon the stunningly understandable markdown files that make up Hugo and grew excited with how easy & fun it’d be to write, just the same way that I’d wrote READMEs. I could then host it for free on my own GitHub page, No server needed, no monthly fees, no domain, and the content is all mine baby.
 
-## Friction 
+## Friction
 
 So this flow is actually pretty ok, but I found that I never really had a "Just jump in and start writing" vibe with it, like with notepad, Bear Notes or some WYSIWYG editor.
 
@@ -41,15 +41,13 @@ git push
 
 So for me, It was always an event to write. I knew I was signing up for all these steps. And when something is 'an event' or, in other words, tough to do, you're less likely to do it.
 
-## Greasing The Gears: A Headless CMS
+## It's Easier With~~out~~ A Head(less CMS)
 
 // CMS basically automates most of these steps for me. I can also log in from my phone and blog if I want.
 
-## Adding DecapCMS
+## My Choice: DecapCMS
 
 // Looked at a few options: TinaCMS wouldn't build, Decap looked pretty nice and was free/easy to integrate with netlify.
-
-
 
 ## Conclusion
 
