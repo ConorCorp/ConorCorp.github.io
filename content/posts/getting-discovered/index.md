@@ -5,7 +5,7 @@ weight: 1
 tags:
   - thoughts
 ---
-I blog sometimes. I publish a good bit of music as well, and yet, no one knows me.\
+I blog sometimes. I publish a good bit of music as well, and yet, no one knows me.
 \
 \
 This is fine, I happily mosey through life without internet celebrity, but candidly (and probably humanly), it would be nice to get recognition for the things that I make. So how does one get "discovered"?
