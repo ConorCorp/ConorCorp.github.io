@@ -5,11 +5,12 @@ weight: 1
 tags:
   - thoughts
 ---
-I blog sometimes. I publish a good bit of music as well, and yet, no one knows me.<br />
-<br />
+I blog sometimes. I publish a good bit of music as well, and yet, no one knows me.\
+\
+\
 This is fine, I happily mosey through life without internet celebrity, but candidly (and probably humanly), it would be nice to get recognition for the things that I make. So how does one get "discovered"?
-<br />
-<br />
+\
+\
 I was just recommended this [small linux youtuber](https://www.youtube.com/watch?v=Adz1G-LEu1g) that struck me with a Jimmy Neutron style, brain blast on how these algorithms likely work.  In the video above, he showed off his minimal youtube stats, and noticed a parabolic uptick in his old linux videos views after he posted new videos with similar content.
 
 # On Persistent, Similar Content
