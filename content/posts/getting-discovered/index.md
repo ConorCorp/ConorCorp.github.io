@@ -8,12 +8,12 @@ tags:
 I blog sometimes. I publish a good bit of music as well, and yet, no one knows me.
 \
 \
-This is fine, I happily mosey through life without internet celebrity, but candidly (and probably humanly), it would be nice to get recognition for the things that I make. So how does one get "discovered"?
+This is fine. I happily mosey through life without internet celebrity, but candidly (and probably humanly), it would be nice to get recognition for the things that I make. So how does one get "discovered"?
 \
 \
-I was just recommended this [small linux youtuber](https://www.youtube.com/watch?v=Adz1G-LEu1g) that struck me with a Jimmy Neutron style, brain blast on how these algorithms likely work.  In the video above, he showed off his minimal youtube stats, and noticed a parabolic uptick in his old linux videos views after he posted new videos with similar content.
+Youtube just recommended me this [small linux youtuber](https://www.youtube.com/watch?v=Adz1G-LEu1g), who struck me with a Jimmy Neutron style, brain blast on how these algorithms likely work.  In the video, he shows off his minimal youtube stats, and notices a parabolic uptick in his old linux videos views after he posts new videos with similar content.
 
-# On Persistent, Similar Content
+# Make Persistent, Similar Content
 
 Here's the hypothesis: "The Algorithm" will push you if you create lot of content that is all similar. 
 \
