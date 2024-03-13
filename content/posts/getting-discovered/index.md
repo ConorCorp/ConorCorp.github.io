@@ -1,7 +1,7 @@
 ---
 title: Getting Discovered
 date: 2024-03-13T21:03:30.724Z
-weight: ""
+weight: 1
 tags:
   - thoughts
 ---
