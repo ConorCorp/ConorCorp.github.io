@@ -41,7 +41,7 @@ git push
 
 So for me, It was always an event to write. I knew I was signing up for all these steps. And when something is 'an event' or, in other words, tough to do, you're less likely to do it.
 
-## It's Easier With~~out~~ A Head(less CMS)
+## It'll Be Easier With~~out~~ A Head(less CMS)
 
 // CMS basically automates most of these steps for me. I can also log in from my phone and blog if I want.
 
