@@ -14,7 +14,7 @@ I laid my eyes upon the stunningly understandable markdown files that make up Hu
 
 ## Friction
 
-So this flow is actually pretty ok, but I found that I never really had a "Just jump in and start writing" vibe with it, like with notepad, Bear Notes or some WYSIWYG editor.
+The vanilla hugo/github flow is actually pretty ok, but I found that I never could develop a "Just jump in and start writing" vibe, like with notepad, Bear Notes or some WYSIWYG editor.
 
 Here's what the process normally looked like:
 
