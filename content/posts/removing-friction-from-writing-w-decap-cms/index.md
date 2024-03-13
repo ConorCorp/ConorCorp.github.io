@@ -48,6 +48,7 @@ So for me, It was always an event to write. I knew I was signing up for all thes
 ## My Choice: DecapCMS
 
 // Looked at a few options: TinaCMS wouldn't build, Decap looked pretty nice and was free/easy to integrate with netlify.
+// Pretty nice previewing and silent building.
 
 ## Conclusion
 
