@@ -1,5 +1,5 @@
 ---
-title: Removing Friction From Writing w/ Decap CMS
+title: A Head, Removed w/ Decap CMS
 date: 2024-03-12T23:52:47.756Z
 ---
 I’ve been just a bit too silent for too long on this blog.
@@ -52,4 +52,6 @@ So for me, It was always an event to write. I knew I was signing up for all thes
 
 ## Conclusion
 
-There isn't one really, I'm sure I'll find something to hate with Decap in a year's time... That should give me an excuse to raze the website and build it up with some new technology. Either way, I'll report back on how the CMS has changed my writing behavior, or you can keep tabs on it here yourself if like. I only have ~5 posts total, so it should be easy to beat.
+There isn't one really. I had no head on this blog, and now it's headless.
+
+I'm sure I'll find something to hate with Decap in a year's time. That should give me an excuse to raze the website and build it up with some new technology. Either way, I'll report back on how the CMS has changed my writing behavior, or you can keep tabs on it here yourself if like. I only have ~5 posts total, so it should be easy to beat.
