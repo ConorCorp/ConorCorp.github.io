@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Web Apps on c0n0</title>
-    <link>http://localhost:1313/tags/web-apps/</link>
+    <link>https://c0n0.com/tags/web-apps/</link>
     <description>Recent content in Web Apps on c0n0</description>
     <image>
       <title>c0n0</title>
-      <url>http://localhost:1313/circuit_board.jpg</url>
-      <link>http://localhost:1313/circuit_board.jpg</link>
+      <url>https://c0n0.com/circuit_board.jpg</url>
+      <link>https://c0n0.com/circuit_board.jpg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Mar 2024 00:45:24 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/web-apps/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 May 2024 18:41:25 +0100</lastBuildDate>
+    <atom:link href="https://c0n0.com/tags/web-apps/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to make a free resume website and blog in 10 min for programmers (or people unafraid of the command line)</title>
-      <link>http://localhost:1313/posts/website-in-10-minutes-for-programmers/</link>
+      <link>https://c0n0.com/posts/website-in-10-minutes-for-programmers/</link>
       <pubDate>Tue, 28 Sep 2021 16:27:16 +0200</pubDate>
-      <guid>http://localhost:1313/posts/website-in-10-minutes-for-programmers/</guid>
+      <guid>https://c0n0.com/posts/website-in-10-minutes-for-programmers/</guid>
       <description>See the website you’re reading this on? I didn’t make this in 10 minutes…. But I sure could have if I had this tutorial. So here’s how you can make your own customizable resume website or blog for free in 2021 using the Hugo framework, a few commands in the terminal, Github Pages to host it.
 Skip to Part 1: Let’s make a website if you wanna skip my banter 😔</description>
     </item>

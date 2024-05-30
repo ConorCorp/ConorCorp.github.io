@@ -2,106 +2,106 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on c0n0</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://c0n0.com/tags/</link>
     <description>Recent content in Tags on c0n0</description>
     <image>
       <title>c0n0</title>
-      <url>http://localhost:1313/circuit_board.jpg</url>
-      <link>http://localhost:1313/circuit_board.jpg</link>
+      <url>https://c0n0.com/circuit_board.jpg</url>
+      <link>https://c0n0.com/circuit_board.jpg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Mar 2024 23:10:27 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 May 2024 18:41:25 +0100</lastBuildDate>
+    <atom:link href="https://c0n0.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ai</title>
-      <link>http://localhost:1313/tags/ai/</link>
+      <link>https://c0n0.com/tags/ai/</link>
       <pubDate>Sun, 29 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ai/</guid>
+      <guid>https://c0n0.com/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Chatgpt</title>
-      <link>http://localhost:1313/tags/chatgpt/</link>
+      <link>https://c0n0.com/tags/chatgpt/</link>
       <pubDate>Sun, 29 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/chatgpt/</guid>
+      <guid>https://c0n0.com/tags/chatgpt/</guid>
       <description></description>
     </item>
     <item>
       <title>Berlin</title>
-      <link>http://localhost:1313/tags/berlin/</link>
+      <link>https://c0n0.com/tags/berlin/</link>
       <pubDate>Tue, 08 Nov 2022 14:49:52 +0100</pubDate>
-      <guid>http://localhost:1313/tags/berlin/</guid>
+      <guid>https://c0n0.com/tags/berlin/</guid>
       <description></description>
     </item>
     <item>
       <title>Fun</title>
-      <link>http://localhost:1313/tags/fun/</link>
+      <link>https://c0n0.com/tags/fun/</link>
       <pubDate>Tue, 08 Nov 2022 14:49:52 +0100</pubDate>
-      <guid>http://localhost:1313/tags/fun/</guid>
+      <guid>https://c0n0.com/tags/fun/</guid>
       <description></description>
     </item>
     <item>
       <title>Travel</title>
-      <link>http://localhost:1313/tags/travel/</link>
+      <link>https://c0n0.com/tags/travel/</link>
       <pubDate>Tue, 08 Nov 2022 14:49:52 +0100</pubDate>
-      <guid>http://localhost:1313/tags/travel/</guid>
+      <guid>https://c0n0.com/tags/travel/</guid>
       <description></description>
     </item>
     <item>
       <title>Coding</title>
-      <link>http://localhost:1313/tags/coding/</link>
+      <link>https://c0n0.com/tags/coding/</link>
       <pubDate>Tue, 18 Jan 2022 09:16:09 +0100</pubDate>
-      <guid>http://localhost:1313/tags/coding/</guid>
+      <guid>https://c0n0.com/tags/coding/</guid>
       <description></description>
     </item>
     <item>
       <title>Debugging</title>
-      <link>http://localhost:1313/tags/debugging/</link>
+      <link>https://c0n0.com/tags/debugging/</link>
       <pubDate>Tue, 18 Jan 2022 09:16:09 +0100</pubDate>
-      <guid>http://localhost:1313/tags/debugging/</guid>
+      <guid>https://c0n0.com/tags/debugging/</guid>
       <description></description>
     </item>
     <item>
       <title>Favorite Post</title>
-      <link>http://localhost:1313/tags/favorite-post/</link>
+      <link>https://c0n0.com/tags/favorite-post/</link>
       <pubDate>Tue, 18 Jan 2022 09:16:09 +0100</pubDate>
-      <guid>http://localhost:1313/tags/favorite-post/</guid>
+      <guid>https://c0n0.com/tags/favorite-post/</guid>
       <description></description>
     </item>
     <item>
       <title>Thoughts</title>
-      <link>http://localhost:1313/tags/thoughts/</link>
+      <link>https://c0n0.com/tags/thoughts/</link>
       <pubDate>Tue, 18 Jan 2022 09:16:09 +0100</pubDate>
-      <guid>http://localhost:1313/tags/thoughts/</guid>
+      <guid>https://c0n0.com/tags/thoughts/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo Framework</title>
-      <link>http://localhost:1313/tags/hugo-framework/</link>
+      <link>https://c0n0.com/tags/hugo-framework/</link>
       <pubDate>Tue, 28 Sep 2021 16:27:16 +0200</pubDate>
-      <guid>http://localhost:1313/tags/hugo-framework/</guid>
+      <guid>https://c0n0.com/tags/hugo-framework/</guid>
       <description></description>
     </item>
     <item>
       <title>Javascript</title>
-      <link>http://localhost:1313/tags/javascript/</link>
+      <link>https://c0n0.com/tags/javascript/</link>
       <pubDate>Tue, 28 Sep 2021 16:27:16 +0200</pubDate>
-      <guid>http://localhost:1313/tags/javascript/</guid>
+      <guid>https://c0n0.com/tags/javascript/</guid>
       <description></description>
     </item>
     <item>
       <title>Static Site Generator</title>
-      <link>http://localhost:1313/tags/static-site-generator/</link>
+      <link>https://c0n0.com/tags/static-site-generator/</link>
       <pubDate>Tue, 28 Sep 2021 16:27:16 +0200</pubDate>
-      <guid>http://localhost:1313/tags/static-site-generator/</guid>
+      <guid>https://c0n0.com/tags/static-site-generator/</guid>
       <description></description>
     </item>
     <item>
       <title>Web Apps</title>
-      <link>http://localhost:1313/tags/web-apps/</link>
+      <link>https://c0n0.com/tags/web-apps/</link>
       <pubDate>Tue, 28 Sep 2021 16:27:16 +0200</pubDate>
-      <guid>http://localhost:1313/tags/web-apps/</guid>
+      <guid>https://c0n0.com/tags/web-apps/</guid>
       <description></description>
     </item>
   </channel>
