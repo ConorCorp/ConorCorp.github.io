@@ -6,26 +6,26 @@
     <description>Recent content in Categories on c0n0</description>
     <image>
       <title>c0n0</title>
-      <url>http://localhost:1313/post-cover.png</url>
-      <link>http://localhost:1313/post-cover.png</link>
+      <url>http://localhost:1313/circuit_board.jpg</url>
+      <link>http://localhost:1313/circuit_board.jpg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Mar 2024 23:54:54 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 May 2024 17:27:31 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Coding</title>
-      <link>http://localhost:1313/categories/coding/</link>
-      <pubDate>Sun, 29 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/coding/</guid>
-      <description></description>
+      <title>Monthly Retrospectives</title>
+      <link>http://localhost:1313/categories/retros/</link>
+      <pubDate>Thu, 30 May 2024 17:27:31 +0100</pubDate>
+      <guid>http://localhost:1313/categories/retros/</guid>
+      <description>*July 31, 2022* - I’m going to start doing monthly public  retrospectives based on a format I saw over at Michael Lynch’s blog [*link*](https://mtlynch.io/retrospectives/2022/07/). I often find myself slightly uncomfortable that I’m not “producing” enough or moving towards my goals. I think this will be a good way to stem that feeling and slowly work on meeting more of my goals and acknowledging the work that I put in to myself.</description>
     </item>
     <item>
-      <title>Curated Lists</title>
-      <link>http://localhost:1313/categories/curated-lists/</link>
-      <pubDate>Tue, 08 Nov 2022 14:49:52 +0100</pubDate>
-      <guid>http://localhost:1313/categories/curated-lists/</guid>
-      <description></description>
+      <title>Writing</title>
+      <link>http://localhost:1313/categories/writing/</link>
+      <pubDate>Wed, 13 Mar 2024 21:03:30 +0000</pubDate>
+      <guid>http://localhost:1313/categories/writing/</guid>
+      <description>A collection of my general thoughts. Typically on programming, business, and music.</description>
     </item>
   </channel>
 </rss>

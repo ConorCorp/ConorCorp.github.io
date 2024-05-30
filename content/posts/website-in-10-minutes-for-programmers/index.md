@@ -2,7 +2,7 @@
 title: "How to make a free resume website and blog in 10 min for programmers (or people unafraid of the command line)"
 date: 2021-09-28T16:27:16+02:00
 draft: false
-categories: [coding]
+categories: [writing]
 tags: [coding, hugo framework, javascript, static site generator, web apps]
 cover:
     image: "images/website.png"

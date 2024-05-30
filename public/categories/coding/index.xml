@@ -6,20 +6,13 @@
     <description>Recent content in Coding on c0n0</description>
     <image>
       <title>c0n0</title>
-      <url>http://localhost:1313/post-cover.png</url>
-      <link>http://localhost:1313/post-cover.png</link>
+      <url>http://localhost:1313/circuit_board.jpg</url>
+      <link>http://localhost:1313/circuit_board.jpg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Mar 2024 23:54:54 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 Mar 2024 23:10:27 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/coding/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Making A Language Learning Buddy w/ ChatGPT</title>
-      <link>http://localhost:1313/posts/chat-gpt-buddy/</link>
-      <pubDate>Sun, 29 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/chat-gpt-buddy/</guid>
-      <description>I&amp;rsquo;m at a quietly frustrating point with my German language learning. It&amp;rsquo;s an uncomfortable expanse within A1-A2 levels where I pick up a myriad of words in a conversation, but I&amp;rsquo;m still not confident enough to say much. The usual solution here is one of brute force. Go make a fool of yourself, often and brazenly, in the wild. Talk to people around you, have awkward-as-hell conversations. But, how can I cash in on the ChatGPT hype that way?</description>
-    </item>
     <item>
       <title>Make debugging suck less. Keep a logbook. 📓</title>
       <link>http://localhost:1313/posts/make-debuggin-suck-less/</link>
@@ -28,6 +21,13 @@
       <description>Scientists keep logbooks for their findings. Why don&amp;rsquo;t computer scientists? A great place to start doing this is for debugging. Debugging sucks enough as is, make it easier on yourself. A logbook will&amp;hellip;
 🗺 Enumerate where you are in the bug fix journey. You&amp;rsquo;ll forget this journey when you pick it up tomorrow, write it down.
 🌳 Keep you rooted to the ground. (Creating an &amp;ldquo;issue stack&amp;rdquo;.) Related to above, it often feels like you&amp;rsquo;re completely lost in the aether when you&amp;rsquo;re 50 opened browser tabs deep into an issue that&amp;rsquo;s not even the same issue anymore, its a sub issue of a sub issue.</description>
+    </item>
+    <item>
+      <title>Making A Language Learning Buddy w/ ChatGPT</title>
+      <link>http://localhost:1313/posts/chat-gpt-buddy/</link>
+      <pubDate>Sun, 29 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/chat-gpt-buddy/</guid>
+      <description>I&amp;rsquo;m at a quietly frustrating point with my German language learning. It&amp;rsquo;s an uncomfortable expanse within A1-A2 levels where I pick up a myriad of words in a conversation, but I&amp;rsquo;m still not confident enough to say much. The usual solution here is one of brute force. Go make a fool of yourself, often and brazenly, in the wild. Talk to people around you, have awkward-as-hell conversations. But, how can I cash in on the ChatGPT hype that way?</description>
     </item>
     <item>
       <title>How to make a free resume website and blog in 10 min for programmers (or people unafraid of the command line)</title>

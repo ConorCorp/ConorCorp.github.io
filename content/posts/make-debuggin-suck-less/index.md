@@ -3,8 +3,7 @@ title: Make debugging suck less. Keep a logbook. 📓
 date: 2022-01-18T09:16:09+01:00
 draft: false
 categories:
-  - coding
-weight: 2
+  - writing
 tags:
   - coding
   - debugging

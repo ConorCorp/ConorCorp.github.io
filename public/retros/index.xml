@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Retros on c0n0</title>
+    <link>http://localhost:1313/retros/</link>
+    <description>Recent content in Retros on c0n0</description>
+    <image>
+      <title>c0n0</title>
+      <url>http://localhost:1313/circuit_board.jpg</url>
+      <link>http://localhost:1313/circuit_board.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 30 May 2024 17:17:05 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/retros/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>May 2024: Conor&#39;s Monthly Retrospective</title>
+      <link>http://localhost:1313/retros/retro-month-year/</link>
+      <pubDate>Thu, 30 May 2024 17:17:05 +0100</pubDate>
+      <guid>http://localhost:1313/retros/retro-month-year/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

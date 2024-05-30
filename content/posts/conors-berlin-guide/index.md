@@ -4,7 +4,7 @@ date: 2022-11-08T14:49:52+01:00
 draft: false
 lastmod: 2022-11-09T14:49:52+01:00
 summary: My personal Berlin tourism list.
-categories: [curated lists]
+categories: [writing]
 tags: [berlin, travel, fun]
 ShowToc: false
 cover:

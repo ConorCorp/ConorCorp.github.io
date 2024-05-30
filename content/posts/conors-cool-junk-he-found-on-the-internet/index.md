@@ -4,7 +4,7 @@ date: 2021-10-22T19:52:31+02:00
 lastmod: 2022-07-15T15:03:31+02:00
 draft: false
 summary: My collection of things I find on my journeys through the internet.
-categories: [curated lists]
+categories: [writing]
 tags: [coding, fun]
 ShowToc: true
 cover:

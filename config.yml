@@ -19,24 +19,21 @@ minify:
 
 menu:
   main:
-    - name: Archive
-      url: archives
-      weight: 4
-    # - name: Tags
-    #   url: tags/
-    #   weight: 2
-    - name: Retros
-      url: https://conorlamb.notion.site/Conor-s-Monthly-Retrospectives-c6ee4697f03946b2abed993073ec03be
-      weight: 3
-    - name: 🐦 Twitter
-      url: https://twitter.com/dogeeseseegucci
-      weight: 2
-    - name: 💌 Subscribe
-      url: https://github.us5.list-manage.com/subscribe?u=be2b39c77e47598d278e74e4d&id=af0c4dfa0c
+    - name: Writing
+      url: categories/writing
       weight: 1
+    - name: Retros
+      url: categories/retros
+      weight: 2
+    - name: Twitter
+      url: https://twitter.com/dogeeseseegucci
+      weight: 3
+    - name: 💌 Join Email List
+      url: https://github.us5.list-manage.com/subscribe?u=be2b39c77e47598d278e74e4d&id=af0c4dfa0c
+      weight: 4
 
 params:
-  description: "Conor's fancy website"
+  description: "Conor Lamb's Blog"
   author: Conor Lamb
   keywords: [Blog, Conor, Conor Lamb, Programming, Founding, Entrepreneurship, Music, Lifestyle, Hugo]
   env: production
@@ -45,7 +42,7 @@ params:
   images:
     - circuit_board.jpg
   homeInfoParams:
-    Title: Heya, I'm Conor 👋
+    Title: Conor Lamb's Blog 👋
     Content: >
         - 👾 &nbsp; Freelance Full Stack Software Engineer
         
@@ -53,7 +50,7 @@ params:
         
         - 🎸 &nbsp; Indie Musician ([spotify](https://open.spotify.com/artist/4w77ipMn1jGx4ppm7HNYZK?si=Zrx3sH1oTJCEN1I6qi2qRg), [bandcamp](https://conorcorporation.bandcamp.com/))
 
-        - 🇩🇪 &nbsp; Berlin Based
+        - 🇩🇪 &nbsp; Based in Berlin
   cover:
     relative: true
   socialIcons:

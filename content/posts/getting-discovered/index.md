@@ -1,9 +1,8 @@
 ---
 title: On Getting Discovered
 date: 2024-03-13T21:03:30.724Z
-weight: 1
-tags:
-  - thoughts
+categories:
+  - writing
 ---
 I blog sometimes. I publish a good bit of music as well, and yet, no one knows me.
 \

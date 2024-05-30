@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on c0n0</title>
+    <link>http://localhost:1313/categories/posts/</link>
+    <description>Recent content in Posts on c0n0</description>
+    <image>
+      <title>c0n0</title>
+      <url>http://localhost:1313/circuit_board.jpg</url>
+      <link>http://localhost:1313/circuit_board.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 Mar 2024 23:51:03 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>On Getting Discovered</title>
+      <link>http://localhost:1313/posts/getting-discovered/</link>
+      <pubDate>Wed, 13 Mar 2024 21:03:30 +0000</pubDate>
+      <guid>http://localhost:1313/posts/getting-discovered/</guid>
+      <description>I blog sometimes. I publish a good bit of music as well, and yet, no one knows me. This is fine. I happily mosey through life without internet celebrity, but candidly (and probably humanly), it would be nice to get recognition for the things that I make. So how does one get &amp;ldquo;discovered&amp;rdquo;? Youtube just recommended me this small linux youtuber, who struck me with a Jimmy Neutron style, brain blast on how these algorithms likely work.</description>
+    </item>
+  </channel>
+</rss>

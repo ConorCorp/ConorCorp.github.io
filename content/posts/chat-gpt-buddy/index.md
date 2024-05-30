@@ -2,7 +2,7 @@
 title: "Making A Language Learning Buddy w/ ChatGPT"
 date: 2023-01-29
 draft: false
-categories: [coding]
+categories: [writing]
 tags: [chatgpt, ai]
 cover:
   image: "images/her.jpg"
