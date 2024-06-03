@@ -10,9 +10,12 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 enableGitInfo: true
-googleAnalytics: UA-100679815-4
 publishdir: docs # for github pages
 # disqusShortname: conorlamb
+
+services:
+  googleAnalytics:
+    ID: G-F4Z4KVQM1M
 
 minify:
   disableXML: true
