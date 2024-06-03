@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Categories on c0n0</title>
+    <link>https://c0n0.com/categories/</link>
+    <description>Recent content in Categories on c0n0</description>
+    <image>
+      <title>c0n0</title>
+      <url>https://c0n0.com/circuit_board.jpg</url>
+      <link>https://c0n0.com/circuit_board.jpg</link>
+    </image>
+    <generator>Hugo -- 0.123.7</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 30 May 2024 18:41:25 +0100</lastBuildDate>
+    <atom:link href="https://c0n0.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Monthly Retrospectives</title>
+      <link>https://c0n0.com/categories/retros/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://c0n0.com/categories/retros/</guid>
+      <description>*July 31, 2022* - I’m going to start doing monthly public  retrospectives based on a format I saw over at Michael Lynch’s blog [*link*](https://mtlynch.io/retrospectives/2022/07/). I often find myself slightly uncomfortable that I’m not “producing” enough or moving towards my goals. I think this will be a good way to stem that feeling and slowly work on meeting more of my goals and acknowledging the work that I put in to myself.</description>
+    </item>
+    <item>
+      <title>Writing</title>
+      <link>https://c0n0.com/categories/writing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://c0n0.com/categories/writing/</guid>
+      <description>A collection of my general thoughts. Typically on programming, business, and music.</description>
+    </item>
+  </channel>
+</rss>

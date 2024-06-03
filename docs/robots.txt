@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://c0n0.com/sitemap.xml

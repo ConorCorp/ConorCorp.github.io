@@ -11,7 +11,7 @@ buildExpired: false
 enableEmoji: true
 enableGitInfo: true
 googleAnalytics: UA-100679815-4
-# publishdir: docs # for github pages
+publishdir: docs # for github pages
 # disqusShortname: conorlamb
 
 minify:
