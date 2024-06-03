@@ -5,7 +5,7 @@ new:
 retro:
 	hugo new content --kind retro posts/retro-year-month
 
-run:
+dev:
 	hugo server -D
 
 build:

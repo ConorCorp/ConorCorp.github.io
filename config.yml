@@ -1,6 +1,6 @@
 baseURL: https://c0n0.com
 languageCode: en-us
-title: c0n0
+title: Conor Lamb's Blog
 theme: "PaperMod"
 
 enableInlineShortcodes: true
@@ -17,12 +17,14 @@ services:
   googleAnalytics:
     ID: G-F4Z4KVQM1M
 
-minify:
-  disableXML: true
-
 menu:
   main:
-    - name: Writing
+    - identifier: writing
+      name: Writing
+      url: categories/writing
+      weight: 1
+    - name: Tester
+      parent: writing
       url: categories/writing
       weight: 1
     - name: Retros
