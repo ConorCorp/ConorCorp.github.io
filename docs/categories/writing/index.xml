@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Writing on Conor Lamb&#39;s Blog</title>
-    <link>http://localhost:1313/categories/writing/</link>
+    <link>https://c0n0.com/categories/writing/</link>
     <description>Recent content in Writing on Conor Lamb&#39;s Blog</description>
     <image>
       <title>Conor Lamb&#39;s Blog</title>
-      <url>http://localhost:1313/circuit_board.jpg</url>
-      <link>http://localhost:1313/circuit_board.jpg</link>
+      <url>https://c0n0.com/circuit_board.jpg</url>
+      <link>https://c0n0.com/circuit_board.jpg</link>
     </image>
     <generator>Hugo -- 0.123.7</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/categories/writing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://c0n0.com/categories/writing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>On Getting Discovered</title>
-      <link>http://localhost:1313/posts/getting-discovered/</link>
+      <link>https://c0n0.com/posts/getting-discovered/</link>
       <pubDate>Wed, 13 Mar 2024 21:03:30 +0000</pubDate>
-      <guid>http://localhost:1313/posts/getting-discovered/</guid>
+      <guid>https://c0n0.com/posts/getting-discovered/</guid>
       <description>I blog sometimes. I publish a good bit of music as well, and yet, no one knows me. This is fine. I happily mosey through life without internet celebrity, but candidly (and probably humanly), it would be nice to get recognition for the things that I make. So how does one get &amp;ldquo;discovered&amp;rdquo;? Youtube just recommended me this small linux youtuber, who struck me with a Jimmy Neutron style, brain blast on how these algorithms likely work.</description>
     </item>
     <item>
       <title>Making A Language Learning Buddy w/ ChatGPT</title>
-      <link>http://localhost:1313/posts/chat-gpt-buddy/</link>
+      <link>https://c0n0.com/posts/chat-gpt-buddy/</link>
       <pubDate>Sun, 29 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/chat-gpt-buddy/</guid>
+      <guid>https://c0n0.com/posts/chat-gpt-buddy/</guid>
       <description>I&amp;rsquo;m at a quietly frustrating point with my German language learning. It&amp;rsquo;s an uncomfortable expanse within A1-A2 levels where I pick up a myriad of words in a conversation, but I&amp;rsquo;m still not confident enough to say much. The usual solution here is one of brute force. Go make a fool of yourself, often and brazenly, in the wild. Talk to people around you, have awkward-as-hell conversations. But, how can I cash in on the ChatGPT hype that way?</description>
     </item>
     <item>
       <title>A Small, Opinionated List of Nice Spots in Berlin</title>
-      <link>http://localhost:1313/posts/conors-berlin-guide/</link>
+      <link>https://c0n0.com/posts/conors-berlin-guide/</link>
       <pubDate>Tue, 08 Nov 2022 14:49:52 +0100</pubDate>
-      <guid>http://localhost:1313/posts/conors-berlin-guide/</guid>
+      <guid>https://c0n0.com/posts/conors-berlin-guide/</guid>
       <description>My personal Berlin tourism list.</description>
     </item>
     <item>
       <title>Make debugging suck less. Keep a logbook. 📓</title>
-      <link>http://localhost:1313/posts/make-debuggin-suck-less/</link>
+      <link>https://c0n0.com/posts/make-debuggin-suck-less/</link>
       <pubDate>Tue, 18 Jan 2022 09:16:09 +0100</pubDate>
-      <guid>http://localhost:1313/posts/make-debuggin-suck-less/</guid>
+      <guid>https://c0n0.com/posts/make-debuggin-suck-less/</guid>
       <description>Scientists keep logbooks for their findings. Why don&amp;rsquo;t computer scientists? A great place to start doing this is for debugging. Debugging sucks enough as is, make it easier on yourself. A logbook will&amp;hellip;
 🗺 Enumerate where you are in the bug fix journey. You&amp;rsquo;ll forget this journey when you pick it up tomorrow, write it down.
 🌳 Keep you rooted to the ground. (Creating an &amp;ldquo;issue stack&amp;rdquo;.) Related to above, it often feels like you&amp;rsquo;re completely lost in the aether when you&amp;rsquo;re 50 opened browser tabs deep into an issue that&amp;rsquo;s not even the same issue anymore, its a sub issue of a sub issue.</description>
     </item>
     <item>
       <title>Cool Junk That Conor Finds on the Internet</title>
-      <link>http://localhost:1313/posts/conors-cool-junk-he-found-on-the-internet/</link>
+      <link>https://c0n0.com/posts/conors-cool-junk-he-found-on-the-internet/</link>
       <pubDate>Fri, 22 Oct 2021 19:52:31 +0200</pubDate>
-      <guid>http://localhost:1313/posts/conors-cool-junk-he-found-on-the-internet/</guid>
+      <guid>https://c0n0.com/posts/conors-cool-junk-he-found-on-the-internet/</guid>
       <description>My collection of things I find on my journeys through the internet.</description>
     </item>
     <item>
       <title>How to make a free resume website and blog in 10 min for programmers (or people unafraid of the command line)</title>
-      <link>http://localhost:1313/posts/website-in-10-minutes-for-programmers/</link>
+      <link>https://c0n0.com/posts/website-in-10-minutes-for-programmers/</link>
       <pubDate>Tue, 28 Sep 2021 16:27:16 +0200</pubDate>
-      <guid>http://localhost:1313/posts/website-in-10-minutes-for-programmers/</guid>
+      <guid>https://c0n0.com/posts/website-in-10-minutes-for-programmers/</guid>
       <description>See the website you’re reading this on? I didn’t make this in 10 minutes…. But I sure could have if I had this tutorial. So here’s how you can make your own customizable resume website or blog for free in 2021 using the Hugo framework, a few commands in the terminal, Github Pages to host it.
 Skip to Part 1: Let’s make a website if you wanna skip my banter 😔</description>
     </item>
