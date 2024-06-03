@@ -19,12 +19,7 @@ services:
 
 menu:
   main:
-    - identifier: writing
-      name: Writing
-      url: categories/writing
-      weight: 1
-    - name: Tester
-      parent: writing
+    - name: Writing
       url: categories/writing
       weight: 1
     - name: Retros
