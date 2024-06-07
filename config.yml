@@ -42,7 +42,7 @@ params:
   images:
     - circuit_board.jpg
   homeInfoParams:
-    Title: Conor Lamb's Blog 👋
+    Title: Hi, I'm Conor 👋
     Content: >
         - 👾 &nbsp; Freelance Full Stack Software Engineer
         
