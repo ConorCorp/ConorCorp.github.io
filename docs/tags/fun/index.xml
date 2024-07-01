@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Fun on Conor Lamb&#39;s Blog</title>
-    <link>https://c0n0.com/tags/fun/</link>
+    <link>http://localhost:1313/tags/fun/</link>
     <description>Recent content in Fun on Conor Lamb&#39;s Blog</description>
     <image>
       <title>Conor Lamb&#39;s Blog</title>
-      <url>https://c0n0.com/circuit_board.jpg</url>
-      <link>https://c0n0.com/circuit_board.jpg</link>
+      <url>http://localhost:1313/circuit_board.jpg</url>
+      <link>http://localhost:1313/circuit_board.jpg</link>
     </image>
     <generator>Hugo -- 0.123.7</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 30 May 2024 18:41:25 +0100</lastBuildDate>
-    <atom:link href="https://c0n0.com/tags/fun/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/fun/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Small, Opinionated List of Nice Spots in Berlin</title>
-      <link>https://c0n0.com/posts/conors-berlin-guide/</link>
+      <link>http://localhost:1313/posts/conors-berlin-guide/</link>
       <pubDate>Tue, 08 Nov 2022 14:49:52 +0100</pubDate>
-      <guid>https://c0n0.com/posts/conors-berlin-guide/</guid>
+      <guid>http://localhost:1313/posts/conors-berlin-guide/</guid>
       <description>My personal Berlin tourism list.</description>
     </item>
     <item>
       <title>Cool Junk That Conor Finds on the Internet</title>
-      <link>https://c0n0.com/posts/conors-cool-junk-he-found-on-the-internet/</link>
+      <link>http://localhost:1313/posts/conors-cool-junk-he-found-on-the-internet/</link>
       <pubDate>Fri, 22 Oct 2021 19:52:31 +0200</pubDate>
-      <guid>https://c0n0.com/posts/conors-cool-junk-he-found-on-the-internet/</guid>
+      <guid>http://localhost:1313/posts/conors-cool-junk-he-found-on-the-internet/</guid>
       <description>My collection of things I find on my journeys through the internet.</description>
     </item>
   </channel>
