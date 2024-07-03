@@ -3,7 +3,7 @@ new:
 
 # `make retro`
 retro:
-	hugo new content --kind retro posts/retro-year-month
+	hugo new content --kind retro retros/retro-year-month
 
 dev:
 	hugo server -D

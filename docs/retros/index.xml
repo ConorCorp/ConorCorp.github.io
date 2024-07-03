@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Monthly Retrospectives on Conor Lamb&#39;s Blog</title>
+    <link>https://c0n0.com/retros/</link>
+    <description>Recent content in Monthly Retrospectives on Conor Lamb&#39;s Blog</description>
+    <image>
+      <title>Conor Lamb&#39;s Blog</title>
+      <url>https://c0n0.com/circuit_board.jpg</url>
+      <link>https://c0n0.com/circuit_board.jpg</link>
+    </image>
+    <generator>Hugo -- 0.123.7</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://c0n0.com/retros/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>June 2024: Conor&#39;s Monthly Retrospective</title>
+      <link>https://c0n0.com/retros/retro-2024-06/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://c0n0.com/retros/retro-2024-06/</guid>
+      <description>June was hella busy with fun stuff and admin for switching jobs.</description>
+    </item>
+    <item>
+      <title>April/May 2024: Conor&#39;s Monthly Retrospective</title>
+      <link>https://c0n0.com/retros/retro-2024-05/</link>
+      <pubDate>Thu, 30 May 2024 17:27:31 +0100</pubDate>
+      <guid>https://c0n0.com/retros/retro-2024-05/</guid>
+      <description>2 months with lots of travel and starting a new job.</description>
+    </item>
+    <item>
+      <title>February/March 2024: Conor&#39;s Monthly Retrospective</title>
+      <link>https://c0n0.com/retros/retro-2024-03/</link>
+      <pubDate>Thu, 28 Mar 2024 17:27:31 +0100</pubDate>
+      <guid>https://c0n0.com/retros/retro-2024-03/</guid>
+      <description>Close Expatpho.net.</description>
+    </item>
+    <item>
+      <title>January 2024: Conor&#39;s Monthly Retrospective</title>
+      <link>https://c0n0.com/retros/retro-2024-01/</link>
+      <pubDate>Sun, 28 Jan 2024 17:27:31 +0100</pubDate>
+      <guid>https://c0n0.com/retros/retro-2024-01/</guid>
+      <description>2 months with lots of travel and starting a new job.</description>
+    </item>
+    <item>
+      <title>2023 Goals Review, 2024 Goals Plan</title>
+      <link>https://c0n0.com/retros/retro-2023-13/</link>
+      <pubDate>Fri, 29 Dec 2023 17:27:31 +0100</pubDate>
+      <guid>https://c0n0.com/retros/retro-2023-13/</guid>
+      <description>I achieved 1 goal, and the rest were meh.</description>
+    </item>
+    <item>
+      <title>2022 -&gt; 2023 Retrospectives Archive</title>
+      <link>https://c0n0.com/retros/retro-2023-12/</link>
+      <pubDate>Thu, 28 Dec 2023 17:27:31 +0100</pubDate>
+      <guid>https://c0n0.com/retros/retro-2023-12/</guid>
+      <description>Old retrospectives.</description>
+    </item>
+  </channel>
+</rss>
