@@ -31,8 +31,8 @@ She liked the thought and we made plans to go to Sicily this summer.
 Because I went on a bike ride today and forgot to charge my headphones, my passing thoughts became actions.
 \
 \
-Actions and formulated opinions need not to come from structured, purposeful thinking sessions.
-My passing thoughts may become plans resulting in me doing something in my life.
+**Actions and formulated opinions don't need to come from structured, purposeful thinking sessions.** \
+My passing thoughts can become plans. Plans resulting in me doing something in my life.
 \
 \
 If I spend all my in-between time constantly distracting myself with Youtube, podcasts, etc., I will have regularly: 
