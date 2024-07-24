@@ -1,7 +1,7 @@
 ---
 title: "Increasing PR Velocity"
 date: 2024-07-24T09:42:34+02:00
-draft: false
+draft: true
 lastmod:
 summary: 
 categories: [writing]

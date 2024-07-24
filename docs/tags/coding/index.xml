@@ -11,17 +11,8 @@
     </image>
     <generator>Hugo -- 0.123.7</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Jul 2024 10:30:48 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 30 May 2024 18:41:25 +0100</lastBuildDate>
     <atom:link href="https://c0n0.com/tags/coding/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Increasing PR Velocity</title>
-      <link>https://c0n0.com/posts/increasing-pr-velocity/</link>
-      <pubDate>Wed, 24 Jul 2024 09:42:34 +0200</pubDate>
-      <guid>https://c0n0.com/posts/increasing-pr-velocity/</guid>
-      <description>Reviewing pull requests is a pain in the hole, but a necessary one. It is also huge time sync if you’re actually reviewing your team’s PRs with care.
-Normal PR Process The PR process often looks like this.
-Get slack message: “pwetty please review my PR :3 (don’t hate me) pr link” Open PR in browser, scroll through the code a bit Inner Monologue: “This looks mostly understandable? Can I can get away without pulling this locally?</description>
-    </item>
     <item>
       <title>Make debugging suck less. Keep a logbook. 📓</title>
       <link>https://c0n0.com/posts/make-debuggin-suck-less/</link>

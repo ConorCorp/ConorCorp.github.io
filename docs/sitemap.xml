@@ -2,28 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://c0n0.com/categories/</loc>
-    <lastmod>2024-07-24T10:30:48+02:00</lastmod>
-  </url><url>
-    <loc>https://c0n0.com/tags/coding/</loc>
-    <lastmod>2024-07-24T10:30:48+02:00</lastmod>
-  </url><url>
     <loc>https://c0n0.com/</loc>
-    <lastmod>2024-07-24T10:30:48+02:00</lastmod>
-  </url><url>
-    <loc>https://c0n0.com/posts/increasing-pr-velocity/</loc>
-    <lastmod>2024-07-24T10:30:48+02:00</lastmod>
+    <lastmod>2024-07-24T10:23:48+02:00</lastmod>
   </url><url>
     <loc>https://c0n0.com/posts/</loc>
-    <lastmod>2024-07-24T10:30:48+02:00</lastmod>
+    <lastmod>2024-07-24T10:23:48+02:00</lastmod>
   </url><url>
-    <loc>https://c0n0.com/tags/</loc>
-    <lastmod>2024-07-24T10:30:48+02:00</lastmod>
-  </url><url>
-    <loc>https://c0n0.com/categories/writing/</loc>
-    <lastmod>2024-07-24T10:30:48+02:00</lastmod>
+    <loc>https://c0n0.com/categories/</loc>
+    <lastmod>2024-07-05T14:38:44+02:00</lastmod>
   </url><url>
     <loc>https://c0n0.com/posts/passing-thought-action/</loc>
+    <lastmod>2024-07-05T14:38:44+02:00</lastmod>
+  </url><url>
+    <loc>https://c0n0.com/categories/writing/</loc>
     <lastmod>2024-07-05T14:38:44+02:00</lastmod>
   </url><url>
     <loc>https://c0n0.com/retros/retro-2024-06/</loc>
@@ -59,6 +50,9 @@
     <loc>https://c0n0.com/posts/chat-gpt-buddy/</loc>
     <lastmod>2024-05-30T18:41:25+01:00</lastmod>
   </url><url>
+    <loc>https://c0n0.com/tags/</loc>
+    <lastmod>2024-05-30T18:41:25+01:00</lastmod>
+  </url><url>
     <loc>https://c0n0.com/posts/conors-berlin-guide/</loc>
     <lastmod>2024-05-30T18:41:25+01:00</lastmod>
   </url><url>
@@ -69,6 +63,9 @@
     <lastmod>2024-05-30T18:41:25+01:00</lastmod>
   </url><url>
     <loc>https://c0n0.com/tags/travel/</loc>
+    <lastmod>2024-05-30T18:41:25+01:00</lastmod>
+  </url><url>
+    <loc>https://c0n0.com/tags/coding/</loc>
     <lastmod>2024-05-30T18:41:25+01:00</lastmod>
   </url><url>
     <loc>https://c0n0.com/tags/debugging/</loc>
