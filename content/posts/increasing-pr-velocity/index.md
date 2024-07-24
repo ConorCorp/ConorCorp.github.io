@@ -7,6 +7,7 @@ summary:
 categories: [writing]
 tags: [coding]
 ShowToc: false
+writingTime: 2.5 hrs
 cover:
     image: "images/speed-holes.gif"
     alt: "Simpson's Speed Holes Clip"
