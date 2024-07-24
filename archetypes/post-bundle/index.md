@@ -4,7 +4,7 @@ date: {{ .Date }}
 draft: true
 lastmod:
 summary: 
-categories: []
+categories: [writing]
 tags: []
 ShowToc: false
 cover:
