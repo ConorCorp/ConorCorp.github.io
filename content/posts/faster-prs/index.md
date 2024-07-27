@@ -1,5 +1,5 @@
 ---
-title: "Faster, High Touch PRs"
+title: "Faster PRs Are High Touch"
 date: 2024-07-24T09:42:34+02:00
 draft: true
 lastmod:
