@@ -11,8 +11,17 @@
     </image>
     <generator>Hugo -- 0.123.7</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Jul 2024 14:38:44 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jul 2024 14:32:06 +0200</lastBuildDate>
     <atom:link href="https://c0n0.com/categories/writing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Faster PRs Are High Touch</title>
+      <link>https://c0n0.com/posts/faster-prs/</link>
+      <pubDate>Wed, 24 Jul 2024 09:42:34 +0200</pubDate>
+      <guid>https://c0n0.com/posts/faster-prs/</guid>
+      <description>Reviewing pull requests is a pain in the hole, but a necessary one. It is also massive time sync if you&amp;rsquo;re actually doing it right.
+Normal PR Process It often looks like this:
+Get slack message: “pwetty pwease review my PR :3 pr link” Open in browser, scroll through the code a bit Inner Monologue: “This looks mostly understandable? Can I can get away without pulling this locally?” Decide to run it locally Stash current branch&amp;rsquo;s changes (remember that you have a stash saved!</description>
+    </item>
     <item>
       <title>Passing Thoughts Become Action</title>
       <link>https://c0n0.com/posts/passing-thought-action/</link>
