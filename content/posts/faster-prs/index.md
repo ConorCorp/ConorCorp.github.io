@@ -1,5 +1,5 @@
 ---
-title: "Faster PRs Are High Touch"
+title: "Faster PRs - Lower The Barrier Of Entry"
 date: 2024-07-24T09:42:34+02:00
 draft: false
 lastmod:
