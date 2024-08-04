@@ -2,7 +2,7 @@
 title: "July 2024: Conor's Monthly Retrospective"
 date: 2024-08-04T11:49:18+02:00
 draft: false
-summary: 
+summary: A bit of indecision on moving forward with projects, and slow progress, but fun summer activities.
 categories: [retros]
 goals_met: 65
 ---
