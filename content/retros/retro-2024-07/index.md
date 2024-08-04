@@ -1,7 +1,7 @@
 ---
 title: "July 2024: Conor's Monthly Retrospective"
 date: 2024-08-04T11:49:18+02:00
-draft: true
+draft: false
 summary: 
 categories: [retros]
 goals_met: 65

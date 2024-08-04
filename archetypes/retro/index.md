@@ -1,7 +1,7 @@
 ---
 title: "{{ now.Month }} {{ now.Year }}: Conor's Monthly Retrospective"
 date: {{ .Date }}
-draft: true
+draft: false
 summary: 
 categories: [retros]
 goals_met: 90
