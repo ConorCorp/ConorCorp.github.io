@@ -73,7 +73,7 @@ I filled about half of the days, but this was better than the previous month. Lo
 ### Release one blog post
 - Result: A+
 
-I released a blog post on doing [PRs in the editor](posts/faster-prs/)! I didn't really get great reception on it, lot of hate actually. Which isn't super nice, but hey, I might tweak it and post it again. Fuck the haters.
+I released a blog post on doing [PRs in the editor](posts/faster-prs/)! I didn't really get great reception on it, lot of hate actually. Which isn't super nice, but hey, I might tweak it and post it again.
 
 ### Go to a tech meetup
 - Result: C
