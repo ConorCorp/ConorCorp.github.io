@@ -1,5 +1,4 @@
-***
-
+---
 title: "August 2024: Conor's Monthly Retrospective"
 date: 2024-09-04T11:00:36+02:00
 draft: false
