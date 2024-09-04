@@ -55,7 +55,7 @@ Conall and I have almost finished all the work with expatpho.net to work on auto
 
 I've been getting slowly more bearish on the project and want to free up some space in my head to start on the next one, especially if I want to reach my 3 startup projects for the year goal. I'll have more time next month to hopefully finish the work.
 
-## Finish SkinTheory closing documents
+### Finish SkinTheory closing documents
 
 *   Results: F
 
@@ -63,13 +63,13 @@ Yea, I just didn't get around to this. SkinTheory will have to be closed next mo
 
 ## Personal
 
-## Complete My German Taxes
+### Complete My German Taxes
 
 *   Results: A+
 
 Finished these on my own with Steuergo and without a Steuerberater. Took a while, and I'm chancing my arm a bit, but I think I'll get money back.
 
-## Complete Habit Rings 5/7 days a week
+### Complete Habit Rings 5/7 days a week
 
 *   Results: F
 
@@ -77,7 +77,7 @@ It is hard to do all my habits. I definitely get on a roll one week, then I'll g
 
 I only completely filled about 1 ring a week.
 
-## Go To A Tech Meetup
+### Go To A Tech Meetup
 
 *   Results: F
 
