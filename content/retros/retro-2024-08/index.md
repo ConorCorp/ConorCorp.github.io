@@ -121,7 +121,7 @@ As you can see I didn't achieve much of my goals for August. I ended up having a
 
 *   Close down SkinTheory
 
-*   Start Marketing ExpatPho.net and Fnish dev work
+*   Start Marketing ExpatPho.net and Finish dev work
 
 *   Go to a tech meetup
 
