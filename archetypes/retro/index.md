@@ -32,8 +32,8 @@ goals_met: 90
 > You can’t connect the dots going forward, only back.
 > 
 >Steve Jobs
-
-*Make sure these goals trend the dots towards my goal, being in front of the right people, focusing time where it matters, etc.*
+> 
+> *Make sure these goals trend the dots towards my goal, being in front of the right people, focusing time where it matters, etc.*
 
 # What are my 2024 (year) goals?
 
