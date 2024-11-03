@@ -105,6 +105,7 @@ Gonna have to do this in person.
 - Finish 1 SE.CORP song (unmastered)
 - Choose my next startup side project
 - Finish what is possible with SkinTheory liquidation
+- Spend 2 hrs trying to get Chlorine on playlists or on local played stuff
 
 # What are my 2024 (year) goals?
 
