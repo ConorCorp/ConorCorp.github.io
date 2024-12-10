@@ -81,6 +81,8 @@ Didn't do.
 - It's not easy to do focused work on a vacation with my brothers around.
 - You can still fly round to the US for $500.
 - Waking up around 7 am adds so much time to the day.
+- 'There is Ego in everything' from art to science to business.
+- The cultural readymade, Marcel Duchamp, taking something people know and distorting it is very profound to people.
 
 # What are my goals for next month?
 I'll try to be more realistic this month, because 10 days are already gone and I only have 1 weekend free before Ireland.
