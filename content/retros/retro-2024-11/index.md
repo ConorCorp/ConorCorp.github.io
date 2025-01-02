@@ -20,23 +20,27 @@ Before I left, I ended up being pretty busy as well.
 ## Music - [Solo Project](www.linktr.ee/se.corp) | [Band Project](www.corp.band)
 ### Put together a 3 song set to film with SE.CORP
 - Result: A+
+
 Put together 3 songs and played them for a mates little web show thing.
 
 I kinda just played one instrument through all three of them though, with some sequencing. I would like to do a bit more live loop recording (or play with someone).
 
 ### Finish 1 SE.CORP song (unmastered)
 - Result: F
+
 Didn't really get time to do this, but I'm close to finishing a few songs.
 I also was inspired to make and almost finish another new song.
 
 ## Side Projects
 ### Choose my next startup side project
 - Result: C
+
 Did some research on the Content Moderation API. It seems like the idea can work, but I think distribution is still a tough issue.
 
 Part of me wants to explore something with more virality potential.
 ### Finish what is possible with SkinTheory liquidation
 - Result: A+
+
 A tax account is necessary for a corporation. I made mistakes here, scared the shit outta myself with the potential penalties, and my tax guy fixed it ❤️
 
 ## Personal
@@ -85,6 +89,12 @@ Didn't do.
 - The cultural readymade, Marcel Duchamp, taking something people know and distorting it is very profound to people.
 
 # What are my goals for next month?
+> You can’t connect the dots going forward, only back.
+> 
+>Steve Jobs
+> 
+> *Make sure these goals trend the dots towards my goal, being in front of the right people, focusing time where it matters, etc.*
+
 I'll try to be more realistic this month, because 10 days are already gone and I only have 1 weekend free before Ireland.
 
 - Finish booking Ireland
@@ -92,11 +102,6 @@ I'll try to be more realistic this month, because 10 days are already gone and I
 - Finish 1 SE.Corp song
 - Book a snowboarding holiday
 
-> You can’t connect the dots going forward, only back.
-> 
->Steve Jobs
-> 
-> *Make sure these goals trend the dots towards my goal, being in front of the right people, focusing time where it matters, etc.*
 
 # What are my 2024 (year) goals?
 
