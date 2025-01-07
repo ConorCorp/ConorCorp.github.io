@@ -3,7 +3,7 @@ title: "December 2024: Conor's Monthly Retrospective"
 date: 2025-01-02T17:11:05Z
 draft: false
 categories: [retros]
-goals_met: 90
+goals_met: 60
 ---
 
 **Goals Met**: ~{{< param goals_met >}}%
