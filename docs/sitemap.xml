@@ -2,17 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://c0n0.com/</loc>
+    <lastmod>2025-01-15T13:52:14+01:00</lastmod>
+  </url><url>
+    <loc>https://c0n0.com/posts/</loc>
+    <lastmod>2025-01-15T13:52:14+01:00</lastmod>
+  </url><url>
     <loc>https://c0n0.com/retros/retro-2024-13/</loc>
-    <lastmod>2025-01-07T10:21:15+01:00</lastmod>
+    <lastmod>2025-01-08T17:59:10+01:00</lastmod>
   </url><url>
     <loc>https://c0n0.com/categories/</loc>
-    <lastmod>2025-01-07T10:21:15+01:00</lastmod>
-  </url><url>
-    <loc>https://c0n0.com/</loc>
-    <lastmod>2025-01-07T10:21:15+01:00</lastmod>
+    <lastmod>2025-01-08T17:59:10+01:00</lastmod>
   </url><url>
     <loc>https://c0n0.com/categories/retros/</loc>
-    <lastmod>2025-01-07T10:21:15+01:00</lastmod>
+    <lastmod>2025-01-08T17:59:10+01:00</lastmod>
   </url><url>
     <loc>https://c0n0.com/retros/retro-2024-12/</loc>
     <lastmod>2025-01-07T10:21:15+01:00</lastmod>
@@ -39,9 +42,6 @@
     <lastmod>2024-07-27T14:34:29+02:00</lastmod>
   </url><url>
     <loc>https://c0n0.com/posts/faster-prs/</loc>
-    <lastmod>2024-07-27T14:34:29+02:00</lastmod>
-  </url><url>
-    <loc>https://c0n0.com/posts/</loc>
     <lastmod>2024-07-27T14:34:29+02:00</lastmod>
   </url><url>
     <loc>https://c0n0.com/tags/</loc>

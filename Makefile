@@ -1,3 +1,4 @@
+# `make new url=my-new-post`
 new:
 	hugo new content --kind post-bundle posts/$(url)
 
