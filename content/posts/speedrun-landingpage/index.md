@@ -21,7 +21,7 @@ I could definitely have done it faster, but with the trade offs I wanted, I am q
 Time: 45 min | Cost: $0
 - I really wanted to find one but couldn't find anything that felt slick and cheap out of the box for a developer tool.
 - I still don't enjoy wordpress.
-- I will use [Webflow](www.webflow.com) for the landing page if I get big enough, due to the sheer value of quick landing page iteration, but I cannot will myself to pay $18 /month rn.
+- I will use [Webflow](https://www.webflow.com) for the landing page if I get big enough, due to the sheer value of quick landing page iteration, but I cannot will myself to pay $18 /month rn.
 
 ### 2. Find an html/tailwind template
 Time: 20 min | Cost: $0
@@ -43,7 +43,7 @@ Time: 15 min | Cost: $10.16
 
 ### 5. Sign up / Configure an email tool
 Time: 15 min | Cost: $0
-- Signed up to [EmailOctopus](www.emailoctopus.com) with new custom domain email address.
+- Signed up to [EmailOctopus](https://www.emailoctopus.com) with new custom domain email address.
 - I knew I'd use EmailOctopus, they're great for indie hackers, nice free tier, and really simple.
 - Generated a form to collect emails into the list
 
