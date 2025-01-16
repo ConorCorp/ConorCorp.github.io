@@ -74,7 +74,7 @@ $10.16
 ### Thoughts
 This would be easy to speed up if repeated. I could get it down to 1 hr if I did an exact copy with a different idea.
 
-Here's some [more of my thoughts](/why-wait-lists) on wait lists.
+Here's some some more thoughts on why I [like using wait lists](/posts/why-wait-lists).
 
 ---
 Thanks for reading. 
