@@ -11,17 +11,27 @@
     </image>
     <generator>Hugo -- 0.123.7</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Jan 2025 16:38:33 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jan 2025 22:29:33 +0100</lastBuildDate>
     <atom:link href="https://c0n0.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Wait List Landing Page Any% Speedrun - &gt;3hr PB</title>
+      <title>Why I Make Waitlists For Side Projects</title>
+      <link>https://c0n0.com/posts/why-wait-lists/</link>
+      <pubDate>Thu, 16 Jan 2025 22:29:33 +0100</pubDate>
+      <guid>https://c0n0.com/posts/why-wait-lists/</guid>
+      <description>1. External validation for a new idea At the start of a project, I&amp;rsquo;m not sure if only I have the problem I want to solve.
+The more emails that join my wait list, the more excited people are about solving the problem.
+I try to be super straight up about who my product is for on the landing page. I also try to scope down the communicated project features as much as possible.</description>
+    </item>
+    <item>
+      <title>My 3hr Landing Page Build Strategy</title>
       <link>https://c0n0.com/posts/speedrun-landingpage/</link>
       <pubDate>Wed, 15 Jan 2025 13:52:14 +0100</pubDate>
       <guid>https://c0n0.com/posts/speedrun-landingpage/</guid>
-      <description>Today I built a public waitlist for a new project.
+      <description>Today I built a wait list landing page for a new project of mine.
 I did it in around 2 hr 55 min. This is a PB for me.
 I could definitely have done it faster, but with the trade offs I wanted, I am quite happy.
-Why I like wait lists 1. External validation for a new idea At the start of a project, I&amp;rsquo;m not sure if only I have the problem I want to solve.</description>
+The Strategy Note: I&amp;rsquo;m not affiliated with the brands mentioned.
+1. Audit current state of drag-and-drop website builders Time: 45 min | Cost: $0</description>
     </item>
     <item>
       <title>Faster PRs - Lower The Barrier Of Entry</title>

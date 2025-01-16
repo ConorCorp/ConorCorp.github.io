@@ -1,5 +1,5 @@
 ---
-title: "Wait List Landing Page Any% Speedrun - >3hr PB"
+title: "My 3hr Landing Page Build Strategy"
 date: 2025-01-15T13:52:14+01:00
 draft: false
 summary: 
@@ -8,43 +8,14 @@ tags: []
 ShowToc: false
 ---
 
-Today I built a public waitlist for a [new project](modergator.com). 
+Today I built a wait list landing page for a [new project](modergator.com) of mine.
 
 I did it in around 2 hr 55 min. This is a PB for me. 
 
 I could definitely have done it faster, but with the trade offs I wanted, I am quite happy. 
 
-
-## Why I like wait lists
-### 1. External validation for a new idea
-At the start of a project, I'm not sure if only I have the problem I want to solve.
-
-The more emails that join my wait list, the more excited people are about solving the problem.
-
-I try to be super straight up about who my product is for on the landing page. I also try to scope down the communicated project features as much as possible.
-
-I want high quality leads who will convert on launch. 
-
-If I use rosy language, or promise the world, I'll get a load of lukewarm leads. This will bless me with some lovely signaling to work on the idea for months before no one converts.
-
-
-### 2. Having an audience for release
-I really don't like writing emails. 
-
-I don't really like to do "marketing" tasks in general. 
-
-I just want to code.
-
-The issue is if I don't talk to anyone about the project, when I finally post my EXCITING PROJECT RELEASE POST YAYYYY 🎉🎉🎉🎉🎉, I'll get 0 upvotes. Then my project is doomed to being a "resume builder".
-
-Now, if I just put up a dinky little wait list landing page and make some Build In Public posts on Reddit/HN/Indie Hackers, I'll slowly get some supporters.
-
-These supporters actually are excited for my product, how it's made, and its release. I probably won't need to worry then about how viral the release post goes.
-
-These Build In Public posts are a kind of marketing, but I enjoy writing them. They're more like writing in a diary and  when I receive a positive comment, it completely excites me and pushes me to work on the project.
-
-## My wait list build strat
-Note: I'm not affiliated with the brands mentioned.
+## The Strategy
+*Note: I'm not affiliated with the brands mentioned.*
 
 ### 1. Audit current state of drag-and-drop website builders
 Time: 45 min | Cost: $0
@@ -103,7 +74,9 @@ $10.16
 ### Thoughts
 This would be easy to speed up if repeated. I could get it down to 1 hr if I did an exact copy with a different idea.
 
+Here's some [more of my thoughts](/why-wait-lists) on wait lists.
+
 ---
 Thanks for reading. 
 
-Let me know your landing page speedruns or if you know of any other good tips/services to try out!
+Let me know if you know if you can recommend any other services!
