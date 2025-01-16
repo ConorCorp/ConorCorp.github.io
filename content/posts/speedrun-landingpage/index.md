@@ -8,7 +8,7 @@ tags: []
 ShowToc: false
 ---
 
-Today I built a wait list landing page for a [new project](modergator.com) of mine.
+Today I built a wait list landing page for a [new project](https://modergator.com) of mine.
 
 I did it in around 2 hr 55 min. This is a PB for me. 
 
