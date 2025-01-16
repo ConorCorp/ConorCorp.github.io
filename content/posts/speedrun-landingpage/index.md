@@ -1,5 +1,5 @@
 ---
-title: "My 3hr Landing Page Build Strategy"
+title: "My 3hr Landing Page Build Strategy in 2025"
 date: 2025-01-15T13:52:14+01:00
 draft: false
 summary: 
