@@ -39,8 +39,6 @@ params:
   # - retros
 
   defaultTheme: auto
-  images:
-    - circuit_board.jpg
   homeInfoParams:
     Title: Hi, I'm Conor 👋
     Content: >
