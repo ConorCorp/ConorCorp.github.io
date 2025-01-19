@@ -17,7 +17,7 @@ goals_met: 90
 ## Work
 ### Hit all my good habit goals (german, working out, stretching, waking up)
 - Result: C
-## Music - [Solo Project](www.linktr.ee/se.corp) | [Band Project](www.corp.band)
+## Music - [Solo Project](https://www.linktr.ee/se.corp) | [Band Project](https://www.corp.band)
 
 ## Side Projects
 ## Personal

@@ -56,7 +56,7 @@ You never actually run the code there, so how do you know if it works? When you 
 ## 1 + 1 = 3 or Scaling To Teams
 The speed at which PRs are getting reviewed is a hugely overlooked part of what slows down our feature delivery. Adding a PR tool to your editor is a solid step for speeding up the PR loop, but if you really want to see this **speed compound**, get your whole team on it. 
 
-When teams do PRs in the editor, we are not only fixing each other’s code faster, but also understanding each others’ code, and thus our whole codebase, on a deeper level. Our team at [Formly](www.formly.ai) hugely benefits from Github PR.
+When teams do PRs in the editor, we are not only fixing each other’s code faster, but also understanding each others’ code, and thus our whole codebase, on a deeper level. Our team at [Formly](https://www.formly.ai) hugely benefits from Github PR.
 
 ## Wrap Up
 Pulling PRs into the editor makes them **easier to view and touch**. 
