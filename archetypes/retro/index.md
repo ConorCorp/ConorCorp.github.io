@@ -37,15 +37,27 @@ goals_met: 90
 
 # What are my 2024 (year) goals?
 
-1. 🟡 Kill SkinTheory or get it off my mind completely.
-2. 🟡 Build 3 startup projects, and get faster and more publicity with each. Get atleast 1 to €100 MRR.
-3. 🟢 Support myself with a cool job or through freelancing.
-4. 🟡 Keep myself networked in the startup/engineering scene.
-5. 🔴 Get to the next level with CORP. Get on a label or manager that supports bigger bands or gets more publicity.
+1. 🟡 Release/Work on 3 startup projects. Build them faster, throw them out faster.
+   - I need to build quickly and release quickly. I need to clear time in my schedule for this.
+   - Related lifetime goal: Run my own business.
+2. 🟡 Show off 12 items of my work in public. 1 per month atleast.
+   - I should build my projects in public. I should have my music out in public more. I should write blog posts. I enjoy the feedback.
+   - Related lifetime goal: Run my own business / Have 100k fans of my music.
+3. 🟡 Curate and keep to a more regular routine. 6hr side projects. Wake up by 8am.
+   - Atleast 6hrs per week on music / side projects.
+     - Decide on Sundays what I want to achieve with the week
+   - Wake up by 8 regularly and work on my projects in the morning.
+     - I do better work in the morning and need to keep this routine. Otherwise I'm tired at night and just watch tv.
+   - Reduce my obligations/stress so that I have time to work on projects / music. I feel stressed with all the things I must do. I don't have time for my passions then, and I also can't stop and smell the roses in life.
+   - Define what I'll achieve each week.
+4. 🔴 Release 4 SE.CORP songs. Set up a repeatable way to get listeners / viewers.
+5. 🟡 Develop a better musical ear 
+   - I'd like to more readily be able to find notes, tab out songs, and jam over other songs
+
 
 # What are my lifetime goals?
 
 1. Run my own business that allows me to: support myself, be relaxed, be innovative, love my work, travel.
 2. Backpack for 6 months through Asia.
 3. Have 100,000 fans of my music.
-4. Be relaxed and be excited to wake up to my life every day.
+4. Be relaxed and be excited to wake up to my life every day, and these days are meaningful long-term.
