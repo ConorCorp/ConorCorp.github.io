@@ -6,6 +6,10 @@ summary:
 categories: [writing]
 tags: []
 ShowToc: false
+cover:
+  image: "images/waitlist.jpeg"
+  alt: "Waitlist"
+  relative: true
 ---
 
 Today I built a wait list landing page for a [new project](https://modergator.com) of mine.
