@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Coding on Conor Lamb&#39;s Blog</title>
+    <link>https://c0n0.com/categories/coding/</link>
+    <description>Recent content in Coding on Conor Lamb&#39;s Blog</description>
+    <generator>Hugo -- 0.123.7</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Feb 2025 18:31:23 +0100</lastBuildDate>
+    <atom:link href="https://c0n0.com/categories/coding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tip Of The Century: The Chrome Debugger</title>
+      <link>https://c0n0.com/posts/dev-tip-chrome/</link>
+      <pubDate>Fri, 14 Feb 2025 18:31:23 +0100</pubDate>
+      <guid>https://c0n0.com/posts/dev-tip-chrome/</guid>
+      <description>You should use the chrome debugger if you do any frontend js/ts work. /thread
+console.log is dead. The debugger saves my ass every time.
+You don&amp;rsquo;t need to set up anything or even import it if your using Chrome. You just:
+Add debugger; anywhere in your code: (stick it behind an if if you like!) Or if you&amp;rsquo;re debugging on the fly: Find your file in the sources tab and click &amp;ldquo;Add Breakpoint&amp;rdquo;.</description>
+    </item>
+  </channel>
+</rss>
