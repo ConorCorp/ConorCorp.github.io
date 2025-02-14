@@ -21,7 +21,7 @@ You should use the [chrome debugger](https://developer.chrome.com/docs/devtools/
 
 **You don't need to set up anything** or even import it if your using Chrome. You just:
 1. Add `debugger;` anywhere in your code: (stick it behind an `if` if you like!)
-2. Or if you're debugging on the fly: Find your file in the `sources` tab and click "Add Breakpoint".
+2. If you're debugging on the fly: Find your file in the `sources` tab and click "Add Breakpoint".
 
 Now you can really debug all those god damn rerenders.
 
