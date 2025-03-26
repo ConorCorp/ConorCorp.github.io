@@ -42,7 +42,7 @@ I am tempted to next build things that make the product easier to use, but I'm r
 I need to build something, even if its not super streamlined at the start, that 
 # GRABS FUCKING HEADLINES.
 
-_Modergator isn't a simple content moderation api._
+_Modergator isn't a simple content moderation api,_
 
 # Modergator is the API that moderates all your content and learns from what it moderates so that you're dinky little dev team doesn't need to hire anyone.
 
