@@ -42,13 +42,13 @@ params:
   homeInfoParams:
     Title: Hi, I'm Conor 👋
     Content: >
-        - 👾 &nbsp; Founding Engineer @ [formly.ai](https://www.formly.ai)
+        - 👾 &nbsp; Founding engineer @ [formly.ai](https://www.formly.ai)
         
-        - 🤓 &nbsp; Founded [skintheory](https://skintheory.app) & [expatpho.net](https://expatpho.net)
+        - 🤓 &nbsp; Founder of [modergator](https://www.modergator.com), [skintheory](https://skintheory.app), [expatpho.net](https://expatpho.net)
         
-        - 🎸 &nbsp; Indie Musician ([spotify](https://open.spotify.com/artist/5uNrhQHfrs96ScDAK1a9t5?si=aGXhPSilSxqfKl6Dzci3Bg), [bandcamp](https://secorp.bandcamp.com/))
+        - 🎸 &nbsp; Post punk musician [spotify](https://open.spotify.com/artist/5uNrhQHfrs96ScDAK1a9t5?si=aGXhPSilSxqfKl6Dzci3Bg), [bandcamp](https://secorp.bandcamp.com/)
 
-        - 🇩🇪 &nbsp; Based in Berlin
+        - 🇩🇪 &nbsp; Berlin Based
   cover:
     relative: true
   socialIcons:
@@ -59,7 +59,7 @@ params:
     - name: linkedin
       url: https://www.linkedin.com/in/conorobrienlamb/
     - name: email
-      url: mailto:conor.lamb.maker+c0n0@gmail.com
+      url: mailto:conor@c0n0.com
 
   outputs:
     home:
