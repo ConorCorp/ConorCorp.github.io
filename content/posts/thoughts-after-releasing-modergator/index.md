@@ -1,11 +1,8 @@
 ---
 title: "Unfiltered Thoughts On A Failed Product Release"
 date: 2025-03-12T18:38:47+01:00
-draft: true
-lastmod:
-summary: 
+draft: false
 categories: [writing]
-tags: []
 ShowToc: false
 cover:
     image: "images/eye-off-cropped.png"
