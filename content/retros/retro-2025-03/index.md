@@ -58,6 +58,8 @@ Completed. Just need to shut the bank account.
 - Google/X ads bring in some viewership to apps
 - Tours are hard on the body and you likely won't get a big audience unless its assured it gets foot traffic (which is rare)
 - The Ableton Push 2 is easy to maintain, just make sure you don't leave dust inside electronics and close it all 100% correct without forcing components
+- Reaching out to leads is better than random faceless releases. Build stuff for people (not only posts).
+  - I got an interested user from reddit to look at us and i think its a nice way to build products for people with specific needs vs with no users to begin with.
 
 # What are my goals for next month?
 - Do enough marketing to say we can end modergator or stick with it
