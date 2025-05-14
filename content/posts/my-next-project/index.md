@@ -13,9 +13,9 @@ cover:
     caption: ""
     relative: true
 ---
-My next project is going to focus on:
-- Hava an exciting / eye popping headline (so people click on the link)
-- Getting as much conversations going with users as possible
+I'm optimizing my next product for:
+- An eye popping headline (clicks)
+- As much conversations with users as humanly possible (pmf)
 
 Extra credit:
 - it's launched in a community interested in the topic, so the release post doesn't feel like an advertisement
