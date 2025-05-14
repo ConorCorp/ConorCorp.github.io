@@ -14,8 +14,8 @@ cover:
     relative: true
 ---
 My next project is going to focus on:
-- Being exciting / eye popping (so people click)
-- Getting as much conversations with users as possible
+- Hava an exciting / eye popping headline (so people click on the link)
+- Getting as much conversations going with users as possible
 
 Extra credit:
 - it's launched in a community interested in the topic, so the release post doesn't feel like an advertisement
