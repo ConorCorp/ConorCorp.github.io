@@ -1,5 +1,5 @@
 ---
-title: "Tip Of The Century: The Chrome Debugger"
+title: "The Chrome Debugger"
 date: 2025-02-14T18:31:23+01:00
 draft: false
 lastmod:
