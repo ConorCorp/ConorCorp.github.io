@@ -1,7 +1,7 @@
 ---
 title: "My Next Project"
 date: 2025-05-14T20:13:57+02:00
-draft: true
+draft: false
 lastmod:
 summary: 
 categories: [writing]

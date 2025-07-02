@@ -1,7 +1,7 @@
 ---
 title: "Reviewing Others' AI PRs"
 date: 2025-07-02T13:31:43+02:00
-draft: true
+draft: false
 lastmod:
 summary: 
 categories: [writing]

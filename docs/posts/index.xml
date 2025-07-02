@@ -6,8 +6,27 @@
     <description>Recent content in Posts on Conor Lamb&#39;s Blog</description>
     <generator>Hugo -- 0.123.7</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Mar 2025 19:03:19 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 02 Jul 2025 13:44:53 +0200</lastBuildDate>
     <atom:link href="https://c0n0.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reviewing Others&#39; AI PRs</title>
+      <link>https://c0n0.com/posts/reviewing-ai-prs/</link>
+      <pubDate>Wed, 02 Jul 2025 13:31:43 +0200</pubDate>
+      <guid>https://c0n0.com/posts/reviewing-ai-prs/</guid>
+      <description>When you give me a PR to review, it should be complete and tested by YOU.
+You should be proud and ready for your work to be shipped right now. I&amp;rsquo;m just here to double check things.
+I should not be:
+the first set of HUMAN eyes to look at your AI slop making your code DRY/maintainable because the AI didn&amp;rsquo;t cleaning up the style/formatting to fit with the rest of our codebase because the AI didn&amp;rsquo;t The Bottom Line</description>
+    </item>
+    <item>
+      <title>My Next Project</title>
+      <link>https://c0n0.com/posts/my-next-project/</link>
+      <pubDate>Wed, 14 May 2025 20:13:57 +0200</pubDate>
+      <guid>https://c0n0.com/posts/my-next-project/</guid>
+      <description>I&amp;rsquo;m optimizing my next product for:
+An eye popping headline (clicks) As much conversations with users as humanly possible (pmf) Extra credit:
+it&amp;rsquo;s launched in a community interested in the topic, so the release post doesn&amp;rsquo;t feel like an advertisement </description>
+    </item>
     <item>
       <title>Unfiltered Thoughts On A Failed Product Release</title>
       <link>https://c0n0.com/posts/thoughts-after-releasing-modergator/</link>
