@@ -7,11 +7,6 @@ summary:
 categories: [writing]
 tags: []
 ShowToc: false
-cover:
-    image: "images/"
-    alt: ""
-    caption: ""
-    relative: true
 ---
 
 When you give me a PR to review, it should be complete and tested by YOU. 
