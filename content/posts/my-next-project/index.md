@@ -7,11 +7,6 @@ summary:
 categories: [writing]
 tags: []
 ShowToc: false
-cover:
-    image: "images/"
-    alt: ""
-    caption: ""
-    relative: true
 ---
 I'm optimizing my next product for:
 - An eye popping headline (clicks)
