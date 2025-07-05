@@ -45,6 +45,7 @@ Oops, I forgot to make goals for last month.
 - Proposal to my lady
 - Sort out my housing with my landlord (who wants to sell my place)
 - German Taxes
+- Plan birthday
 
 > You can’t connect the dots going forward, only back.
 > 
