@@ -4,7 +4,7 @@
     <title>Thoughts on Conor Lamb&#39;s Blog</title>
     <link>https://c0n0.com/tags/thoughts/</link>
     <description>Recent content in Thoughts on Conor Lamb&#39;s Blog</description>
-    <generator>Hugo -- 0.123.7</generator>
+    <generator>Hugo -- 0.148.2</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 30 May 2024 18:41:25 +0100</lastBuildDate>
     <atom:link href="https://c0n0.com/tags/thoughts/index.xml" rel="self" type="application/rss+xml" />
@@ -13,9 +13,12 @@
       <link>https://c0n0.com/posts/make-debuggin-suck-less/</link>
       <pubDate>Tue, 18 Jan 2022 09:16:09 +0100</pubDate>
       <guid>https://c0n0.com/posts/make-debuggin-suck-less/</guid>
-      <description>Scientists keep logbooks for their findings. Why don&amp;rsquo;t computer scientists? A great place to start doing this is for debugging. Debugging sucks enough as is, make it easier on yourself. A logbook will&amp;hellip;
-🗺 Enumerate where you are in the bug fix journey. You&amp;rsquo;ll forget this journey when you pick it up tomorrow, write it down.
-🌳 Keep you rooted to the ground. (Creating an &amp;ldquo;issue stack&amp;rdquo;.) Related to above, it often feels like you&amp;rsquo;re completely lost in the aether when you&amp;rsquo;re 50 opened browser tabs deep into an issue that&amp;rsquo;s not even the same issue anymore, its a sub issue of a sub issue.</description>
+      <description>&lt;h2 id=&#34;scientists-keep-logbooks-for-their-findings-why-dont-computer-scientists&#34;&gt;Scientists keep logbooks for their findings. Why don&amp;rsquo;t computer scientists?&lt;/h2&gt;
+&lt;p&gt;A great place to start doing this is for debugging. Debugging sucks enough as is, make it easier on yourself. A logbook will&amp;hellip;&lt;/p&gt;
+&lt;h3 id=&#34;-enumerate-where-you-are-in-the-bug-fix-journey&#34;&gt;🗺 Enumerate where you are in the bug fix journey.&lt;/h3&gt;
+&lt;p&gt;You&amp;rsquo;ll forget this journey when you pick it up tomorrow, write it down.&lt;/p&gt;
+&lt;h3 id=&#34;-keep-you-rooted-to-the-ground-creating-an-issue-stack&#34;&gt;🌳 Keep you rooted to the ground. (Creating an &amp;ldquo;issue stack&amp;rdquo;.)&lt;/h3&gt;
+&lt;p&gt;Related to above, it often feels like you&amp;rsquo;re completely lost in the aether when you&amp;rsquo;re 50 opened browser tabs deep into an issue that&amp;rsquo;s not even the same issue anymore, its a sub issue of a sub issue. &lt;em&gt;You&amp;rsquo;re in a stack of issues.&lt;/em&gt; But, if you have each issue written down, as you solve one, you can pop it off the stack and solve the next issue one at a time. Keeping this stack in your head sucks, and its easy to conflate understandings from this current problem with the previous problem.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

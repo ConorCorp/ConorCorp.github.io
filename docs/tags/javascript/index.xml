@@ -4,7 +4,7 @@
     <title>Javascript on Conor Lamb&#39;s Blog</title>
     <link>https://c0n0.com/tags/javascript/</link>
     <description>Recent content in Javascript on Conor Lamb&#39;s Blog</description>
-    <generator>Hugo -- 0.123.7</generator>
+    <generator>Hugo -- 0.148.2</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 30 May 2024 18:41:25 +0100</lastBuildDate>
     <atom:link href="https://c0n0.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
@@ -13,8 +13,11 @@
       <link>https://c0n0.com/posts/website-in-10-minutes-for-programmers/</link>
       <pubDate>Tue, 28 Sep 2021 16:27:16 +0200</pubDate>
       <guid>https://c0n0.com/posts/website-in-10-minutes-for-programmers/</guid>
-      <description>See the website you’re reading this on? I didn’t make this in 10 minutes…. But I sure could have if I had this tutorial. So here’s how you can make your own customizable resume website or blog for free in 2021 using the Hugo framework, a few commands in the terminal, Github Pages to host it.
-Skip to Part 1: Let’s make a website if you wanna skip my banter 😔</description>
+      <description>&lt;p&gt;See the website you’re reading this on? I didn’t make this in 10 minutes…. But I sure could have if I had this tutorial. So here’s how you can make your own customizable resume website or blog for free in 2021 using the Hugo framework, a few commands in the terminal, Github Pages to host it.&lt;/p&gt;
+&lt;p&gt;Skip to &lt;a href=&#34;#part-1-lets-make-your-website&#34;&gt;Part 1: Let’s make a website&lt;/a&gt; if you wanna skip my banter 😔&lt;/p&gt;
+&lt;h2 id=&#34;first-off-why-hugo&#34;&gt;First off, Why &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;?&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;I think it’s nifty as hell.&lt;/strong&gt;&lt;br&gt;
+You basically only need to write &lt;a href=&#34;https://www.markdownguide.org/cheat-sheet/&#34;&gt;markdown&lt;/a&gt; once its set up.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

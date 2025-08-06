@@ -7,12 +7,15 @@
 <meta name="robots" content="index, follow">
 <title>Make debugging suck less. Keep a logbook. 📓 | Conor Lamb&#39;s Blog</title>
 <meta name="keywords" content="coding, debugging, thoughts, favorite post">
-<meta name="description" content="Scientists keep logbooks for their findings. Why don&rsquo;t computer scientists? A great place to start doing this is for debugging. Debugging sucks enough as is, make it easier on yourself. A logbook will&hellip;
-🗺 Enumerate where you are in the bug fix journey. You&rsquo;ll forget this journey when you pick it up tomorrow, write it down.
-🌳 Keep you rooted to the ground. (Creating an &ldquo;issue stack&rdquo;.) Related to above, it often feels like you&rsquo;re completely lost in the aether when you&rsquo;re 50 opened browser tabs deep into an issue that&rsquo;s not even the same issue anymore, its a sub issue of a sub issue.">
+<meta name="description" content="Scientists keep logbooks for their findings. Why don&rsquo;t computer scientists?
+A great place to start doing this is for debugging. Debugging sucks enough as is, make it easier on yourself. A logbook will&hellip;
+🗺 Enumerate where you are in the bug fix journey.
+You&rsquo;ll forget this journey when you pick it up tomorrow, write it down.
+🌳 Keep you rooted to the ground. (Creating an &ldquo;issue stack&rdquo;.)
+Related to above, it often feels like you&rsquo;re completely lost in the aether when you&rsquo;re 50 opened browser tabs deep into an issue that&rsquo;s not even the same issue anymore, its a sub issue of a sub issue. You&rsquo;re in a stack of issues. But, if you have each issue written down, as you solve one, you can pop it off the stack and solve the next issue one at a time. Keeping this stack in your head sucks, and its easy to conflate understandings from this current problem with the previous problem.">
 <meta name="author" content="Conor Lamb">
 <link rel="canonical" href="https://c0n0.com/posts/make-debuggin-suck-less/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.bb99d898ad9e8d07be6f42126a2a81bdf529e3cf090ca8b48e65e7256aad9e77.css" integrity="sha256-u5nYmK2ejQe&#43;b0ISaiqBvfUp488JDKi0jmXnJWqtnnc=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.a185f1c4b7ece6c95e13310261941201d2255e9fc4dcdeff4f9b7f2669a4fbfb.css" integrity="sha256-oYXxxLfs5sleEzECYZQSAdIlXp/E3N7/T5t/Jmmk&#43;/s=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://c0n0.com/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://c0n0.com/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://c0n0.com/favicon-32x32.png">
@@ -59,32 +62,44 @@
     </style>
 </noscript><script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-F4Z4KVQM1M"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-F4Z4KVQM1M', { 'anonymize_ip': false });
-}
-</script>
-<meta property="og:title" content="Make debugging suck less. Keep a logbook. 📓" />
-<meta property="og:description" content="Scientists keep logbooks for their findings. Why don&rsquo;t computer scientists? A great place to start doing this is for debugging. Debugging sucks enough as is, make it easier on yourself. A logbook will&hellip;
-🗺 Enumerate where you are in the bug fix journey. You&rsquo;ll forget this journey when you pick it up tomorrow, write it down.
-🌳 Keep you rooted to the ground. (Creating an &ldquo;issue stack&rdquo;.) Related to above, it often feels like you&rsquo;re completely lost in the aether when you&rsquo;re 50 opened browser tabs deep into an issue that&rsquo;s not even the same issue anymore, its a sub issue of a sub issue." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://c0n0.com/posts/make-debuggin-suck-less/" />
-<meta property="og:image" content="https://c0n0.com/posts/make-debuggin-suck-less/images/screenshot.png" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2022-01-18T09:16:09+01:00" />
-<meta property="article:modified_time" content="2024-05-30T18:41:25+01:00" />
-
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="https://c0n0.com/posts/make-debuggin-suck-less/images/screenshot.png" />
-<meta name="twitter:title" content="Make debugging suck less. Keep a logbook. 📓"/>
-<meta name="twitter:description" content="Scientists keep logbooks for their findings. Why don&rsquo;t computer scientists? A great place to start doing this is for debugging. Debugging sucks enough as is, make it easier on yourself. A logbook will&hellip;
-🗺 Enumerate where you are in the bug fix journey. You&rsquo;ll forget this journey when you pick it up tomorrow, write it down.
-🌳 Keep you rooted to the ground. (Creating an &ldquo;issue stack&rdquo;.) Related to above, it often feels like you&rsquo;re completely lost in the aether when you&rsquo;re 50 opened browser tabs deep into an issue that&rsquo;s not even the same issue anymore, its a sub issue of a sub issue."/>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-F4Z4KVQM1M"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-F4Z4KVQM1M');
+        }
+      </script><meta property="og:url" content="https://c0n0.com/posts/make-debuggin-suck-less/">
+  <meta property="og:site_name" content="Conor Lamb&#39;s Blog">
+  <meta property="og:title" content="Make debugging suck less. Keep a logbook. 📓">
+  <meta property="og:description" content="Scientists keep logbooks for their findings. Why don’t computer scientists? A great place to start doing this is for debugging. Debugging sucks enough as is, make it easier on yourself. A logbook will…
+🗺 Enumerate where you are in the bug fix journey. You’ll forget this journey when you pick it up tomorrow, write it down.
+🌳 Keep you rooted to the ground. (Creating an “issue stack”.) Related to above, it often feels like you’re completely lost in the aether when you’re 50 opened browser tabs deep into an issue that’s not even the same issue anymore, its a sub issue of a sub issue. You’re in a stack of issues. But, if you have each issue written down, as you solve one, you can pop it off the stack and solve the next issue one at a time. Keeping this stack in your head sucks, and its easy to conflate understandings from this current problem with the previous problem.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2022-01-18T09:16:09+01:00">
+    <meta property="article:modified_time" content="2024-05-30T18:41:25+01:00">
+    <meta property="article:tag" content="Coding">
+    <meta property="article:tag" content="Debugging">
+    <meta property="article:tag" content="Thoughts">
+    <meta property="article:tag" content="Favorite Post">
+    <meta property="og:image" content="https://c0n0.com/posts/make-debuggin-suck-less/images/screenshot.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://c0n0.com/posts/make-debuggin-suck-less/images/screenshot.png">
+<meta name="twitter:title" content="Make debugging suck less. Keep a logbook. 📓">
+<meta name="twitter:description" content="Scientists keep logbooks for their findings. Why don&rsquo;t computer scientists?
+A great place to start doing this is for debugging. Debugging sucks enough as is, make it easier on yourself. A logbook will&hellip;
+🗺 Enumerate where you are in the bug fix journey.
+You&rsquo;ll forget this journey when you pick it up tomorrow, write it down.
+🌳 Keep you rooted to the ground. (Creating an &ldquo;issue stack&rdquo;.)
+Related to above, it often feels like you&rsquo;re completely lost in the aether when you&rsquo;re 50 opened browser tabs deep into an issue that&rsquo;s not even the same issue anymore, its a sub issue of a sub issue. You&rsquo;re in a stack of issues. But, if you have each issue written down, as you solve one, you can pop it off the stack and solve the next issue one at a time. Keeping this stack in your head sucks, and its easy to conflate understandings from this current problem with the previous problem.">
 
 
 <script type="application/ld+json">
@@ -113,7 +128,7 @@ if (!doNotTrack) {
   "@type": "BlogPosting",
   "headline": "Make debugging suck less. Keep a logbook. 📓",
   "name": "Make debugging suck less. Keep a logbook. 📓",
-  "description": "Scientists keep logbooks for their findings. Why don\u0026rsquo;t computer scientists? A great place to start doing this is for debugging. Debugging sucks enough as is, make it easier on yourself. A logbook will\u0026hellip;\n🗺 Enumerate where you are in the bug fix journey. You\u0026rsquo;ll forget this journey when you pick it up tomorrow, write it down.\n🌳 Keep you rooted to the ground. (Creating an \u0026ldquo;issue stack\u0026rdquo;.) Related to above, it often feels like you\u0026rsquo;re completely lost in the aether when you\u0026rsquo;re 50 opened browser tabs deep into an issue that\u0026rsquo;s not even the same issue anymore, its a sub issue of a sub issue.",
+  "description": "Scientists keep logbooks for their findings. Why don\u0026rsquo;t computer scientists? A great place to start doing this is for debugging. Debugging sucks enough as is, make it easier on yourself. A logbook will\u0026hellip;\n🗺 Enumerate where you are in the bug fix journey. You\u0026rsquo;ll forget this journey when you pick it up tomorrow, write it down.\n🌳 Keep you rooted to the ground. (Creating an \u0026ldquo;issue stack\u0026rdquo;.) Related to above, it often feels like you\u0026rsquo;re completely lost in the aether when you\u0026rsquo;re 50 opened browser tabs deep into an issue that\u0026rsquo;s not even the same issue anymore, its a sub issue of a sub issue. You\u0026rsquo;re in a stack of issues. But, if you have each issue written down, as you solve one, you can pop it off the stack and solve the next issue one at a time. Keeping this stack in your head sucks, and its easy to conflate understandings from this current problem with the previous problem.\n",
   "keywords": [
     "coding", "debugging", "thoughts", "favorite post"
   ],
@@ -159,7 +174,7 @@ if (!doNotTrack) {
         <div class="logo">
             <a href="https://c0n0.com/" accesskey="h" title="Conor Lamb&#39;s Blog (Alt + H)">Conor Lamb&#39;s Blog</a>
             <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
@@ -220,15 +235,18 @@ if (!doNotTrack) {
     <h1 class="post-title entry-hint-parent">
       Make debugging suck less. Keep a logbook. 📓
     </h1>
-    <div class="post-meta"><span title='2022-01-18 09:16:09 +0100 CET'>January 18, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Conor Lamb&nbsp;|&nbsp;<a href="https://github.com/ConorCorp/ConorCorp.github.io/blob/main/content/posts/make-debuggin-suck-less/index.md" rel="noopener noreferrer" target="_blank">Suggest Edits</a>
+    <div class="post-meta"><span title='2022-01-18 09:16:09 +0100 CET'>January 18, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Conor Lamb&nbsp;|&nbsp;<a href="https://github.com/ConorCorp/ConorCorp.github.io/blob/main/content/posts/make-debuggin-suck-less/index.md" rel="noopener noreferrer edit" target="_blank">Suggest Edits</a>
 
 </div>
   </header> 
 <figure class="entry-cover">
-        <img loading="eager" srcset="https://c0n0.com/posts/make-debuggin-suck-less/images/screenshot_hua1b685a2799c65f7c3ede2f5054d07de_579896_360x0_resize_box_3.png 360w ,https://c0n0.com/posts/make-debuggin-suck-less/images/screenshot_hua1b685a2799c65f7c3ede2f5054d07de_579896_480x0_resize_box_3.png 480w ,https://c0n0.com/posts/make-debuggin-suck-less/images/screenshot_hua1b685a2799c65f7c3ede2f5054d07de_579896_720x0_resize_box_3.png 720w ,https://c0n0.com/posts/make-debuggin-suck-less/images/screenshot_hua1b685a2799c65f7c3ede2f5054d07de_579896_1080x0_resize_box_3.png 1080w ,https://c0n0.com/posts/make-debuggin-suck-less/images/screenshot_hua1b685a2799c65f7c3ede2f5054d07de_579896_1500x0_resize_box_3.png 1500w ,https://c0n0.com/posts/make-debuggin-suck-less/images/screenshot.png 1746w" 
-            sizes="(min-width: 768px) 720px, 100vw" src="https://c0n0.com/posts/make-debuggin-suck-less/images/screenshot.png" alt="Logbook Example" 
-            width="1746" height="774">
-        <p>A real and personally harrowing example of my logbook. I recently tried to update React Native so it works with my M1 mac 🤮 ~<em>shudders</em>~</p>
+            <img loading="eager"
+                srcset='https://c0n0.com/posts/make-debuggin-suck-less/images/screenshot_hu_2309c11d9c542fb6.png 360w,https://c0n0.com/posts/make-debuggin-suck-less/images/screenshot_hu_3e6b21fdb53369c1.png 480w,https://c0n0.com/posts/make-debuggin-suck-less/images/screenshot_hu_c052fcddf8a9048f.png 720w,https://c0n0.com/posts/make-debuggin-suck-less/images/screenshot_hu_39c560b3f9e3abb1.png 1080w,https://c0n0.com/posts/make-debuggin-suck-less/images/screenshot_hu_1ec9882b6b64f42a.png 1500w,https://c0n0.com/posts/make-debuggin-suck-less/images/screenshot.png 1746w'
+                src="https://c0n0.com/posts/make-debuggin-suck-less/images/screenshot.png"
+                sizes="(min-width: 768px) 720px, 100vw"
+                width="1746" height="774"
+                alt="Logbook Example">
+        <figcaption>A real and personally harrowing example of my logbook. I recently tried to update React Native so it works with my M1 mac 🤮 <del><em>shudders</em></del></figcaption>
 </figure>
   <div class="post-content"><h2 id="scientists-keep-logbooks-for-their-findings-why-dont-computer-scientists">Scientists keep logbooks for their findings. Why don&rsquo;t computer scientists?<a hidden class="anchor" aria-hidden="true" href="#scientists-keep-logbooks-for-their-findings-why-dont-computer-scientists">#</a></h2>
 <p>A great place to start doing this is for debugging. Debugging sucks enough as is, make it easier on yourself. A logbook will&hellip;</p>

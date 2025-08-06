@@ -4,7 +4,7 @@
     <title>Coding on Conor Lamb&#39;s Blog</title>
     <link>https://c0n0.com/tags/coding/</link>
     <description>Recent content in Coding on Conor Lamb&#39;s Blog</description>
-    <generator>Hugo -- 0.123.7</generator>
+    <generator>Hugo -- 0.148.2</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 20 Jan 2025 00:34:36 +0100</lastBuildDate>
     <atom:link href="https://c0n0.com/tags/coding/index.xml" rel="self" type="application/rss+xml" />
@@ -13,18 +13,42 @@
       <link>https://c0n0.com/posts/faster-prs/</link>
       <pubDate>Wed, 24 Jul 2024 09:42:34 +0200</pubDate>
       <guid>https://c0n0.com/posts/faster-prs/</guid>
-      <description>Reviewing pull requests is a pain in the hole, but a necessary one. It is also massive time sync if you&amp;rsquo;re actually doing it right.
-Normal PR Process It often looks like this:
-Get slack message: “pwetty pwease review my PR :3 pr link” Open in browser, scroll through the code a bit Inner Monologue: “This looks mostly understandable? Can I can get away without pulling this locally?” Decide to run it locally Stash current branch&amp;rsquo;s changes (remember that you have a stash saved!</description>
+      <description>&lt;p&gt;Reviewing pull requests is a pain in the hole, but a necessary one. It is also massive time sync if you&amp;rsquo;re actually doing it right.&lt;/p&gt;
+&lt;h2 id=&#34;normal-pr-process&#34;&gt;Normal PR Process&lt;/h2&gt;
+&lt;p&gt;It often looks like this:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Get slack message: “pwetty pwease review my PR :3 &lt;a href=&#34;https://github.com/EpicGames/Signup/pull/24&#34;&gt;pr link&lt;/a&gt;”&lt;/li&gt;
+&lt;li&gt;Open in browser, scroll through the code a bit&lt;/li&gt;
+&lt;li&gt;Inner Monologue: “&lt;em&gt;This looks mostly understandable? Can I can get away without pulling this locally?&lt;/em&gt;”&lt;/li&gt;
+&lt;li&gt;Decide to
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;run it locally&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Stash current branch&amp;rsquo;s changes (&lt;em&gt;remember that you have a stash saved!&lt;/em&gt;). Pull down PR branch. Run the code/tests (Hopefully it runs). Click through all the changes going back and forth with the PR on github.com. See an issue in the editor and flip to the web browser, find the line, and post a comment in the PR.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;view it in the browser&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Attempt to read the code. &lt;em&gt;Optional&lt;/em&gt;: Try to “understand” the logic, but often you’re just &lt;a href=&#34;https://stackoverflow.com/questions/27810522/what-does-nit-mean-in-hacker-speak&#34;&gt;NITing&lt;/a&gt; formatting issues because you can’t run it. If you see a glaring issue or have a question, plop a comment in the PR.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;yucky-dx&#34;&gt;Yucky DX&lt;/h2&gt;
+&lt;p&gt;From a DX perspective, this process is slow and shit. If I think it’s slow and shit, I know my team does as well. If my team thinks it&amp;rsquo;s slow and shit, then when they’re stressed or lazy, they’re not pulling down my code, meaning they’re not reviewing my PRs well, meaning we&amp;rsquo;re often committing worse code and bugs into &lt;code&gt;master&lt;/code&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Make debugging suck less. Keep a logbook. 📓</title>
       <link>https://c0n0.com/posts/make-debuggin-suck-less/</link>
       <pubDate>Tue, 18 Jan 2022 09:16:09 +0100</pubDate>
       <guid>https://c0n0.com/posts/make-debuggin-suck-less/</guid>
-      <description>Scientists keep logbooks for their findings. Why don&amp;rsquo;t computer scientists? A great place to start doing this is for debugging. Debugging sucks enough as is, make it easier on yourself. A logbook will&amp;hellip;
-🗺 Enumerate where you are in the bug fix journey. You&amp;rsquo;ll forget this journey when you pick it up tomorrow, write it down.
-🌳 Keep you rooted to the ground. (Creating an &amp;ldquo;issue stack&amp;rdquo;.) Related to above, it often feels like you&amp;rsquo;re completely lost in the aether when you&amp;rsquo;re 50 opened browser tabs deep into an issue that&amp;rsquo;s not even the same issue anymore, its a sub issue of a sub issue.</description>
+      <description>&lt;h2 id=&#34;scientists-keep-logbooks-for-their-findings-why-dont-computer-scientists&#34;&gt;Scientists keep logbooks for their findings. Why don&amp;rsquo;t computer scientists?&lt;/h2&gt;
+&lt;p&gt;A great place to start doing this is for debugging. Debugging sucks enough as is, make it easier on yourself. A logbook will&amp;hellip;&lt;/p&gt;
+&lt;h3 id=&#34;-enumerate-where-you-are-in-the-bug-fix-journey&#34;&gt;🗺 Enumerate where you are in the bug fix journey.&lt;/h3&gt;
+&lt;p&gt;You&amp;rsquo;ll forget this journey when you pick it up tomorrow, write it down.&lt;/p&gt;
+&lt;h3 id=&#34;-keep-you-rooted-to-the-ground-creating-an-issue-stack&#34;&gt;🌳 Keep you rooted to the ground. (Creating an &amp;ldquo;issue stack&amp;rdquo;.)&lt;/h3&gt;
+&lt;p&gt;Related to above, it often feels like you&amp;rsquo;re completely lost in the aether when you&amp;rsquo;re 50 opened browser tabs deep into an issue that&amp;rsquo;s not even the same issue anymore, its a sub issue of a sub issue. &lt;em&gt;You&amp;rsquo;re in a stack of issues.&lt;/em&gt; But, if you have each issue written down, as you solve one, you can pop it off the stack and solve the next issue one at a time. Keeping this stack in your head sucks, and its easy to conflate understandings from this current problem with the previous problem.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cool Junk That Conor Finds on the Internet</title>
@@ -38,8 +62,11 @@ Get slack message: “pwetty pwease review my PR :3 pr link” Open in browser, 
       <link>https://c0n0.com/posts/website-in-10-minutes-for-programmers/</link>
       <pubDate>Tue, 28 Sep 2021 16:27:16 +0200</pubDate>
       <guid>https://c0n0.com/posts/website-in-10-minutes-for-programmers/</guid>
-      <description>See the website you’re reading this on? I didn’t make this in 10 minutes…. But I sure could have if I had this tutorial. So here’s how you can make your own customizable resume website or blog for free in 2021 using the Hugo framework, a few commands in the terminal, Github Pages to host it.
-Skip to Part 1: Let’s make a website if you wanna skip my banter 😔</description>
+      <description>&lt;p&gt;See the website you’re reading this on? I didn’t make this in 10 minutes…. But I sure could have if I had this tutorial. So here’s how you can make your own customizable resume website or blog for free in 2021 using the Hugo framework, a few commands in the terminal, Github Pages to host it.&lt;/p&gt;
+&lt;p&gt;Skip to &lt;a href=&#34;#part-1-lets-make-your-website&#34;&gt;Part 1: Let’s make a website&lt;/a&gt; if you wanna skip my banter 😔&lt;/p&gt;
+&lt;h2 id=&#34;first-off-why-hugo&#34;&gt;First off, Why &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;?&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;I think it’s nifty as hell.&lt;/strong&gt;&lt;br&gt;
+You basically only need to write &lt;a href=&#34;https://www.markdownguide.org/cheat-sheet/&#34;&gt;markdown&lt;/a&gt; once its set up.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

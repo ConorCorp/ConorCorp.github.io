@@ -4,7 +4,7 @@
     <title>Coding on Conor Lamb&#39;s Blog</title>
     <link>https://c0n0.com/categories/coding/</link>
     <description>Recent content in Coding on Conor Lamb&#39;s Blog</description>
-    <generator>Hugo -- 0.123.7</generator>
+    <generator>Hugo -- 0.148.2</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 02 Jul 2025 13:44:53 +0200</lastBuildDate>
     <atom:link href="https://c0n0.com/categories/coding/index.xml" rel="self" type="application/rss+xml" />
@@ -13,10 +13,14 @@
       <link>https://c0n0.com/posts/dev-tip-chrome/</link>
       <pubDate>Fri, 14 Feb 2025 18:31:23 +0100</pubDate>
       <guid>https://c0n0.com/posts/dev-tip-chrome/</guid>
-      <description>You should use the chrome debugger if you do any frontend js/ts work. /thread
-console.log is dead. The debugger saves my ass every time.
-You don&amp;rsquo;t need to set up anything or even import it if your using Chrome. You just:
-Add debugger; anywhere in your code: (stick it behind an if if you like!) If you&amp;rsquo;re debugging on the fly, find your file in the sources tab and click &amp;ldquo;Add Breakpoint&amp;rdquo;.</description>
+      <description>&lt;p&gt;You should use the &lt;a href=&#34;https://developer.chrome.com/docs/devtools/javascript&#34;&gt;chrome debugger&lt;/a&gt; if you do any frontend js/ts work. /thread&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;console.log&lt;/code&gt; is dead. The debugger saves my ass every time.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;You don&amp;rsquo;t need to set up anything&lt;/strong&gt; or even import it if your using Chrome. You just:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add &lt;code&gt;debugger;&lt;/code&gt; anywhere in your code: (stick it behind an &lt;code&gt;if&lt;/code&gt; if you like!)&lt;/li&gt;
+&lt;li&gt;If you&amp;rsquo;re debugging on the fly, find your file in the &lt;code&gt;sources&lt;/code&gt; tab and click &amp;ldquo;Add Breakpoint&amp;rdquo;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Now you can really debug all those god damn rerenders.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

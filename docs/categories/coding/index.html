@@ -10,7 +10,7 @@
 <meta name="description" content="Conor Lamb&#39;s Blog">
 <meta name="author" content="Conor Lamb">
 <link rel="canonical" href="https://c0n0.com/categories/coding/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.bb99d898ad9e8d07be6f42126a2a81bdf529e3cf090ca8b48e65e7256aad9e77.css" integrity="sha256-u5nYmK2ejQe&#43;b0ISaiqBvfUp488JDKi0jmXnJWqtnnc=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.a185f1c4b7ece6c95e13310261941201d2255e9fc4dcdeff4f9b7f2669a4fbfb.css" integrity="sha256-oYXxxLfs5sleEzECYZQSAdIlXp/E3N7/T5t/Jmmk&#43;/s=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://c0n0.com/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://c0n0.com/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://c0n0.com/favicon-32x32.png">
@@ -58,24 +58,28 @@
     </style>
 </noscript><script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-F4Z4KVQM1M"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-F4Z4KVQM1M', { 'anonymize_ip': false });
-}
-</script>
-<meta property="og:title" content="Coding" />
-<meta property="og:description" content="Conor Lamb&#39;s Blog" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://c0n0.com/categories/coding/" />
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Coding"/>
-<meta name="twitter:description" content="Conor Lamb&#39;s Blog"/>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-F4Z4KVQM1M"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-F4Z4KVQM1M');
+        }
+      </script><meta property="og:url" content="https://c0n0.com/categories/coding/">
+  <meta property="og:site_name" content="Conor Lamb&#39;s Blog">
+  <meta property="og:title" content="Coding">
+  <meta property="og:description" content="Conor Lamb&#39;s Blog">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Coding">
+<meta name="twitter:description" content="Conor Lamb&#39;s Blog">
 
 </head>
 
@@ -96,7 +100,7 @@ if (!doNotTrack) {
         <div class="logo">
             <a href="https://c0n0.com/" accesskey="h" title="Conor Lamb&#39;s Blog (Alt + H)">Conor Lamb&#39;s Blog</a>
             <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
@@ -158,9 +162,12 @@ if (!doNotTrack) {
 
 <article class="post-entry tag-entry"> 
 <figure class="entry-cover">
-        <img loading="lazy" srcset="https://c0n0.com/posts/dev-tip-chrome/images/code_hu20fb0161f2d3ca409481976370eb3fe4_313089_360x0_resize_box_3.png 360w ,https://c0n0.com/posts/dev-tip-chrome/images/code_hu20fb0161f2d3ca409481976370eb3fe4_313089_480x0_resize_box_3.png 480w ,https://c0n0.com/posts/dev-tip-chrome/images/code.png 660w" 
-            sizes="(min-width: 768px) 720px, 100vw" src="https://c0n0.com/posts/dev-tip-chrome/images/code.png" alt="debugger" 
-            width="660" height="536">
+            <img loading="lazy"
+                srcset='https://c0n0.com/posts/dev-tip-chrome/images/code_hu_3f500dabf5277adf.png 360w,https://c0n0.com/posts/dev-tip-chrome/images/code_hu_484ca7b2082f3fe.png 480w,https://c0n0.com/posts/dev-tip-chrome/images/code.png 660w'
+                src="https://c0n0.com/posts/dev-tip-chrome/images/code.png"
+                sizes="(min-width: 768px) 720px, 100vw"
+                width="660" height="536"
+                alt="debugger">
 </figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">The Chrome Debugger
@@ -170,7 +177,8 @@ if (!doNotTrack) {
     <p>You should use the chrome debugger if you do any frontend js/ts work. /thread
 console.log is dead. The debugger saves my ass every time.
 You don’t need to set up anything or even import it if your using Chrome. You just:
-Add debugger; anywhere in your code: (stick it behind an if if you like!) If you’re debugging on the fly, find your file in the sources tab and click “Add Breakpoint”....</p>
+Add debugger; anywhere in your code: (stick it behind an if if you like!) If you’re debugging on the fly, find your file in the sources tab and click “Add Breakpoint”. Now you can really debug all those god damn rerenders.
+...</p>
   </div>
   <footer class="entry-footer"><span title='2025-02-14 18:31:23 +0100 CET'>February 14, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Conor Lamb</footer>
   <a class="entry-link" aria-label="post link to The Chrome Debugger" href="https://c0n0.com/posts/dev-tip-chrome/"></a>
