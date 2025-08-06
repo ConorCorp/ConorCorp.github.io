@@ -1,5 +1,5 @@
 ---
-title: "July 2025: Conor's Monthly Retrospective"
+title: "June 2025: Conor's Monthly Retrospective"
 date: 2025-07-05T17:27:25+02:00
 draft: false
 categories: [retros]
