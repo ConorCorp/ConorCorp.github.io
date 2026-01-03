@@ -6,15 +6,8 @@
     <description>Recent content in Categories on Conor Lamb&#39;s Blog</description>
     <generator>Hugo -- 0.148.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 Aug 2025 10:47:16 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 02 Jul 2025 13:51:28 +0200</lastBuildDate>
     <atom:link href="https://c0n0.com/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Retros</title>
-      <link>https://c0n0.com/categories/retros/</link>
-      <pubDate>Wed, 06 Aug 2025 10:04:10 +0200</pubDate>
-      <guid>https://c0n0.com/categories/retros/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Writing</title>
       <link>https://c0n0.com/categories/writing/</link>
@@ -27,13 +20,6 @@
       <link>https://c0n0.com/categories/coding/</link>
       <pubDate>Fri, 14 Feb 2025 18:31:23 +0100</pubDate>
       <guid>https://c0n0.com/categories/coding/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>\[Retros]</title>
-      <link>https://c0n0.com/categories/%5Cretros/</link>
-      <pubDate>Wed, 04 Sep 2024 11:00:36 +0200</pubDate>
-      <guid>https://c0n0.com/categories/%5Cretros/</guid>
       <description></description>
     </item>
   </channel>
