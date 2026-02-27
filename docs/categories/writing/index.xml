@@ -6,8 +6,18 @@
     <description>Recent content in Writing on Conor Lamb&#39;s Blog</description>
     <generator>Hugo -- 0.148.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Jul 2025 13:51:28 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 27 Feb 2026 09:32:42 +0100</lastBuildDate>
     <atom:link href="https://c0n0.com/categories/writing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My personal blog&#39;s traffic is 94% AI crawlers this week</title>
+      <link>https://c0n0.com/posts/ai-traffic/</link>
+      <pubDate>Fri, 27 Feb 2026 09:32:42 +0100</pubDate>
+      <guid>https://c0n0.com/posts/ai-traffic/</guid>
+      <description>&lt;p&gt;Happened to check my analytics this week and saw this.&lt;/p&gt;
+&lt;p&gt;Admittedly I don&amp;rsquo;t have much real traffic. I haven&amp;rsquo;t been writing much recently, but this irks me. And its super rude.&lt;/p&gt;
+&lt;p&gt;Not only is all my traffic fake, but its actively stealing my personality and voice. Potentially even cataloging me across my virtual profile. Like this is nothing new on the internet, but this is kind of egregious.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ll probably just fully block Singapore and Chinese IPs. It doesn&amp;rsquo;t sit great with me honestly, but I&amp;rsquo;d rather not be someone&amp;rsquo;s training data.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Reviewing Others&#39; AI PRs</title>
       <link>https://c0n0.com/posts/reviewing-ai-prs/</link>
