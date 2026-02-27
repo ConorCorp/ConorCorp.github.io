@@ -1,5 +1,5 @@
 ---
-title: "My personal blog's traffic is 94% AI crawlers this week"
+title: "My personal blog's traffic is 95% AI crawlers this week"
 date: 2026-02-27T09:32:42+01:00
 draft: false
 lastmod:
