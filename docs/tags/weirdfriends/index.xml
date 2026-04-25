@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Weirdfriends on Conor Lamb&#39;s Blog</title>
+    <link>https://c0n0.com/tags/weirdfriends/</link>
+    <description>Recent content in Weirdfriends on Conor Lamb&#39;s Blog</description>
+    <generator>Hugo -- 0.148.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Apr 2026 11:49:53 +0200</lastBuildDate>
+    <atom:link href="https://c0n0.com/tags/weirdfriends/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>congrats on failing to launch; weirdfriends log 1</title>
+      <link>https://c0n0.com/posts/weirdfriends-log-1/</link>
+      <pubDate>Wed, 15 Apr 2026 11:49:53 +0200</pubDate>
+      <guid>https://c0n0.com/posts/weirdfriends-log-1/</guid>
+      <description>7 months, 221 commits, and I still haven&amp;rsquo;t told anyone to try my app. A reflection on what went wrong.</description>
+    </item>
+  </channel>
+</rss>

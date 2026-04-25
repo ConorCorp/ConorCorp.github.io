@@ -80,7 +80,7 @@ params:
   showToc: false
   showBreadCrumbs: true
   showPostNavLinks: true
-  comments: false
+  comments: true
 
   editPost:
     URL: "https://github.com/ConorCorp/ConorCorp.github.io/blob/main/content"
