@@ -14,9 +14,9 @@ cover:
     relative: true
 ---
 
-*No AI was used in writing this blog.*
+*No AI was used in writing this blog, only checking typos.*
 
-# intro
+# intro, or: time for me to learn from failure again
 I’m currently failing to launch an app. 
 
 I’ve logged 221 commits.
