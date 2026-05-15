@@ -2,10 +2,6 @@
 new:
 	hugo new content --kind post-bundle posts/$(url)
 
-# `make retro`
-retro:
-	hugo new content --kind retro retros/retro-year-month
-
 dev:
 	hugo server -D
 

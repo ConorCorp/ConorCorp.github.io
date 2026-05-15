@@ -36,7 +36,6 @@ params:
   env: production
   mainSections:
   - posts
-  # - retros
 
   defaultTheme: auto
   homeInfoParams:
