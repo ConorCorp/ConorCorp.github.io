@@ -2,10 +2,109 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Conor Lamb&#39;s Blog</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://c0n0.com/tags/</link>
     <description>Recent content in Tags on Conor Lamb&#39;s Blog</description>
     <generator>Hugo -- 0.148.2</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 May 2026 08:53:26 +0200</lastBuildDate>
+    <atom:link href="https://c0n0.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Weirdfriends</title>
+      <link>https://c0n0.com/tags/weirdfriends/</link>
+      <pubDate>Fri, 15 May 2026 08:33:57 +0200</pubDate>
+      <guid>https://c0n0.com/tags/weirdfriends/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Coding</title>
+      <link>https://c0n0.com/tags/coding/</link>
+      <pubDate>Wed, 24 Jul 2024 09:42:34 +0200</pubDate>
+      <guid>https://c0n0.com/tags/coding/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ai</title>
+      <link>https://c0n0.com/tags/ai/</link>
+      <pubDate>Sun, 29 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://c0n0.com/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chatgpt</title>
+      <link>https://c0n0.com/tags/chatgpt/</link>
+      <pubDate>Sun, 29 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://c0n0.com/tags/chatgpt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Berlin</title>
+      <link>https://c0n0.com/tags/berlin/</link>
+      <pubDate>Tue, 08 Nov 2022 14:49:52 +0100</pubDate>
+      <guid>https://c0n0.com/tags/berlin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fun</title>
+      <link>https://c0n0.com/tags/fun/</link>
+      <pubDate>Tue, 08 Nov 2022 14:49:52 +0100</pubDate>
+      <guid>https://c0n0.com/tags/fun/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Travel</title>
+      <link>https://c0n0.com/tags/travel/</link>
+      <pubDate>Tue, 08 Nov 2022 14:49:52 +0100</pubDate>
+      <guid>https://c0n0.com/tags/travel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Debugging</title>
+      <link>https://c0n0.com/tags/debugging/</link>
+      <pubDate>Tue, 18 Jan 2022 09:16:09 +0100</pubDate>
+      <guid>https://c0n0.com/tags/debugging/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Favorite Post</title>
+      <link>https://c0n0.com/tags/favorite-post/</link>
+      <pubDate>Tue, 18 Jan 2022 09:16:09 +0100</pubDate>
+      <guid>https://c0n0.com/tags/favorite-post/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Thoughts</title>
+      <link>https://c0n0.com/tags/thoughts/</link>
+      <pubDate>Tue, 18 Jan 2022 09:16:09 +0100</pubDate>
+      <guid>https://c0n0.com/tags/thoughts/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo Framework</title>
+      <link>https://c0n0.com/tags/hugo-framework/</link>
+      <pubDate>Tue, 28 Sep 2021 16:27:16 +0200</pubDate>
+      <guid>https://c0n0.com/tags/hugo-framework/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Javascript</title>
+      <link>https://c0n0.com/tags/javascript/</link>
+      <pubDate>Tue, 28 Sep 2021 16:27:16 +0200</pubDate>
+      <guid>https://c0n0.com/tags/javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Static Site Generator</title>
+      <link>https://c0n0.com/tags/static-site-generator/</link>
+      <pubDate>Tue, 28 Sep 2021 16:27:16 +0200</pubDate>
+      <guid>https://c0n0.com/tags/static-site-generator/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web Apps</title>
+      <link>https://c0n0.com/tags/web-apps/</link>
+      <pubDate>Tue, 28 Sep 2021 16:27:16 +0200</pubDate>
+      <guid>https://c0n0.com/tags/web-apps/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

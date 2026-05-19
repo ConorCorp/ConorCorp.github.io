@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
@@ -9,17 +9,17 @@
 <meta name="keywords" content="">
 <meta name="description" content="Posts - Conor Lamb&#39;s Blog">
 <meta name="author" content="Conor Lamb">
-<link rel="canonical" href="http://localhost:1313/posts/">
+<link rel="canonical" href="https://c0n0.com/posts/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.a185f1c4b7ece6c95e13310261941201d2255e9fc4dcdeff4f9b7f2669a4fbfb.css" integrity="sha256-oYXxxLfs5sleEzECYZQSAdIlXp/E3N7/T5t/Jmmk&#43;/s=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<link rel="icon" href="https://c0n0.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://c0n0.com/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://c0n0.com/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://c0n0.com/apple-touch-icon.png">
+<link rel="mask-icon" href="https://c0n0.com/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/posts/index.xml">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/">
+<link rel="alternate" type="application/rss+xml" href="https://c0n0.com/posts/index.xml">
+<link rel="alternate" hreflang="en" href="https://c0n0.com/posts/">
 <noscript>
     <style>
         #theme-toggle,
@@ -71,7 +71,7 @@
           gtag('js', new Date());
           gtag('config', 'G-F4Z4KVQM1M');
         }
-      </script><meta property="og:url" content="http://localhost:1313/posts/">
+      </script><meta property="og:url" content="https://c0n0.com/posts/">
   <meta property="og:site_name" content="Conor Lamb&#39;s Blog">
   <meta property="og:title" content="Posts">
   <meta property="og:description" content="Conor Lamb&#39;s Blog">
@@ -91,7 +91,7 @@
       "@type": "ListItem",
       "position":  1 ,
       "name": "Posts",
-      "item": "http://localhost:1313/posts/"
+      "item": "https://c0n0.com/posts/"
     }
   ]
 }
@@ -113,7 +113,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="Conor Lamb&#39;s Blog (Alt + H)">Conor Lamb&#39;s Blog</a>
+            <a href="https://c0n0.com/" accesskey="h" title="Conor Lamb&#39;s Blog (Alt + H)">Conor Lamb&#39;s Blog</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -164,7 +164,7 @@
     </nav>
 </header>
 <main class="main"> 
-<header class="page-header"><div class="breadcrumbs"><a href="http://localhost:1313/">Home</a></div>
+<header class="page-header"><div class="breadcrumbs"><a href="https://c0n0.com/">Home</a></div>
   <h1>
     Posts
   </h1>
@@ -173,31 +173,8 @@
 <article class="post-entry"> 
 <figure class="entry-cover">
             <img loading="lazy"
-                srcset='http://localhost:1313/posts/faster-prs/images/speed-holes_hu_f49a2c679eda6167.gif 360w,http://localhost:1313/posts/faster-prs/images/speed-holes_hu_ee758ded27a67ffb.gif 480w,http://localhost:1313/posts/faster-prs/images/speed-holes.gif 480w'
-                src="http://localhost:1313/posts/faster-prs/images/speed-holes.gif"
-                sizes="(min-width: 768px) 720px, 100vw"
-                width="480" height="366"
-                alt="Simpson&#39;s Speed Holes Clip">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Faster PRs - Lower The Barrier Of Entry
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Reviewing pull requests is a pain in the hole, but a necessary one. It is also massive time sync if you’re actually doing it right.
-Normal PR Process It often looks like this:
-Get slack message: “pwetty pwease review my PR :3 pr link” Open in browser, scroll through the code a bit Inner Monologue: “This looks mostly understandable? Can I can get away without pulling this locally?” Decide to run it locally Stash current branch’s changes (remember that you have a stash saved!). Pull down PR branch. Run the code/tests (Hopefully it runs). Click through all the changes going back and forth with the PR on github.com. See an issue in the editor and flip to the web browser, find the line, and post a comment in the PR. view it in the browser Attempt to read the code. Optional: Try to “understand” the logic, but often you’re just NITing formatting issues because you can’t run it. If you see a glaring issue or have a question, plop a comment in the PR. Yucky DX From a DX perspective, this process is slow and shit. If I think it’s slow and shit, I know my team does as well. If my team thinks it’s slow and shit, then when they’re stressed or lazy, they’re not pulling down my code, meaning they’re not reviewing my PRs well, meaning we’re often committing worse code and bugs into master.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2024-07-24 09:42:34 +0200 CEST'>July 24, 2024</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;Conor Lamb</footer>
-  <a class="entry-link" aria-label="post link to Faster PRs - Lower The Barrier Of Entry" href="http://localhost:1313/posts/faster-prs/"></a>
-</article>
-
-<article class="post-entry"> 
-<figure class="entry-cover">
-            <img loading="lazy"
-                srcset='http://localhost:1313/posts/passing-thought-action/images/image_hu_8d2ba9fa850293fe.webp 360w,http://localhost:1313/posts/passing-thought-action/images/image_hu_ca6a54ecb55dfe39.webp 480w,http://localhost:1313/posts/passing-thought-action/images/image_hu_80d554ba8cfaa721.webp 720w,http://localhost:1313/posts/passing-thought-action/images/image_hu_c68ba32648bedb3c.webp 1080w,http://localhost:1313/posts/passing-thought-action/images/image_hu_d9824b7371c4bf54.webp 1500w,http://localhost:1313/posts/passing-thought-action/images/image.webp 1536w'
-                src="http://localhost:1313/posts/passing-thought-action/images/image.webp"
+                srcset='https://c0n0.com/posts/passing-thought-action/images/image_hu_8d2ba9fa850293fe.webp 360w,https://c0n0.com/posts/passing-thought-action/images/image_hu_ca6a54ecb55dfe39.webp 480w,https://c0n0.com/posts/passing-thought-action/images/image_hu_80d554ba8cfaa721.webp 720w,https://c0n0.com/posts/passing-thought-action/images/image_hu_c68ba32648bedb3c.webp 1080w,https://c0n0.com/posts/passing-thought-action/images/image_hu_d9824b7371c4bf54.webp 1500w,https://c0n0.com/posts/passing-thought-action/images/image.webp 1536w'
+                src="https://c0n0.com/posts/passing-thought-action/images/image.webp"
                 sizes="(min-width: 768px) 720px, 100vw"
                 width="1536" height="864"
                 alt="Sicily">
@@ -210,7 +187,7 @@ Get slack message: “pwetty pwease review my PR :3 pr link” Open in browser, 
     <p>Stopping and smelling the roses 🌹</p>
   </div>
   <footer class="entry-footer"><span title='2024-07-04 00:05:19 +0200 CEST'>July 4, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Conor Lamb</footer>
-  <a class="entry-link" aria-label="post link to Passing Thoughts Become Action" href="http://localhost:1313/posts/passing-thought-action/"></a>
+  <a class="entry-link" aria-label="post link to Passing Thoughts Become Action" href="https://c0n0.com/posts/passing-thought-action/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -223,14 +200,14 @@ Get slack message: “pwetty pwease review my PR :3 pr link” Open in browser, 
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2024-03-13 21:03:30.724 +0000 UTC'>March 13, 2024</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Conor Lamb</footer>
-  <a class="entry-link" aria-label="post link to On Getting Discovered" href="http://localhost:1313/posts/getting-discovered/"></a>
+  <a class="entry-link" aria-label="post link to On Getting Discovered" href="https://c0n0.com/posts/getting-discovered/"></a>
 </article>
 
 <article class="post-entry"> 
 <figure class="entry-cover">
             <img loading="lazy"
-                srcset='http://localhost:1313/posts/chat-gpt-buddy/images/her_hu_2cd9270ec5982f0d.jpg 360w,http://localhost:1313/posts/chat-gpt-buddy/images/her_hu_a28b06b250944bd1.jpg 480w,http://localhost:1313/posts/chat-gpt-buddy/images/her_hu_b7aa033618dba698.jpg 720w,http://localhost:1313/posts/chat-gpt-buddy/images/her.jpg 976w'
-                src="http://localhost:1313/posts/chat-gpt-buddy/images/her.jpg"
+                srcset='https://c0n0.com/posts/chat-gpt-buddy/images/her_hu_2cd9270ec5982f0d.jpg 360w,https://c0n0.com/posts/chat-gpt-buddy/images/her_hu_a28b06b250944bd1.jpg 480w,https://c0n0.com/posts/chat-gpt-buddy/images/her_hu_b7aa033618dba698.jpg 720w,https://c0n0.com/posts/chat-gpt-buddy/images/her.jpg 976w'
+                src="https://c0n0.com/posts/chat-gpt-buddy/images/her.jpg"
                 sizes="(min-width: 768px) 720px, 100vw"
                 width="976" height="549"
                 alt="Her Movie.png">
@@ -244,14 +221,14 @@ Get slack message: “pwetty pwease review my PR :3 pr link” Open in browser, 
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2023-01-29 00:00:00 +0000 UTC'>January 29, 2023</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Conor Lamb</footer>
-  <a class="entry-link" aria-label="post link to Making A Language Learning Buddy w/ ChatGPT" href="http://localhost:1313/posts/chat-gpt-buddy/"></a>
+  <a class="entry-link" aria-label="post link to Making A Language Learning Buddy w/ ChatGPT" href="https://c0n0.com/posts/chat-gpt-buddy/"></a>
 </article>
 
 <article class="post-entry"> 
 <figure class="entry-cover">
             <img loading="lazy"
-                srcset='http://localhost:1313/posts/conors-berlin-guide/images/bread_hu_7e456b6c8cf52779.jpeg 360w,http://localhost:1313/posts/conors-berlin-guide/images/bread_hu_b8378a4f7752c95a.jpeg 480w,http://localhost:1313/posts/conors-berlin-guide/images/bread_hu_d076f98d87a30953.jpeg 720w,http://localhost:1313/posts/conors-berlin-guide/images/bread_hu_ef6eb4531336043f.jpeg 1080w,http://localhost:1313/posts/conors-berlin-guide/images/bread_hu_e88092131d32af8c.jpeg 1500w,http://localhost:1313/posts/conors-berlin-guide/images/bread.jpeg 4032w'
-                src="http://localhost:1313/posts/conors-berlin-guide/images/bread.jpeg"
+                srcset='https://c0n0.com/posts/conors-berlin-guide/images/bread_hu_7e456b6c8cf52779.jpeg 360w,https://c0n0.com/posts/conors-berlin-guide/images/bread_hu_b8378a4f7752c95a.jpeg 480w,https://c0n0.com/posts/conors-berlin-guide/images/bread_hu_d076f98d87a30953.jpeg 720w,https://c0n0.com/posts/conors-berlin-guide/images/bread_hu_ef6eb4531336043f.jpeg 1080w,https://c0n0.com/posts/conors-berlin-guide/images/bread_hu_e88092131d32af8c.jpeg 1500w,https://c0n0.com/posts/conors-berlin-guide/images/bread.jpeg 4032w'
+                src="https://c0n0.com/posts/conors-berlin-guide/images/bread.jpeg"
                 sizes="(min-width: 768px) 720px, 100vw"
                 width="4032" height="3024"
                 alt="images/bread.jpeg">
@@ -264,14 +241,14 @@ Get slack message: “pwetty pwease review my PR :3 pr link” Open in browser, 
     <p>My personal Berlin tourism list.</p>
   </div>
   <footer class="entry-footer"><span title='2022-11-08 14:49:52 +0100 CET'>November 8, 2022</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;Conor Lamb</footer>
-  <a class="entry-link" aria-label="post link to A Small, Opinionated List of Nice Spots in Berlin" href="http://localhost:1313/posts/conors-berlin-guide/"></a>
+  <a class="entry-link" aria-label="post link to A Small, Opinionated List of Nice Spots in Berlin" href="https://c0n0.com/posts/conors-berlin-guide/"></a>
 </article>
 
 <article class="post-entry"> 
 <figure class="entry-cover">
             <img loading="lazy"
-                srcset='http://localhost:1313/posts/make-debuggin-suck-less/images/screenshot_hu_2309c11d9c542fb6.png 360w,http://localhost:1313/posts/make-debuggin-suck-less/images/screenshot_hu_3e6b21fdb53369c1.png 480w,http://localhost:1313/posts/make-debuggin-suck-less/images/screenshot_hu_c052fcddf8a9048f.png 720w,http://localhost:1313/posts/make-debuggin-suck-less/images/screenshot_hu_39c560b3f9e3abb1.png 1080w,http://localhost:1313/posts/make-debuggin-suck-less/images/screenshot_hu_1ec9882b6b64f42a.png 1500w,http://localhost:1313/posts/make-debuggin-suck-less/images/screenshot.png 1746w'
-                src="http://localhost:1313/posts/make-debuggin-suck-less/images/screenshot.png"
+                srcset='https://c0n0.com/posts/make-debuggin-suck-less/images/screenshot_hu_2309c11d9c542fb6.png 360w,https://c0n0.com/posts/make-debuggin-suck-less/images/screenshot_hu_3e6b21fdb53369c1.png 480w,https://c0n0.com/posts/make-debuggin-suck-less/images/screenshot_hu_c052fcddf8a9048f.png 720w,https://c0n0.com/posts/make-debuggin-suck-less/images/screenshot_hu_39c560b3f9e3abb1.png 1080w,https://c0n0.com/posts/make-debuggin-suck-less/images/screenshot_hu_1ec9882b6b64f42a.png 1500w,https://c0n0.com/posts/make-debuggin-suck-less/images/screenshot.png 1746w'
+                src="https://c0n0.com/posts/make-debuggin-suck-less/images/screenshot.png"
                 sizes="(min-width: 768px) 720px, 100vw"
                 width="1746" height="774"
                 alt="Logbook Example">
@@ -287,14 +264,14 @@ Get slack message: “pwetty pwease review my PR :3 pr link” Open in browser, 
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2022-01-18 09:16:09 +0100 CET'>January 18, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Conor Lamb</footer>
-  <a class="entry-link" aria-label="post link to Make debugging suck less. Keep a logbook. 📓" href="http://localhost:1313/posts/make-debuggin-suck-less/"></a>
+  <a class="entry-link" aria-label="post link to Make debugging suck less. Keep a logbook. 📓" href="https://c0n0.com/posts/make-debuggin-suck-less/"></a>
 </article>
 
 <article class="post-entry"> 
 <figure class="entry-cover">
             <img loading="lazy"
-                srcset='http://localhost:1313/posts/conors-cool-junk-he-found-on-the-internet/images/burns-mystery-box_hu_122c92b8d8c68ef4.jpg 360w,http://localhost:1313/posts/conors-cool-junk-he-found-on-the-internet/images/burns-mystery-box_hu_e3f548221a1c8007.jpg 480w,http://localhost:1313/posts/conors-cool-junk-he-found-on-the-internet/images/burns-mystery-box_hu_961909053aba4818.jpg 720w,http://localhost:1313/posts/conors-cool-junk-he-found-on-the-internet/images/burns-mystery-box.jpg 768w'
-                src="http://localhost:1313/posts/conors-cool-junk-he-found-on-the-internet/images/burns-mystery-box.jpg"
+                srcset='https://c0n0.com/posts/conors-cool-junk-he-found-on-the-internet/images/burns-mystery-box_hu_122c92b8d8c68ef4.jpg 360w,https://c0n0.com/posts/conors-cool-junk-he-found-on-the-internet/images/burns-mystery-box_hu_e3f548221a1c8007.jpg 480w,https://c0n0.com/posts/conors-cool-junk-he-found-on-the-internet/images/burns-mystery-box_hu_961909053aba4818.jpg 720w,https://c0n0.com/posts/conors-cool-junk-he-found-on-the-internet/images/burns-mystery-box.jpg 768w'
+                src="https://c0n0.com/posts/conors-cool-junk-he-found-on-the-internet/images/burns-mystery-box.jpg"
                 sizes="(min-width: 768px) 720px, 100vw"
                 width="768" height="576"
                 alt="burns-mystery-box.jpg">
@@ -307,14 +284,14 @@ Get slack message: “pwetty pwease review my PR :3 pr link” Open in browser, 
     <p>My collection of things I find on my journeys through the internet.</p>
   </div>
   <footer class="entry-footer"><span title='2021-10-22 19:52:31 +0200 CEST'>October 22, 2021</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;Conor Lamb</footer>
-  <a class="entry-link" aria-label="post link to Cool Junk That Conor Finds on the Internet" href="http://localhost:1313/posts/conors-cool-junk-he-found-on-the-internet/"></a>
+  <a class="entry-link" aria-label="post link to Cool Junk That Conor Finds on the Internet" href="https://c0n0.com/posts/conors-cool-junk-he-found-on-the-internet/"></a>
 </article>
 
 <article class="post-entry"> 
 <figure class="entry-cover">
             <img loading="lazy"
-                srcset='http://localhost:1313/posts/website-in-10-minutes-for-programmers/images/website_hu_3d4a3eb80b62a0cc.png 360w,http://localhost:1313/posts/website-in-10-minutes-for-programmers/images/website_hu_21f1d042da7f3c32.png 480w,http://localhost:1313/posts/website-in-10-minutes-for-programmers/images/website_hu_d25e448db0636464.png 720w,http://localhost:1313/posts/website-in-10-minutes-for-programmers/images/website_hu_54059733764070f7.png 1080w,http://localhost:1313/posts/website-in-10-minutes-for-programmers/images/website_hu_182c56dfc2eb1923.png 1500w,http://localhost:1313/posts/website-in-10-minutes-for-programmers/images/website.png 2560w'
-                src="http://localhost:1313/posts/website-in-10-minutes-for-programmers/images/website.png"
+                srcset='https://c0n0.com/posts/website-in-10-minutes-for-programmers/images/website_hu_3d4a3eb80b62a0cc.png 360w,https://c0n0.com/posts/website-in-10-minutes-for-programmers/images/website_hu_21f1d042da7f3c32.png 480w,https://c0n0.com/posts/website-in-10-minutes-for-programmers/images/website_hu_d25e448db0636464.png 720w,https://c0n0.com/posts/website-in-10-minutes-for-programmers/images/website_hu_54059733764070f7.png 1080w,https://c0n0.com/posts/website-in-10-minutes-for-programmers/images/website_hu_182c56dfc2eb1923.png 1500w,https://c0n0.com/posts/website-in-10-minutes-for-programmers/images/website.png 2560w'
+                src="https://c0n0.com/posts/website-in-10-minutes-for-programmers/images/website.png"
                 sizes="(min-width: 768px) 720px, 100vw"
                 width="2560" height="1600"
                 alt="Website.png">
@@ -331,7 +308,7 @@ You basically only need to write markdown once its set up.
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2021-09-28 16:27:16 +0200 CEST'>September 28, 2021</span>&nbsp;·&nbsp;9 min&nbsp;·&nbsp;Conor Lamb</footer>
-  <a class="entry-link" aria-label="post link to How to make a free resume website and blog in 10 min for programmers (or people unafraid of the command line)" href="http://localhost:1313/posts/website-in-10-minutes-for-programmers/"></a>
+  <a class="entry-link" aria-label="post link to How to make a free resume website and blog in 10 min for programmers (or people unafraid of the command line)" href="https://c0n0.com/posts/website-in-10-minutes-for-programmers/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -345,11 +322,11 @@ Conor
 </p>
   </div>
   <footer class="entry-footer"><span title='2021-09-26 16:27:16 +0200 CEST'>September 26, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Conor Lamb</footer>
-  <a class="entry-link" aria-label="post link to Hello World" href="http://localhost:1313/posts/hello-world/"></a>
+  <a class="entry-link" aria-label="post link to Hello World" href="https://c0n0.com/posts/hello-world/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
-    <a class="prev" href="http://localhost:1313/posts/">
+    <a class="prev" href="https://c0n0.com/posts/">
       «&nbsp;Prev&nbsp;
     </a>
   </nav>
@@ -357,7 +334,7 @@ Conor
     </main>
     
 <footer class="footer">
-        <span>&copy; 2026 <a href="http://localhost:1313/">Conor Lamb&#39;s Blog</a></span> · 
+        <span>&copy; 2026 <a href="https://c0n0.com/">Conor Lamb&#39;s Blog</a></span> · 
 
     <span>
         Powered by
